@@ -32,3 +32,9 @@
   第一次申请，要勾选下面的License
 
 5. 在WebUI里部署服务端
+  
+  http://127.0.0.1:8085/?module=goagent&menu=deploy
+
+6. 配置使用新的appid
+  
+  http://127.0.0.1:8085/?module=goagent&menu=config
