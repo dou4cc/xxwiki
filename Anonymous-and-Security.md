@@ -1,11 +1,11 @@
 ## GAE/GoAgent不是匿名工具
 
-GAE对所有访问的请求，都会把原始请求IP、Appid，告诉目标服务器，完全不会达到匿名的效果。   
+通过GAE进行的所有访问请求都会将所使用的Appid（以及本地浏览器传出的相关信息，包括 HTTP Headers 等）全文传递给目标服务器，并不能达到匿名的效果。   
 GoAgent（及类似的基于GAE的工具）只是利用Google的大量服务器及免费资源，帮助大家访问墙外的网络。  
 
 ## 关于匿名
-对于有匿名需要的用户，请使用Tor:   
-https://www.torproject.org/
+对于有匿名需要的用户，请使用Tor软件包:   
+https://www.torproject.org/projects/torbrowser.html
 
 匿名不是一个工具就能解决的，请参考：
 http://program-think.blogspot.com/2012/03/howto-cover-your-tracks-5.html
@@ -26,7 +26,7 @@ XX-Net因为升级、统计、提供公共appid等需要，会不可避免地收
   解决方案：关闭检查升级。  
   
   1. UUID  
-  为了控制灰度升级，使用UUID是随机生成的，不会暴露用户信息，但能跟踪是否同一个用户.  
+  为了控制灰度升级，使用UUID是随机生成的，不会暴露用户信息，但能跟踪是否同一个用户。  
   解决方案：关闭检查升级。  
 
   1. GAE  
