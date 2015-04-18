@@ -2,7 +2,7 @@
 ###GoAgent限制：  
 + Facebook 上传文件：图片/视频等  
   原因: Facebook上传文件，采用HTTP OPTIONS指令  
-  不再GAE的支持范围  
+  不在GAE的支持范围  
 
 + Twitter上传大文件/图片  
   GoAgent 对上传超过64k的数据存在问题  
