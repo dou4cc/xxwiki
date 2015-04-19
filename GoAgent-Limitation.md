@@ -15,3 +15,13 @@
 + Youtube部分视频无法访问  
   是Youtube的限制  
   解决方案是采用其他方案，比如PHP_proxy  
+
++ http://www.eyny.com   
+  无限重定向循环  
+  原因怀疑是网站本身对GAE处理有问题  
+
++ xvideo  
+ 部分视频无法观看，怀疑是视频播放插件Flash中的代码，绕开了代理
+  
++ vpngate的官方网站，安装包无法下载  
+  GAE每次支持下载4M大小的数据，vpngate服务器不支持分段下载。  
