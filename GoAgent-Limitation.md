@@ -25,3 +25,8 @@
   
 + vpngate的官方网站，安装包无法下载  
   GAE每次支持下载4M大小的数据，vpngate服务器不支持分段下载。  
+
++ 苹果日报的视频无法播放  
+  http://hk.dv.nextmedia.com/actionnews/index/  
+  视频文件可以下载，但网页上播放显示异常。  
+  是由flash控制，内部配合问题，暂时没有找到根本原因。  
