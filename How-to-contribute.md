@@ -25,6 +25,7 @@
 + 完善wiki  
   Wiki需要更多的指引、帮助。  
   如果可以，请帮忙完善。
+  https://github.com/XX-net/XX-Net/wiki/Todo-Wiki
 
 + 贡献代码  
   如果你会编程，发现bug，请试着修复，然后提交代码，我们会尽量合并进来。  
