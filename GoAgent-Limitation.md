@@ -30,3 +30,6 @@
   http://hk.dv.nextmedia.com/actionnews/index/  
   视频文件可以下载，但网页上播放显示异常。  
   是由flash控制，内部配合问题，暂时没有找到根本原因。  
+
++ soundcloud 很多异常  
+  大量使用了OPTIONS指令，GAE不支持
