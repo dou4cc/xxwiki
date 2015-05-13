@@ -18,3 +18,6 @@ data/goagent/manual.ini
     max_check_ip_thread_num = 5  
 ==============分割线===============   
 保存为data/goagent/manual.ini，重启GoAgent模块。  
+
+配置文件的详细说明：
+https://github.com/XX-net/XX-Net/wiki/GoAgent-Config-file
