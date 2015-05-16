@@ -22,5 +22,7 @@
 
 + Windows + Firefox自动导入证书  
   发现到Windows下有firefox，启动线程，下载NSS库，然后导入证书。  
+  NSS库已经准备好：https://github.com/XX-net/nss/releases  
+  压缩包大小约2M  
   导入后，提示firefox需要重启。  
   难度：中
