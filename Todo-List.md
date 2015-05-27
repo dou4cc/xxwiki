@@ -10,7 +10,7 @@
 
 + TLS 1.2  
  OpenSSL 库，升级到最新版，支持TLS 1.2  
- 最新版pyopenssl 是平台无关的；但以来cryptograph库，是平台相关的。  
+ 最新版pyopenssl 是平台无关的；但依赖cryptograph库，是平台相关的。  
  需要收集cryptograph库：Windows/Linux/Mac  
  难度：中
 
