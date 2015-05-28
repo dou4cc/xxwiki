@@ -26,9 +26,10 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki
 
 [[部署服务端|Browser pass localhost request to proxy]]
 
-[[怎样创建我自己的appid？|how to create my appids ?]]
+[[怎样创建我自己的appid？（图片版）|how to create my appids ?]]
 
-[[注册并创建APPID|Register Google appid]]
+[[怎样创建我自己的appid？（文字版）|Register Google appid]]
+
 ### 相关知识
 [[GoAgent状态页面|WebUI]]
 
@@ -37,6 +38,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki
 [[goagent的局限性|GoAgent Limitation]]
 
 [[隐私与匿名性说明|Anonymous and Security]]
+
 ## 参数与设置
 [[“自动升级”选项|Auto update]]
 
@@ -55,17 +57,20 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki
 [[Rc4密码|Rc4 password problem]]
 
 [[PHP代理|PHP proxy]]
+
 ## 故障排除
 ### 日常使用故障
 [[屏蔽状态|GoAgent Blocked]]
 
 [[无法访问本地/局域网网址|Browser pass localhost request to proxy]]
+
 ### GAE部署故障
 [[因为APPID正在使用中，无法部署|Deploy fail when appid in use]]
 
 [[密码相关错误|Deploy password problem]]
 
 [[如何解决启动问题|How to get start error log]]
+
 ## 后记
 [[XX Net 1.0.3 开发笔记]]
 
