@@ -12,14 +12,13 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[待完善的wiki页面|Todo Wiki]]<br>
 [[如何帮助XX-Net？|How to contribute]]<br>
 ### 新手上路
-[[入门指南|Help]]<br>
 [[使用方法|使用方法]]<br>
 [[导入证书|GoAgent Import CA]]<br>
-[[部署服务端|Deploy By GAE]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids ?]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
 ### 相关知识
 [[GoAgent状态页面|WebUI]]<br>
+[[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
 [[goagent连接状态|GoAgent Connection status]]<br>
 [[goagent的局限性|GoAgent Limitation]]<br>
 [[隐私与匿名性说明|Anonymous and Security]]<br>
