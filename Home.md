@@ -11,12 +11,12 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[English Home Page]]<br>
 [[待完善的wiki页面|Todo Wiki]]<br>
 [[如何帮助XX-Net？|How to contribute]]<br>
-### 新手上路
+#### 新手上路
 [[使用方法|使用方法]]<br>
 [[导入证书|GoAgent Import CA]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids ?]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
-### 相关知识
+#### 相关知识
 [[GoAgent状态页面|WebUI]]<br>
 [[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
 [[goagent连接状态|GoAgent Connection status]]<br>
@@ -24,19 +24,22 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[隐私与匿名性说明|Anonymous and Security]]<br>
 ## 参数与设置
 [[“自动升级”选项|Auto update]]<br>
-[[“Google IP使用频率限制”选项|About ip connect interval]]<br>
-[[goagent配置文件说明|GoAgent Config file]]<br>
-[[goagent局域网代理（前置代理）|GoAgent Intranet proxy]]<br>
-[[手动设置GoAgent配置文件|GoAgent manual config]]<br>
-[[Google ip段支持的格式|GoAgent Scan Ip Range Format]]<br>
 [[如何隐藏XX-Net图标|How to hide XX Net windows tray]]<br>
 [[Rc4密码|Rc4 password problem]]<br>
+#### 高级设置
+[[“Google IP使用频率限制”选项|About ip connect interval]]<br>
+[[Google ip段支持的格式|GoAgent Scan Ip Range Format]]
+
+[[goagent配置文件说明|GoAgent Config file]]<br>
+[[手动设置GoAgent配置文件|GoAgent manual config]]<br>
+[[goagent局域网代理（前置代理）|GoAgent Intranet proxy]]
+
 [[PHP代理|PHP proxy]]<br>
 ## 故障排除
-### 日常使用故障
+#### 日常使用故障
 [[屏蔽状态|GoAgent Blocked]]<br>
 [[无法访问本地/局域网网址|Browser pass localhost request to proxy]]<br>
-### GAE部署故障
+#### GAE部署故障
 [[因为APPID正在使用中，无法部署|Deploy fail when appid in use]]<br>
 [[密码相关错误|Deploy password problem]]<br>
 [[如何解决启动问题|How to get start error log]]<br>
