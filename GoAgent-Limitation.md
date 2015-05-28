@@ -1,8 +1,12 @@
 
 ###GoAgent限制：  
++ GAE出口IP被定义为“开放代理”
+  部分网站屏蔽GAE的IP访问，或将其视为不信任。
+  无法使用GAE的IP对维基百科进行匿名编辑。
+
 + Facebook 上传文件：图片/视频等  
-  原因: Facebook上传文件，采用HTTP OPTIONS指令  
-  不在GAE的支持范围  
+  原因: Facebook上传文件，采用HTTP OPTIONS指令，不在GAE的支持范围  
+  解决方法：访问https://upload.facebook.com/，再次尝试。也可以访问手机域名https://m.facebook.com/上传。
 
 + Twitter上传大文件/图片  
   GoAgent 对上传超过64k的数据存在问题  
@@ -33,3 +37,7 @@
 
 + soundcloud 很多异常  
   大量使用了OPTIONS指令，GAE不支持
+
++ 知乎、百度百科等国内网站
+  屏蔽了GAE出口IP的访问。
+  同时不建议翻墙后访问国内网站，可能被劫持为“网络大炮”的攻击源。
