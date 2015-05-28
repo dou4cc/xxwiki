@@ -1,8 +1,8 @@
 
 ###GoAgent限制：  
-+ GAE出口IP被定义为“开放代理”
-  部分网站屏蔽GAE的IP访问，或将其视为不信任。
-  无法使用GAE的IP对维基百科进行匿名编辑。
++ GAE出口IP被定义为“开放代理”  
+  部分网站屏蔽GAE的IP访问，或将其视为不信任。  
+  无法使用GAE的IP对维基百科进行匿名编辑。  
 
 + Facebook 上传文件：图片/视频等  
   原因: Facebook上传文件，采用HTTP OPTIONS指令，不在GAE的支持范围  
