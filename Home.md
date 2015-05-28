@@ -24,7 +24,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki
 
 [[导入证书|GoAgent Import CA]]
 
-[[部署服务端|Browser pass localhost request to proxy]]
+[[部署服务端|Deploy By GAE]]
 
 [[怎样创建我自己的appid？（图片版）|how to create my appids ?]]
 
