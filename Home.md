@@ -43,7 +43,6 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[因为APPID正在使用中，无法部署|Deploy fail when appid in use]]<br>
 [[密码相关错误|Deploy password problem]]<br>
 [[如何解决启动问题|How to get start error log]]<br>
-#### 下载链接1.14.6版本：链接：http://pan.baidu.com/s/1eQlfAxG 密码：6qat
 ## 后记
 [[XX Net 1.0.3 开发笔记]]<br>
 [[XX Net 1.0.0 开发笔记]]<br>
