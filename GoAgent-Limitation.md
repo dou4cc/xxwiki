@@ -6,7 +6,7 @@
 
 + Facebook 上传文件：图片/视频等  
   原因: Facebook上传文件，采用HTTP OPTIONS指令，不在GAE的支持范围  
-  解决方法：访问https://upload.facebook.com/，再次尝试。也可以访问手机域名https://m.facebook.com/上传。
+  解决方法：访问[https://upload.facebook.com/](https://upload.facebook.com/)，再次尝试。也可以访问手机域名[https://m.facebook.com/](https://m.facebook.com/)上传。
 
 + Twitter上传大文件/图片  
   GoAgent 对上传超过64k的数据存在问题  
@@ -16,9 +16,9 @@
 + Pinterest 无法访问  
   原因：Pinierest 屏蔽了GAE的访问  
 
-+ Youtube部分视频无法访问  
-  是Youtube的限制  
-  解决方案是采用其他方案，比如PHP_proxy  
++ Youtube部分视频显示，上传者限制该视频“在您的国家或地区”播放  
+  是Youtube的限制，尽管GAE出口IP为美国，但YouTube并不认可。  
+  解决方案是采用其他方案，比如PHP_proxy，需架设在美国境内服务器。  
 
 + http://www.eyny.com   
   无限重定向循环  
