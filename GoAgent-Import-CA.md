@@ -17,3 +17,16 @@ GoAgent证书的路径：
  （wiki待完善：各常见的浏览器导入证书的图文教程）  
 
 PHP_proxy的证书是独立的，在data/php_proxy下，如果使用PHP，并提示证书问题，请同样导入PHP_proxy的证书。  
+
+# windows手动导入证书
+1. 如果自动导入存在问题，打开XX-Net文件夹，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，双击打开
+2. 安装证书<br>
+![打开后显示证书信息](http://image17.poco.cn/mypoco/myphoto/20150516/11/17431385420150516111506097.png)
+3. 下一步<br>
+![点击下一步](http://image17.poco.cn/mypoco/myphoto/20150516/11/17431385420150516111607063.png)
+4. 选择 “将所有的证书放入下列存储” - 浏览<br>
+![选择 “将所有的证书放入下列存储” - 浏览](http://image17.poco.cn/mypoco/myphoto/20150516/11/17431385420150516111634031.png)
+5. 选择 “受信任的根证书发布机构”<br>
+![选择 “受信任的根证书发布机构”](http://image17.poco.cn/mypoco/myphoto/20150516/11/1743138542015051611165202.png)
+6. 点击确定，完成。你可能需要重启浏览器或操作系统。<br>
+![完成](http://image17.poco.cn/mypoco/myphoto/20150516/11/17431385420150516111732088.png)
