@@ -1,3 +1,5 @@
+* [[首页及目录|home]]
+
 * [GoAgent 无法访问的网站](https://github.com/XX-net/XX-Net/wiki/GoAgent-Limitation)
 * [GoAgent 配置文件说明](https://github.com/XX-net/XX-Net/wiki/GoAgent-manual-config)
 * [GoAgent 导入证书](https://github.com/XX-net/XX-Net/wiki/GoAgent-Import-CA)
