@@ -5,7 +5,7 @@
   不知道怎么启动（Windows/Mac/Linux）  
   不知道怎么设置代理  
   如何安装SwitchOmega，如何导入设置    
-  不知道怎么申请自己的appid（已经有文本版，需要图文详细版）  
+  <del>不知道怎么申请自己的appid</del>（已经有[[文本版|Register Google appid]]和[[图文详细版|how to create my appids ?]]）  
   不知道怎么部署  
   不知道怎么设置  
   比较多，可以分节完善。
@@ -25,7 +25,7 @@
   代码目录结构  
   模块版本机制  
   启动机制  
-  配置文件指引  
+  <del>配置文件指引</del>（已有[[goagent配置文件说明|GoAgent Config file]]和[[手动设置GoAgent配置文件|GoAgent manual config]]）  
 
 
 你觉得有价值的内容。。。
