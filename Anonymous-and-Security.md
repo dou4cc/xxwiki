@@ -1,4 +1,4 @@
-## GAE/GoAgent不是匿名工具
+# GAE/GoAgent不是匿名工具
 
 通过GAE进行的所有访问请求都会将所使用的Appid（以及本地浏览器传出的相关信息，包括 HTTP Headers 等）全文传递给目标服务器，并不能达到匿名的效果。   
 GoAgent（及类似的基于GAE的工具）只是利用Google的大量服务器及免费资源，帮助大家访问墙外的网络。  
@@ -12,7 +12,8 @@ https://www.torproject.org/projects/torbrowser.html
 
 
 ## 关于隐私：
-XX-Net因为升级、统计、提供公共appid等需要，会不可避免地收集到用户的ip地址信息等。
+首先，XX-Net不会收集大家扫描的IP。因为全国网络环境各异，收集大家扫描的IP并没有意义。    
+XX-Net因为升级、统计、提供公共appid等需要，会不可避免地收集到用户的ip地址信息等。    
 特别解释如下：  
 + XX-Net不希望搜集任何个人信息
 
