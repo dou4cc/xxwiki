@@ -26,7 +26,10 @@
 # 如何设置
 
 * 启动XX-Net后，打开http://127.0.0.1:8085/?module=launcher&menu=config
+![升级管理](https://cloud.githubusercontent.com/assets/6830787/8200348/44002270-14f6-11e5-8bd9-62d27af83773.PNG)
 
 * 单击“升级管理”，“自动升级到”选项会出现
+![设置升级选项](https://cloud.githubusercontent.com/assets/6830787/8200384/dacf9b54-14f6-11e5-9953-6488495b3a63.PNG)
 
 * 在下拉菜单中进行选择，窗口上方会出现“设置已成功保存.”字样，设置完成。
+![设置成功保存](https://cloud.githubusercontent.com/assets/6830787/8200383/da77c618-14f6-11e5-8b2a-4fb9385d3437.PNG)
