@@ -2,12 +2,12 @@
 
 + 一份针对非常小白用户的指引  
   不知道如何下载  
-  不知道怎么启动（Windows/Mac/Linux）  
-  不知道怎么设置代理  
+  不知道怎么启动（Windows/Mac/Linux）（相关内容合并到“[[使用方法]]”中）  
+  不知道怎么设置代理（相关内容合并到“[[使用方法]]”中）  
   如何安装SwitchOmega，如何导入设置    
   <del>不知道怎么申请自己的appid</del>（已经有[[文本版|Register Google appid]]和[[图文详细版|how to create my appids ?]]）  
-  不知道怎么部署  
-  不知道怎么设置  
+  不知道怎么部署（将相关内容合并到“[[申请自己的APPID|how to create my appids ?]]”中）  
+  不知道怎么设置（相关内容合并到“[[配置页面简介]]”中）  
   比较多，可以分节完善。
 
 + PHP 指引  
