@@ -8,7 +8,7 @@ GoAgent（及类似的基于GAE的工具）只是利用Google的大量服务器�
 https://www.torproject.org/projects/torbrowser.html
 
 匿名不是一个工具就能解决的，请参考：
-http://program-think.blogspot.com/2012/03/howto-cover-your-tracks-5.html
+[[编程随想的博客：如何隐藏你的踪迹，避免跨省追捕[5]：用多重代理隐匿公网IP|http://program-think.blogspot.com/2012/03/howto-cover-your-tracks-5.html]]
 
 
 ## 关于隐私：
@@ -23,22 +23,22 @@ XX-Net因为升级、统计、提供公共appid等需要，会不可避免地收
 
   1. 用户IP
   用户自动检查升级时，服务器能和会记录IP地址。  
-  解决方案：关闭检查升级。  
+  解决方案：[[关闭检查升级|Auto update]]。  
   
-  1. UUID  
+  2. UUID  
   为了控制灰度升级，使用UUID是随机生成的，不会暴露用户信息，但能跟踪是否同一个用户。  
-  解决方案：关闭检查升级。  
+  解决方案：[[关闭检查升级|Auto update]]。  
 
-  1. GAE  
+  3. GAE  
   从原理上说，GAE知道所有经它访问的用户数据。  
   实际上Google App Engine能看到所有加密的内容，包括所有https请求。  
   所以，如果你不信任Google，请不要用GoAgent、XX-Net等所有基于GAE进行浏览的工具。
 
-  1. 公共appid  
+  4. 公共appid  
   公共appid我尽量都是自己去申请。  
-  通过限制视频请求，一方面节约流量配额，另一方面也鼓励用户部署自己的appid。  
+  通过限制视频请求，一方面节约流量配额，另一方面也鼓励用户[[部署自己的appid|how to create my appids ?]]。  
 
 
 ## 总结
 + 如果传输、浏览特别敏感的信息，请使用Tor，并学习如何匿名
-+ 普通用户，只需要部署自己的appid就足够了
++ 普通用户，只需要[[部署自己的appid|how to create my appids ?]]就足够了
