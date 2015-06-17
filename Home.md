@@ -17,7 +17,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids ?]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
 #### 相关知识
-[[GoAgent状态页面|WebUI]]<br>
+[[配置页面简介]]<br>
 [[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
 [[goagent连接状态|GoAgent Connection status]]<br>
 [[goagent的局限性|GoAgent Limitation]]<br>
