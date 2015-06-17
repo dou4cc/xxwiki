@@ -23,7 +23,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[goagent的局限性|GoAgent Limitation]]<br>
 [[隐私与匿名性说明|Anonymous and Security]]<br>
 ## 参数与设置
-[[“自动升级”选项|Auto update]]<br>
+[[“自动升级”选项和相关知识|Auto update]]<br>
 [[如何隐藏XX-Net图标|How to hide XX Net windows tray]]<br>
 [[Rc4密码|Rc4 password problem]]<br>
 #### 高级设置
