@@ -26,9 +26,9 @@
 
 4. 申请AppEngine
 
-  https://appengine.google.com/
+  https://console.developers.google.com/project
 
-  点“Create Application”，选一个自己喜欢的名字，只能是字母和-号组成，要检查名字有没有人用过，
+  点“建立专案”，选一个自己喜欢的名字，只能是字母和-号组成，要检查名字有没有人用过，
   第一次申请，要勾选下面的License
 
 5. 在WebUI里部署服务端
