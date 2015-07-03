@@ -30,3 +30,5 @@ PHP_proxy的证书是独立的，在data/php_proxy下，如果使用PHP，并提
 ![选择 “受信任的根证书发布机构”](http://image17.poco.cn/mypoco/myphoto/20150516/11/1743138542015051611165202.png)
 6. 点击确定，完成。你可能需要重启浏览器或操作系统。<br>
 ![完成](http://image17.poco.cn/mypoco/myphoto/20150516/11/17431385420150516111732088.png)
+
+# ubuntu手动导入证书
