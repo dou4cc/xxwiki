@@ -39,10 +39,11 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 #### 日常使用故障
 [[屏蔽状态|GoAgent Blocked]]<br>
 [[无法访问本地/局域网网址|Browser pass localhost request to proxy]]<br>
+[[如何解决启动问题|How to get start error log]]<br>
 #### GAE部署故障
 [[因为APPID正在使用中，无法部署|Deploy fail when appid in use]]<br>
 [[密码相关错误|Deploy password problem]]<br>
-[[如何解决启动问题|How to get start error log]]<br>
+[[其他部署问题|其他部署问题]]<br>
 ## 后记
 [[XX Net 1.0.3 开发笔记]]<br>
 [[XX Net 1.0.0 开发笔记]]<br>
