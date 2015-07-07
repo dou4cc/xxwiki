@@ -14,7 +14,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 #### 新手上路
 [[使用方法|使用方法]]<br>
 [[导入证书|GoAgent Import CA]]<br>
-[[怎样创建我自己的appid？（图片版）|how to create my appids ?]]<br>
+[[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
 #### 相关知识
 [[配置页面简介]]<br>
