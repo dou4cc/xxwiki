@@ -1,4 +1,6 @@
-# GAE/GoAgent不是匿名工具
+# 隐私与匿名性说明
+
+## GAE/GoAgent不是匿名工具
 
 XX-Net和Goagent一样，是通过谷歌的GAE服务器实现的代理访问。因此，谷歌可以看到XX-Net代理的所有内容。    
 此外，GAE服务器会将你所使用的Appid（以及你的浏览器传出的相关信息，包括 HTTP Headers 等）全文传递给目标服务器，因此XX-Net并不能达到匿名的效果。   
@@ -18,22 +20,22 @@ XX-Net，GoAgent，及其他类似的基于GAE的工具，都只是利用Google�
 
   1. 你的IP地址
   当XX-Net自动检查升级时，服务器会记录你的IP地址。  
-  解决方案：[[关闭检查升级|Auto update]]。  
+  解决方案：[[关闭自动检查升级|Auto update]]。  
 
   2. UUID  
   为了控制灰度升级，使用UUID是随机生成的，不会暴露用户信息，但能跟踪是否同一个用户。  
-  解决方案：[[关闭检查升级|Auto update]]。  
+  解决方案：[[关闭自动检查升级|Auto update]]。  
 
   3. 公共appid  
   从原理上说，你所使用的appid的所有者，有能力看到你的访问内容。    
   因此，本项目的尽量使用作者自己申请的appid供大家公用。  
-  通过限制视频请求，一方面能节约公共appid的流量配额，另一方面也鼓励用户[[部署自己的appid|how to create my appids ?]]，用得更放心。  
+  通过限制视频请求，一方面能节约公共appid的流量配额，另一方面也鼓励用户[[部署自己的appid|how to create my appids]]，用得更放心。  
 
 特别解释：  
 + XX-Net不愿意搜集任何个人信息
 
   我们无法保证搜集到的信息，会某一天被黑客拿走。  
-  因此我们尽可能的不去搜集有利用价值的信息。  
+  因此我们尽可能地**避免**收集用户的信息。  
 
 ## 如何匿名？
 对于有匿名需要的用户，请使用Tor软件包:   
@@ -44,4 +46,4 @@ https://www.torproject.org/projects/torbrowser.html
 
 ## 总结
 + 如果传输、浏览特别敏感的信息，请使用Tor，并学习如何匿名
-+ 普通用户，只需要[[部署自己的appid|how to create my appids ?]]就足够了
++ 普通用户，只需要[[部署自己的appid|how to create my appids]]就足够了
