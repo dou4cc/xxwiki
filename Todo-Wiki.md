@@ -5,8 +5,8 @@
   不知道怎么启动（Windows/Mac/Linux）（相关内容合并到“[[使用方法]]”中）  
   不知道怎么设置代理（相关内容合并到“[[使用方法]]”中）  
   如何安装SwitchOmega，如何导入设置    
-  <del>不知道怎么申请自己的appid</del>（已经有[[文本版|Register Google appid]]和[[图文详细版|how to create my appids ?]]）  
-  不知道怎么部署（将相关内容合并到“[[申请自己的APPID|how to create my appids ?]]”中）  
+  <del>不知道怎么申请自己的appid</del>（已经有[[文本版|Register Google appid]]和[[图文详细版|how to create my appids]]）  
+  不知道怎么部署（将相关内容合并到“[[申请自己的APPID|how to create my appids]]”中）  
   不知道怎么设置（相关内容合并到“[[配置页面简介]]”中）  
   比较多，可以分节完善。
 
@@ -32,8 +32,11 @@
 
 ***
 ### 待补充的页面
-[[导入证书|GoAgent Import CA]]：这个页面需要补充Linux、mac、安卓等平台的证书安装图文教程。    
+[[导入证书|GoAgent Import CA]]：这个页面需要补充Linux、mac、安卓等平台的证书安装图文教程。   
+[[无法访问本地/局域网网址|Browser pass localhost request to proxy]] ：这个页面需要补充详细内容。   
+
 ### 待撰写的页面    
+注：创建了新页面之后，请把他添加到[[首页|Home]]的目录中。    
 [[安装和使用SwichySharp]]    
 [[托盘右键菜单]]    
 
