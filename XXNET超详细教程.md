@@ -14,7 +14,6 @@
 ## 说明：
 手动配置文件来源：xxnet/goagent/3.1.49目录下proxy.ini复制到xxnet/data/goagent目录下，更名为manual.ini。注意appid修改
 ## 链接：[http://wallfans.eu.org/xxnet-manual/](http://wallfans.eu.org/xxnet-manual/)
-         [http://wallfans.eu.org/xxnet-course_new-supply_2/](http://wallfans.eu.org/xxnet-course_new-supply_2/)
 # 4.xxnet优化
 ## 说明：
 主要是为了加快youyube视频打开速度、缓冲速度，要根据自己的网络情况，cpu情况，自己进行调节。
