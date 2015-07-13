@@ -33,6 +33,7 @@
 ## 说明：
 chrome放在D盘，不借助任何三方软件，C盘只保留链接，不占任何资源，chrome打开方式依旧是安装时打开的桌面快捷键（或者任务栏chrome图标）
 chrome更新服务可用、自带翻译功能可用
+## 链接
 [http://wallfans.eu.org/google-chrome_transfer/](http://wallfans.eu.org/google-chrome_transfer/)
 # 更多文章尽在
 [http://wallfans.eu.org/article-archive/](http://wallfans.eu.org/article-archive/)
