@@ -1,0 +1,161 @@
+```
+代码结构  
++-XX-Net/  
+  |  
+  +-launcher/ 加载器，负责系统启动、升级、WebUI框架管理  
+  | |  
+  | +-web_ui/ 系统的web 文件  
+  |  
+  |  
+  |  
+  +-python27/ 自带的python Windows解释器及各平台的python库  
+  | |  
+  | +-1.0/  
+  |   |  
+  |   +-lib/  
+  |   | |  
+  |   | +-darwin/  MacOS的库  
+  |   | |  
+  |   | +-noarch/  平台无关的库  
+  |   | |  
+  |   | +-win32/   windows平台的库  
+  |   | |  
+  |   | +-linux/   Windows平台的库  
+  |   |  
+  |   +-WinSxS/    Windows平台的补丁  
+  |   
+  |  
+  |  
+  |  
+  +-data/          用户数据目录，第一次启动时创建  
+  | |  
+  | +-launcher/    加载器相关数据文件  
+  | |  
+  | +-downloads/   下载文件用到的临时目录  
+  | |  
+  | +-goagent/     goagent相关的数据目录  
+  |   |  
+  |   +-certs/     临时生成的网站证书目录  
+  |  
+  |  
+  |  
+  +-goagent/       GoAgent模块  
+    |  
+    +-server/      服务端目录  
+    | |  
+    | +-lib/       部署用到的google app engine的库  
+    | |  
+    | +-gae/       GAE服务端代码  
+    |  
+    +-local/       本地代码  
+    |  
+    +-web_ui/      遵循launcher框架的UI文件  
+  
+========================================================  
+Launcher文件简介：  
+__init__.py  
+start.py                   启动文件，由根目录的start.xxx调用  
+config.py                  系统配置文件  
+logging.py                 日志管理  
+module_init.py             模块起、停管理  
+update_from_github.py      从github下载更新包  
+update.py                  从appspot查询更新  
+autorun.py                 开机启动设置  
+web_control.py             WebUI的控制代码  
+gtk_tray.py                Linux的托盘  
+mac_tray.py                MacOS 的托盘  
+win_tray.py                Windows的托盘  
+non_tray.py                无桌面的托盘，给Linux/openwrt等用  
+setup_win_python.py        给Windows打补丁用  
+create_shortcut.js         创建Windows桌面图标的脚步  
+  
+========================================================  
+GoAgent文件简介：  
+__init__.py  
+proxy.py                   启动文件，由上层目录的start.py调用  
+proxy.ini                  默认配置文件，请不要修改  
+appids_manager.py          appid 管理器  
+check_ip.py                扫描ip的执行模块，包含了各种测试代码  
+config.py                  配置加载器  
+connect_control.py         连接控制，目前无用  
+connect_manager.py         连接池管理器  
+direct_handler.py          google业务直连方式  
+gae_handler.py             GAE代理业务层  
+generate_ip_range.py       生成扫描ip范围文件，能合并重叠的范围，平时不用  
+good_ip.txt                自动的可用ip库  
+good_ipv6.txt              ipv6的可用库  
+google_ip.py               google ip管理模块  
+google_ip_range.py         加载google ip的模块，在范围内随机选择一个ip  
+ip_range.txt               扫描的ip 范围文件  
+ip_utils.py                辅助库  
+logging.py                 日志管理模块  
+openssl_wrap.py            封装openssl库  
+pac_server.py              PAC 自动代理服务  
+proxy.pac                  自动带的配置文件  
+proxy_handler.py           代理端口的服务，解析后，把请求转发给gae_handler和direct_handler  
+scan_ip_log.py             扫描ip的日志管理  
+web_control.py             WebUI控制的实现模块  
+cert_util.py               证书管理：生成、导入  
+cacert.pem                 验证google服务端的证书库  
+  
+=========================================================  
+启动器介绍：  
+  启动器框架特性：  
++ 实现了Windows/Linux/Mac 3个平台的Python支持  
+  Python 门槛低，各种库丰富，性能良好（对单用户使用完全足够）  
+  跨平台，代码清晰容易维护。  
+  正在开发对Android/IOS的平台支持。  
+  实现一套代码，在5个平台上运行  
+  
++ 系统托盘实现  
+  方便后台进程在桌面上操作  
+  
++ 系统启动时自动加载功能  
+  
++ 基于Web的UI框架  
+  Html5/js/CSS等技术，门槛低，跨平台，更多人能够参与。  
+  
++ 自动升级  
+  对用户友好的升级方式  
+  对开发方便的版本管理  
+  
+  
+=========================================================  
+GoAgent技术点介绍：  
++ IP扫描  
+  每次从IP范围池中，随机选取一个ip，试探连接并判断有效性，记录握手时间  
+  IP范围池可在WebUI上进心添加、修改；  
+  扫描线程可调节；  
+  默认启动自动调节：对握手时间进行排序，根据第100个ip的握手时间，调节扫描的线程；  
+    如果握手实现小于200ms，就停止扫描，如果握手时间大于300ms，就全速扫描。  
+  
+  WebUI上有导入、导出 IP的功能，方便使用官方goagent的用户  
+  
+  最多保留3000个ip，有更多的，加入后剔除最慢的ip。  
+   
++ IP管理机制  
+  按ip握手时间进行排序；  
+  每次使用ip，从最小握手时间自动选取；  
+  每个ip的使用间隔，不小于10秒，太频繁容易被检测到并封锁；  
+  如果连接失败，会自动调节握手时间，每次失败增加200ms  
+  为了避免网络不通时，把所有ip都变成无效，会访问一个可靠的网站来判断，目前的jquery的CDN  
+    
++ 连接池  
+  在ip质量不足时，需要维持可用连接池，以满足需要时能够立即响应。  
+  目前默认保持10个连接。  
+  每个连接，每60秒需要活跃一次，否则服务端会断开。  
+   
+  
+=========================================================  
+产品化设计：  
+翻墙本身是件麻烦的事情，如何减低门槛，让更多人去翻墙。  
+  
+因此叉叉套件采用Web界面管理的方式，尽量减少命令行、配置文件的方法。  
+Web 界面，也尽量保持简介，各种提示，只在需要时才出现，比如在appid输入框点击后，才会显示相关提示。  
+  
+待改进的点：  
++ 实现一套Wizard引导框架，让新手能够在引导下一步一步的完成部署进入使用  
++ 扫描ip、导入导出ip属于高级功能，对普通用户最好隐藏  
++ 对新手，能够帮助他下载安装Chrome和代理插件。  
+  目前已有打包成的套件项目，可以解决新手的问题。  
+```
