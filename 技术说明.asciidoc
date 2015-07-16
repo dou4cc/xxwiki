@@ -20,7 +20,7 @@
   |   | |  
   |   | +-win32/   windows平台的库  
   |   | |  
-  |   | +-linux/   Windows平台的库  
+  |   | +-linux/   linux平台的库  
   |   |  
   |   +-WinSxS/    Windows平台的补丁  
   |   
