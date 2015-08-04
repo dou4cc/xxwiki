@@ -5,7 +5,7 @@
 * [GoAgent 导入证书](https://github.com/XX-net/XX-Net/wiki/GoAgent-Import-CA)
 * [如何创建自己私有的appids](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids)
 * [XXNET 一个超详细教程](https://github.com/XX-net/XX-Net/wiki/XXNET%E8%B6%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
-* [XXNET PHP 搭建方法及图文教程](https://github.com/XX-net/XX-Net/wiki/PHP-proxy)
+* [XXNET PHP搭建方法](https://github.com/XX-net/XX-Net/wiki/PHP-proxy)
 
 * [如何解决启动失败](https://github.com/XX-net/XX-Net/wiki/How-to-get-start-error-log)
 
