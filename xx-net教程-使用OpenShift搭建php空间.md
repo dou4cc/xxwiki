@@ -1,7 +1,10 @@
-因为发现0fees的php空间今天开始出现使用的时候一直checking browser...., 尝试写一个openshift的教程吧(请先自备梯子或者使用本文最下方的已经建好的php空间做梯子)
+# 前言
+要联系我请用telegram, 找@teluoka
+安利一下telegram中文站 : http://telegram-china.org/index.html
+因为发现0fees的php空间今天开始出现使用的时候一直checking browser...., 尝试写一个openshift的教程吧(请先自备梯子)
 
 # 一, openshift相关
-## 1. 注册
+### 1. 注册
 官方首页：https://www.openshift.com/
 打开OpenShift官方网站，点击右上角“Sign Up”，注册一个新账号。
 
@@ -11,7 +14,7 @@
 
 ![激活空间](http://php-teluoka.rhcloud.com/os-photo/002vify.png)
 
-## 2. 创建php空间
+### 2. 创建php空间
 点击验证链接后, 点击I accept下一步, 点击 Create your first application now
 出来一堆的选择, 下拉 选择php 5.4
 
@@ -23,10 +26,9 @@
 因为我也是第一次用openshift, 貌似在openshift上管理文件只能通过公钥和密钥的方式.
 mark 待续
 
-## 1. 公钥密钥的生成(WinSCP, PuTTYGen)
+### 1. 公钥密钥的生成(WinSCP, PuTTYGen)
 
 
 # 三, 修改本地文件
 
 # 四, 测试是否可用
-
