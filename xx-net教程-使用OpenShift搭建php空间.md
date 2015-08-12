@@ -13,17 +13,17 @@
 打开OpenShift官方网站，点击右上角“Sign Up”，注册一个新账号。    
 ![注册页面](http://php-teluoka.rhcloud.com/os-photo/001signup.png)     
 然后会发送邮件给你的注册邮箱, 请到你的邮箱中激活空间     
-![激活空间](http://php-teluoka.rhcloud.com/os-photo/002vify.png)\     
+![激活空间](http://php-teluoka.rhcloud.com/os-photo/002vify.png)     
 ### 2. 创建php空间
 点击验证链接后, 点击I accept下一步, 点击 Create your first application now     
 出来一堆的选择, 下拉 选择**WordPress4**, 这样子我们就不用自己搭建php服务器了.    
-![填写域名](http://php-teluoka.rhcloud.com/os-photo/003account.png)   
+![填写域名](http://php-teluoka.rhcloud.com/os-photo/003account1.png)  
 下拉到最下方, create application    
 然后 . Continue to the application overview page., 一个应用就建好了    
 安装WordPress    
-![安装WordPress](http://php-teluoka.rhcloud.com/os-photo/013wpinstall.png)\    
+![安装WordPress](http://php-teluoka.rhcloud.com/os-photo/013wpinstall.png)    
 下拉到最下方选择 简体中文, 然后填写一些注册信息.     
-![设置登录信息](http://php-teluoka.rhcloud.com/os-photo/012wp.png)\    
+![设置登录信息](http://php-teluoka.rhcloud.com/os-photo/012wp.png)    
 接下来按照提示登录就好了, 事实上你成功地建立了自己的博客.   
 
 # 二, 上传所需的文件
