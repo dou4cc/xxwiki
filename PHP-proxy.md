@@ -27,4 +27,5 @@ Google 寻找 “免费PHP空间” ，或者 "Free PHP host"
   如果是自动模式，需要设置特定的域名使用对应的模式  
 
 参考：    
-[[xxnet php搭建教程]]
+[[xxnet php搭建教程]]    
+[[xx-net教程-使用OpenShift搭建php空间]]
