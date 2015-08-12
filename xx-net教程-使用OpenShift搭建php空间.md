@@ -48,14 +48,18 @@ create 然后点击左上角的applications返回, 再单击你的应用, 进入
 ![创建目录](http://php-teluoka.rhcloud.com/os-photo/014cflod.png)<br/>
 ![访问成功](http://php-teluoka.rhcloud.com/os-photo/015done.png)<br/>
 然后我们就可以上传xx-net的相关php空间文件了<br/>
-![上传1](http://php-teluoka.rhcloud.com/os-photo/015done.png)<br/>
-![上传2](http://php-teluoka.rhcloud.com/os-photo/015done.png)<br/>
+![上传1](http://php-teluoka.rhcloud.com/os-photo/016upload.png)<br/>
+![上传2](http://php-teluoka.rhcloud.com/os-photo/017up2.png)<br/>
 
 # 三, 修改本地文件
 先退出你的xx-net应用, 修改对应路径下的proxy.ini, 然后重启xx-net, 开启php, 如下<br/>
-
+![proxy.ini的位置](http://php-teluoka.rhcloud.com/os-photo/018ini.png)<br/>
+![修改](http://php-teluoka.rhcloud.com/os-photo/019ini2.png)<br/>
+![启动xx-net的php代理模块](http://php-teluoka.rhcloud.com/os-photo/020xxnet.pngg)<br/>
+![日志](http://php-teluoka.rhcloud.com/os-photo/021phpproxy.png)<br/>
 
 # 四, 测试是否可用
+测试结果发现不太稳定, 有时候可用有时候不可用, 暂时不清楚原因.
 
 # 五, 感谢(教程参考处)
 http://www.freehao123.com/openshift-wp-dz/
