@@ -1,4 +1,7 @@
 # 前言
+### 写在最前面
+我当初想写这个教程是因为发现openshift搭的php空间速度不错, 但是现在却感觉不太稳定.所以有经验的朋友, 可以直接拿这个链接https://php-mytlktest.rhcloud.com/xxnet/index.php 按照本页的步骤"三, 修改本地文件", 进行测试, 再决定是否自己申请openshift.
+### 联系我
 要联系我请用telegram, 找@teluoka<br/>
 安利一下telegram中文站 : http://telegram-china.org/index.html<br/>
 教程所有可能用到的文件都在云盘了 : 链接：http://pan.baidu.com/s/1bnoEoEz 密码：4jm1 <br/>
@@ -55,7 +58,7 @@ create 然后点击左上角的applications返回, 再单击你的应用, 进入
 先退出你的xx-net应用, 修改对应路径下的proxy.ini, 然后重启xx-net, 开启php, 如下<br/>
 ![proxy.ini的位置](http://php-teluoka.rhcloud.com/os-photo/018ini.png)<br/>
 ![修改](http://php-teluoka.rhcloud.com/os-photo/019ini2.png)<br/>
-![启动xx-net的php代理模块](http://php-teluoka.rhcloud.com/os-photo/020xxnet.pngg)<br/>
+![启动xx-net的php代理模块](http://php-teluoka.rhcloud.com/os-photo/020xxnet.png)<br/>
 ![日志](http://php-teluoka.rhcloud.com/os-photo/021phpproxy.png)<br/>
 
 # 四, 测试是否可用
