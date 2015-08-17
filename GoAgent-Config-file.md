@@ -1,8 +1,8 @@
 ###GoAgent配置说明：
 + 一般用户使用WebUI配置即可，不必修改配置文件  
-+ WebUI的配置，保存到 data/goagent/config.ini  
-+ goagent/x.x.x/local/proxy.ini 会在升级时被覆盖，请不用修改  
-+ 高级用户想修改某个参数，可以生成 data/goagent/manual.ini 在里面放对应的配置  
++ WebUI的配置，保存到 data/gae_proxy/config.ini  
++ gae_proxy/local/proxy.ini 会在升级时被覆盖，请不用修改  
++ 高级用户想修改某个参数，可以生成 data/gae_proxy/manual.ini 在里面放对应的配置  
 
 ###配置文件格式说明：  
 
