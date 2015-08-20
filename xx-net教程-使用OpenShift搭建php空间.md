@@ -2,7 +2,7 @@
 ### 写在最前面
 我当初想写这个教程是因为发现openshift搭的php空间速度不错, 但是现在却感觉不太稳定.所以有经验的朋友, 可以直接拿这个链接https://php-mytlktest.rhcloud.com/xxnet/index.php 按照本页的步骤"三, 修改本地文件", 进行测试, 再决定是否自己申请openshift.
 ### 联系我
-要联系我请用telegram, 找@teluoka(然而发现有人在谷歌讨论组问这个, 那么, pnjgyl2014@gmail.com是我的邮箱, 有需要可以联系我, 注意截图相关问题.)    
+要联系我请用telegram, 找@teluoka
 安利一下telegram中文站 : http://telegram-china.org/index.html    
 教程所有可能用到的文件都在云盘了 : 链接：http://pan.baidu.com/s/1bnoEoEz 密码：4jm1    
 因为发现0fees的php空间今天开始出现使用的时候一直Checking your browser.., 尝试写一个openshift的教程吧(请先自备梯子)     
