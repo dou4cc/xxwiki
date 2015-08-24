@@ -35,7 +35,9 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[手动设置GoAgent配置文件|GoAgent manual config]]<br>
 [[goagent局域网代理（前置代理）|GoAgent Intranet proxy]]
 
-[[PHP代理|PHP proxy]]<br>
+[[PHP代理|PHP proxy]]    
+[[xxnet php搭建教程]]      
+[[xx-net教程-使用OpenShift搭建php空间]]    
 ## 故障排除
 #### 日常使用故障
 [[屏蔽状态|GoAgent Blocked]]<br>
