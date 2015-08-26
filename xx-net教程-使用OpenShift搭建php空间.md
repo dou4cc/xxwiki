@@ -1,6 +1,6 @@
 # 前言
 ### 写在最前面
-我当初想写这个教程是因为发现openshift搭的php空间速度不错, 但是现在却感觉不太稳定.所以有经验的朋友, 可以直接拿这个链接https://php-mytlktest.rhcloud.com/xxnet/index.php 按照本页的步骤"三, 修改本地文件", 进行测试, 再决定是否自己申请openshift.
+我当初想写这个教程是因为发现openshift搭的php空间速度不错, 但是现在却感觉不太稳定.所以想测试速度之后再用的朋友, 可以按照本页的步骤"三, 修改php空间配置", 直接进行测试, 再决定是否自己申请openshift.
 ### 联系我
 要联系我请用telegram, 找@teluoka     
 安利一下telegram中文站 : http://telegram-china.org/index.html    
@@ -54,15 +54,19 @@ create 然后点击左上角的applications返回, 再单击你的应用, 进入
 ![上传1](http://php-teluoka.rhcloud.com/os-photo/016upload.png)    
 ![上传2](http://php-teluoka.rhcloud.com/os-photo/017up2.png)    
 
-# 三, 修改本地文件
-先退出你的xx-net应用, 修改对应路径下的proxy.ini, 然后重启xx-net, 开启php, 如下    
-![proxy.ini的位置](http://php-teluoka.rhcloud.com/os-photo/018ini.png)    
-![修改](http://php-teluoka.rhcloud.com/os-photo/019ini2.png)     
+# 三, 修改php空间配置
+(20150826更新, 发现修改本地文件如果更新xxnet的话会导致设置被覆盖, 所以还是用web页面配置吧)     
+**不必退出**你的xx-net应用, 直接在xxnet的配置页面开启php模块, 如下           
 ![启动xx-net的php代理模块](http://php-teluoka.rhcloud.com/os-photo/020xxnet.png)    
-![日志](http://php-teluoka.rhcloud.com/os-photo/021phpproxy.png)    
+然后, 在配置处填写你自己的php空间路径以及密码, 把我写教程的空间给你们用哈      
+https://php-mytlktest.rhcloud.com/xxnet/index.php 123456 如下 
+![配置页面](http://php-teluoka.rhcloud.com/os-photo/022php-ini.png)       
+然后点击日志也可以看到这个样子      
+![日志](http://php-teluoka.rhcloud.com/os-photo/021phpproxy.png)      
 
 # 四, 测试是否可用
 测试结果发现不太稳定, 有时候可用有时候不可用, 暂时不清楚原因.
+另外, 默认的代理端口是127.0.0.1:8088, 建议配合SwitchyOmega使用哈!
 
 # 五, 感谢(教程参考处)
 http://www.freehao123.com/openshift-wp-dz/     
