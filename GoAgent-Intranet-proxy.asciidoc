@@ -6,30 +6,24 @@ GoAgent 的局域网代理（前置代理）
 
 普通用户的上网路径：
 
-----
-浏览器 -> 目标服务器
-----
+    浏览器 -> 目标服务器
 
 
 普通用户的翻墙路径：
 
-----
-浏览器-> XXNet_GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
-----
+    浏览器 -> XXNet_GoAgent -> Google App Engine -> 目标服务器
 
 
 需要局域网的用户：
 
 上网路径：
 
-----
-浏览器->局域网代理 -> 目标服务器
-----
+    浏览器 -> 局域网代理 -> 目标服务器
 
 
 翻墙路径：
 
-  浏览器-> XXNet_GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
+    浏览器 -> XXNet_GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
 
 
 *功能特性：*
