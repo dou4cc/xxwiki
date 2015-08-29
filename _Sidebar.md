@@ -6,6 +6,7 @@
 * [如何创建自己私有的appids](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids)
 * [XXNET 一个超详细教程](https://github.com/XX-net/XX-Net/wiki/XXNET%E8%B6%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
 * [XXNET PHP搭建方法](https://github.com/XX-net/XX-Net/wiki/PHP-proxy)
+* [安装和使用SwichySharp](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8SwichySharp)
 
 * [如何解决启动失败](https://github.com/XX-net/XX-Net/wiki/How-to-get-start-error-log)
 
