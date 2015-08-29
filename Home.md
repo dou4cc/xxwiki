@@ -17,6 +17,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[导入证书|GoAgent Import CA]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
+[[安装和使用SwichySharp|安装和使用SwichySharp]]<br>
 #### 相关知识
 [[配置页面简介]]<br>
 [[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
