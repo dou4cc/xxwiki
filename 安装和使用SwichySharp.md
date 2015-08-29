@@ -38,7 +38,7 @@ eyJjb25maWciOiJ7XCJmaXJzdFRpbWVcIjpcIjpdXCIsXCJwcm94eU1vZGVcIjpcImF1dG9cIixcImF1
 
 1. 在Chrome浏览器的工具栏中找到SwitchyOmega（一个圆环的图标）；
 
-2. 点击下面的GoAgent，GoAgent PAC或者自动情境模式，就可以实现代理了；
+2. 点击下面的GoAgent，GoAgent PAC或者自动情境模式，就可以实现代理了（一般选择GoAgent模式）；
 
 ###调试
 
