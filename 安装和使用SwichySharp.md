@@ -38,7 +38,7 @@ eyJjb25maWciOiJ7XCJmaXJzdFRpbWVcIjpcIjpdXCIsXCJwcm94eU1vZGVcIjpcImF1dG9cIixcImF1
 
 1. 在Chrome浏览器的工具栏中找到SwitchyOmega（一个圆环的图标）；
 
-2. 点击下面的GoAgent，或者GoAgent PAC，就可以实现代理了；
+2. 点击下面的GoAgent，GoAgent PAC或者自动情境模式，就可以实现代理了；
 
 ###调试
 
@@ -46,6 +46,6 @@ Q：SwitchyOmega显示很多资源未加载？
 
 A：有可能需要等一会，如果等待1分钟左右还没有反映，说明XX-net没有正常工作。
 
-Q：GoAgent和GoAgent PAC有什么区别？
+Q：GoAgent，GoAgent PAC和自动情境模式有什么区别？
 
-A：如果设置为GoAgent，表示全局代理，所有的数据都通过XX-net；GoAgent PAC是代理自动配置，将不需要代理的网站进行直接访问；比如逛淘宝，看优酷很慢，可以选择GoAgent PAC模式，这时候淘宝和优酷这种国内的网站就是直接访问。
+A：如果设置为GoAgent，表示全局代理，所有的数据都通过XX-net；GoAgent PAC是代理自动配置，将不需要代理的网站进行直接访问；比如逛淘宝，看优酷很慢，可以选择GoAgent PAC模式，这时候淘宝和优酷这种国内的网站就是直接访问；自动情境模式与GoAgent PAC的效果和目地一样，只是这个访问的选择交给了浏览器来决定。
