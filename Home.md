@@ -30,7 +30,8 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[Rc4密码|Rc4 password problem]]<br>
 #### 高级设置
 [[“Google IP使用频率限制”选项|About ip connect interval]]<br>
-[[Google ip段支持的格式|GoAgent Scan Ip Range Format]]
+[[Google ip段支持的格式|GoAgent Scan Ip Range Format]]<br>
+[[“自动调整ip扫描线程数”选项|GoAgent Auto adjust scan ip thread num]]
 
 [[goagent配置文件说明|GoAgent Config file]]<br>
 [[手动设置GoAgent配置文件|GoAgent manual config]]<br>
