@@ -42,6 +42,8 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[xx-net教程-使用OpenShift搭建php空间]]    
 ## 故障排除
 #### 日常使用故障
+[[我怎么知道到底是哪里出了问题？|故障速查手册]]<br>
+[[证书错误]]<br>
 [[屏蔽状态|GoAgent Blocked]]<br>
 [[无法访问本地/局域网网址|Browser pass localhost request to proxy]]<br>
 [[如何解决启动问题|How to get start error log]]<br>
