@@ -20,6 +20,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[安装和使用SwichySharp|安装和使用SwichySharp]]<br>
 #### 相关知识
 [[配置页面简介]]<br>
+[[托盘右键菜单简介|托盘右键菜单]]<br>
 [[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
 [[goagent连接状态|GoAgent Connection status]]<br>
 [[goagent的局限性|GoAgent Limitation]]<br>
