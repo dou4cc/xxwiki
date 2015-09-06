@@ -8,6 +8,7 @@
 * [XXNET PHP搭建方法](https://github.com/XX-net/XX-Net/wiki/PHP-proxy)
 * [安装和使用SwichySharp](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8SwichySharp)
 
+* [[故障速查手册]]
 * [如何解决启动失败](https://github.com/XX-net/XX-Net/wiki/How-to-get-start-error-log)
 
 * [Todo List](https://github.com/XX-net/XX-Net/wiki/Todo-List)
