@@ -38,7 +38,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 
 [[goagent配置文件说明|GoAgent Config file]]<br>
 [[手动设置GoAgent配置文件|GoAgent manual config]]<br>
-[[goagent局域网代理（前置代理）|GoAgent Intranet proxy]]
+[[GAEProxy(XXNet/GoAgent) 的局域网代理（前置代理）|GoAgent Intranet proxy]]
 
 [[PHP代理|PHP proxy]]    
 [[xxnet php搭建教程]]      
