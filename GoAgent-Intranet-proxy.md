@@ -19,14 +19,14 @@
 > 浏览器 -> 局域网代理 -> 目标服务器
 
 * 翻墙路径：
-> 浏览器 -> XXNet_GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
+> 浏览器 -> XXNet/GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
 
 
-*功能特性：*
+**功能特性：**
 
 * HTTP/SOCKS4/SOCKS5
 * 帐号认证支持
 
-*配置页面：*
+**配置页面：**
 
 [GAEProxy局域网代理](http://127.0.0.1:8085/?module=gae_proxy&menu=config)
