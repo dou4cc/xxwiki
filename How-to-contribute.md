@@ -35,6 +35,6 @@
   比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC
   固定地址容易被追逐。
 
-  需要匿名的，请给我发邮件： xxnet.dev@gmail.com，我单独给每一步捐赠建立收款地址。
+  需要匿名的，请给我发邮件： xxnet.dev@gmail.com，我单独给每一笔捐赠建立收款地址。
 
 感谢你的热情和参与！
