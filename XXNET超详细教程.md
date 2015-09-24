@@ -1,6 +1,8 @@
 # 1.xxnet新版教程
 ## 说明：
 基于google app engine 项目更新，申请appid与原版本区别较大。
+原站点，被墙，请添加规则，或者用代理服务器翻墙进入。
+也可以进入新站点的xxnet教程（比原站点更详细）：[http://www.gochrome.info/xxnet-tutorial/](http://www.gochrome.info/xxnet-tutorial/)
 ## 注：
 本教程会按照一个纯小白的角度一步一步的来。
 本教程会按照先翻墙再创建appid的步骤来
