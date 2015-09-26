@@ -4,6 +4,13 @@
 原站点，被墙，请添加规则，或者用代理服务器翻墙进入。
 也可以进入新站点的xxnet教程（比原站点更详细）：[http://www.gochrome.info/xxnet-tutorial/](http://www.gochrome.info/xxnet-tutorial/)
 ## 注：
+wallfans网站被墙
+## 新站点：[http://www.gochrome.info](http://www.gochrome.info)
+### XXNET教程：[http://www.gochrome.info/xxnet-tutorial/](http://www.gochrome.info/xxnet-tutorial/)
+### XXNET2.4.0调整两个参数，增加稳定性：[http://www.gochrome.info/xxnet-2-4-0-stable/](http://www.gochrome.info/xxnet-2-4-0-stable/)
+### XXNET参数调整，以2.4.0为例子：[http://www.gochrome.info/xxnet240-finally/](http://www.gochrome.info/xxnet240-finally/)
+其他科学上网方法，请点击[http://www.gochrome.info/archives/](http://www.gochrome.info/archives/)
+## wallfans站相关
 本教程会按照一个纯小白的角度一步一步的来。
 本教程会按照先翻墙再创建appid的步骤来
 新版appid申请不需手机号验证（对于google账号申请，可以不填手机号，跳过手机验证，只需要一个邮箱进行验证）
