@@ -37,7 +37,7 @@ PHP_proxy的证书是独立的，在data/php_proxy下，如果使用PHP，并提
 3. 选择“HTTP/SSL”选项下的“Managene Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
-Firefox浏览器手动导入的方式。
+# Firefox浏览器手动导入的方式。
 1.选择浏览器的"首选项"
 2.选择"高级"中的"证书"
 3.选择"查看证书"
