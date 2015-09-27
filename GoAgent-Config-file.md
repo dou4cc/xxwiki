@@ -45,7 +45,7 @@ enable = 1
 ip = 127.0.0.1  
 port = 8086  
 file = proxy.pac  
-gfwlist = http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt  
+gfwlist = https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 ;adblock = http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt  
 ; adblock 项目已经停止维护更新  
 expired = 86400  
