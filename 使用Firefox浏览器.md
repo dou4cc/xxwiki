@@ -48,7 +48,10 @@
 ![下载链接](https://cloud.githubusercontent.com/assets/6830787/10131883/fe7b78ba-6605-11e5-9bff-75dd7e24a42b.PNG)
 * 选择下载稳定版，下载之后解压缩。运行文件夹中的start快捷方式（也可以运行start.vbs）
 ![运行](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
-* 如果弹出管理员权限请求，请允许。
+* 如果弹出管理员权限请求（用户账户控制），请允许。
+
+![管理员权限请求](https://cloud.githubusercontent.com/assets/6830787/10132435/079df852-6609-11e5-824d-06c8c4bb929b.PNG)
+
 * 首次运行可能会弹出防火墙警告，请允许访问。
 
 ![防火墙警告](https://cloud.githubusercontent.com/assets/6830787/10131885/feb9afa4-6605-11e5-82c5-b2f15eb2ebd2.PNG)
@@ -56,7 +59,8 @@
 # 设置代理
 ## 简单方法
 启动XX-Net后，右下角会出现[[托盘图标|托盘右键菜单]]。右键单击托盘图标，点击“全局PAC智能代理”即可。
-![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/9698665/9ccf17a8-53f3-11e5-8c3b-2a8a886cb588.png)
+
+![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
 
 ## 安装和使用代理切换插件
 （待补充）
