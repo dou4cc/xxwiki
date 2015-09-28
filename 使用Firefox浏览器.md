@@ -19,8 +19,19 @@
 ![在线安装器安装选项](https://cloud.githubusercontent.com/assets/6830787/10131293/c7b2aec4-6601-11e5-95a9-637b85013003.PNG)
 * 接下来安装程序会自动下载完整安装包。如果下载失败，建议前往“[所有系统和语言](https://www.mozilla.org/en-US/firefox/all/)”页面下载完整安装包。
 ![自动下载](https://cloud.githubusercontent.com/assets/6830787/10131326/0bdb5998-6602-11e5-9f6c-0dcf7e032f87.PNG)
+* 安装完成后，程序会询问您是否要从其他浏览器中导入资料。您可以自行决定是否导入。
+
+![导入资料](https://cloud.githubusercontent.com/assets/6830787/10131375/7330f5a8-6602-11e5-831d-e7c92213f80a.PNG)
 
 ### 使用完整安装包安装
-* 在“[所有系统和语言](https://www.mozilla.org/en-US/firefox/all/)”页面下载的多是完整安装包。完整安装包将会跳过下载这一过程。如果你不想安装“静默更新服务”，请选择“自定义安装”，否则一路下一步即可。
+* 在“[所有系统和语言](https://www.mozilla.org/en-US/firefox/all/)”页面下载的多是完整安装包。完整安装包将会跳过下载这一过程。运行安装包时可能会跳出警告，点击“运行”即可。
 
-安装完成后，程序会询问您是否要从其他浏览器中导入资料。您可以自行决定是否导入。
+![警告](https://cloud.githubusercontent.com/assets/6830787/10131402/a4363082-6602-11e5-84a1-81b8de5f50f5.PNG)
+
+* 如果你不想安装“静默更新服务”，请选择“自定义安装”，否则一路下一步即可。
+
+![自定义安装](https://cloud.githubusercontent.com/assets/6830787/10131437/d57f59d4-6602-11e5-8e79-00c5fc3bf51b.PNG)
+
+* 安装完成后，程序会询问您是否要从其他浏览器中导入资料。您可以自行决定是否导入。
+
+![导入资料](https://cloud.githubusercontent.com/assets/6830787/10131375/7330f5a8-6602-11e5-831d-e7c92213f80a.PNG)
