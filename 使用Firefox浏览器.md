@@ -1,5 +1,12 @@
 本页面将详细演示如何在一台全新的Windows7电脑上架设起Firefox+XXnet的上网渠道。（中英对照）
 
+本文包含以下部分：
+
+1. [[使用Firefox浏览器#下载和安装Firefox浏览器]]
+2. [[使用Firefox浏览器#获取和运行XX-Net]]
+3. [[使用Firefox浏览器#设置代理]]
+4. [[使用Firefox浏览器#手动导入证书]]
+
 # 下载和安装Firefox浏览器
 ## 下载
 * 首先打开火狐官网下载浏览器：[[https://www.mozilla.org/zh-CN/firefox/new/]]。
@@ -35,3 +42,33 @@
 * 安装完成后，程序会询问您是否要从其他浏览器中导入资料。您可以自行决定是否导入。
 
 ![导入资料](https://cloud.githubusercontent.com/assets/6830787/10131375/7330f5a8-6602-11e5-831d-e7c92213f80a.PNG)
+
+# 获取和运行XX-Net
+* 打开[[https://github.com/XX-net/XX-Net#下载链接]]，注意看网址前是否有绿色的证书验证成功的显示。
+![下载链接](https://cloud.githubusercontent.com/assets/6830787/10131883/fe7b78ba-6605-11e5-9bff-75dd7e24a42b.PNG)
+* 选择下载稳定版，下载之后解压缩。运行文件夹中的start快捷方式（也可以运行start.vbs）
+![运行](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
+* 如果弹出管理员权限请求，请允许。
+* 首次运行可能会弹出防火墙警告，请允许访问。
+
+![防火墙警告](https://cloud.githubusercontent.com/assets/6830787/10131885/feb9afa4-6605-11e5-82c5-b2f15eb2ebd2.PNG)
+
+# 设置代理
+## 简单方法
+启动XX-Net后，右下角会出现托盘图标。右键单击托盘图标，点击“全局PAC智能代理”即可。
+![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/9698665/9ccf17a8-53f3-11e5-8c3b-2a8a886cb588.png)
+
+## 安装和使用代理切换插件
+（待补充）
+
+# 手动导入证书
+1. 点击右上角菜单按钮，选择浏览器的"首选项"
+![火狐浏览器的菜单](https://cloud.githubusercontent.com/assets/6830787/10130653/d84bdc38-65fc-11e5-8748-9ac1847fed21.PNG)
+2. 选择"高级"中的"证书"，选择"查看证书"，在证书管理器中选中"证书机构"，点击“导入”。
+![火狐导入证书](https://cloud.githubusercontent.com/assets/6830787/10130719/518f32a2-65fd-11e5-987e-52c834581a77.PNG)
+3. 在XX-Net文件夹下，找到 data\gae_proxy 目录下的 "CA.crt" 证书，导入即可。
+![火狐导入证书2](https://cloud.githubusercontent.com/assets/6830787/10130747/8c5d95ea-65fd-11e5-905e-ab329dc4201e.PNG)
+4. 在弹出的“下载证书”窗口中，选择"信任使用此CA标识的网站"，确定。
+![“下载证书”窗口](https://cloud.githubusercontent.com/assets/6830787/10130813/02a7f06a-65fe-11e5-907b-e4b8b998e947.PNG)
+5. 尝试访问[[https://www.google.com/]]或[[https://www.facebook.com/]]，检验证书是否导入成功。
+![检验证书是否导入成功](https://cloud.githubusercontent.com/assets/6830787/10130827/1aeb0b9e-65fe-11e5-9815-5f95a3a44be5.PNG)
