@@ -34,14 +34,16 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 3. 选择“HTTP/SSL”选项下的“Managene Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
-# Firefox浏览器手动导入的方式
-1. 点击右上角菜单按钮，选择浏览器的"首选项"
-![火狐浏览器的菜单](https://cloud.githubusercontent.com/assets/6830787/10130653/d84bdc38-65fc-11e5-8748-9ac1847fed21.PNG)
-2. 选择"高级"中的"证书"，选择"查看证书"，在证书管理器中选中"证书机构"，点击“导入”。
-![火狐导入证书](https://cloud.githubusercontent.com/assets/6830787/10130719/518f32a2-65fd-11e5-987e-52c834581a77.PNG)
+# 在浏览器中手动导入的方式
+
+Firefox（火狐）浏览器：详细图文指导参见[[使用Firefox浏览器#手动导入证书]]。
+
+Chrome（谷歌）浏览器：详细图文指导参见[[使用Chrome浏览器#手动导入证书]]。
+
+通用步骤：
+
+1. 点击浏览器的菜单按钮（一般在右上角），找到浏览器的"首选项"或者“设置”
+2. 找到"证书"或者“安全性”相关的设置（可能隐藏在“高级”选项卡中），点击"查看证书"，在证书管理器中选中"证书机构"，点击“导入”。
 3. 在XX-Net文件夹下，找到 data\gae_proxy 目录下的 "CA.crt" 证书，导入即可。
-![火狐导入证书2](https://cloud.githubusercontent.com/assets/6830787/10130747/8c5d95ea-65fd-11e5-905e-ab329dc4201e.PNG)
-4. 在弹出的“下载证书”窗口中，选择"信任使用此CA标识的网站"，确定。
-![“下载证书”窗口](https://cloud.githubusercontent.com/assets/6830787/10130813/02a7f06a-65fe-11e5-907b-e4b8b998e947.PNG)
+4. 在弹出的窗口中，选择"信任使用此CA标识的网站"，确定。
 5. 尝试访问[[https://www.google.com/]]或[[https://www.facebook.com/]]，检验证书是否导入成功。
-![检验证书是否导入成功](https://cloud.githubusercontent.com/assets/6830787/10130827/1aeb0b9e-65fe-11e5-9815-5f95a3a44be5.PNG)
