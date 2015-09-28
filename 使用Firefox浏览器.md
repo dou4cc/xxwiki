@@ -2,10 +2,10 @@
 
 本文包含以下部分：
 
-1. [[使用Firefox浏览器#下载和安装Firefox浏览器]]
-2. [[使用Firefox浏览器#获取和运行XX-Net]]
-3. [[使用Firefox浏览器#设置代理]]
-4. [[使用Firefox浏览器#手动导入证书]]
+1. [[下载和安装Firefox浏览器|使用Firefox浏览器#下载和安装Firefox浏览器]]
+2. [[获取和运行XX-Net|使用Firefox浏览器#获取和运行XX-Net]]
+3. [[设置代理|使用Firefox浏览器#设置代理]]
+4. [[手动导入证书|使用Firefox浏览器#手动导入证书]]
 
 # 下载和安装Firefox浏览器
 ## 下载
