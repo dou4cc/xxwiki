@@ -14,7 +14,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[待完善的wiki页面|Todo Wiki]]<br>
 [[如何帮助XX-Net？|How to contribute]]<br>
 #### 新手上路
-[[使用方法|使用方法]]<br>
+[[使用方法简述|使用方法]]<br>
 [[从零开始：“Firefox浏览器”篇|使用Firefox浏览器]]<br>
 [[从零开始：“Chrome浏览器”篇|使用Chrome浏览器]]<br>
 [[XXNET超详细教程]]<br>
