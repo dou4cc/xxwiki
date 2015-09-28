@@ -15,6 +15,8 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[如何帮助XX-Net？|How to contribute]]<br>
 #### 新手上路
 [[使用方法|使用方法]]<br>
+[[从零开始：“Firefox浏览器”篇|使用Firefox浏览器]]
+[[从零开始：“Chrome浏览器”篇|使用Chrome浏览器]]
 [[XXNET超详细教程]]<br>
 [[导入证书|GoAgent Import CA]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
