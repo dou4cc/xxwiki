@@ -18,6 +18,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[从零开始：“Firefox浏览器”篇|使用Firefox浏览器]]<br>
 [[从零开始：“Chrome浏览器”篇|使用Chrome浏览器]]<br>
 [[XXNET超详细教程]]<br>
+[[如何设置代理|设置代理]]<br>
 [[导入证书|GoAgent Import CA]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
 [[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
