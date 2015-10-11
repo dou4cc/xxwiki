@@ -30,7 +30,7 @@ https://www.google.com/settings/security/lesssecureapps<br>
 ![](http://i4.tietuku.com/6c120045abe36a1b.png)<br>
 
 # 上传服务端
- - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。
+ - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。    
 1、打开http://127.0.0.1:8085/?module=goagent&menu=deploy ，按下图说明操作：
 ![](http://i4.tietuku.com/42cc5b145e4ccd76.png)
 ![](http://i4.tietuku.com/0252209010b5ad68.png)<br>
