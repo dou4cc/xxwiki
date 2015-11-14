@@ -32,9 +32,9 @@
   修改之前，最好先提交bug，然后讨论修复的方案。
 
 + 捐赠    
-  比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC
-  DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E
-  paypal： https://pledgie.com/campaigns/30569
+  比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC  
+  DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E  
+  paypal： https://pledgie.com/campaigns/30569  
 
   
 
