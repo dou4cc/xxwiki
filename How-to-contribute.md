@@ -33,8 +33,9 @@
 
 + 捐赠    
   比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC
-  固定地址容易被追逐。
+  DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E
+  paypal： https://pledgie.com/campaigns/30569
 
-  需要匿名的，请给我发邮件： xxnet.dev@gmail.com，我单独给每一笔捐赠建立收款地址。
+  
 
 感谢你的热情和参与！
