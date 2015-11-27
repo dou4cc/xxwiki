@@ -1,0 +1,88 @@
+1. 准备一个U盘，容量至少64M。如果有工具可以在PC上先格式化成Ext3或者Ext2的文件系统，清空U盘。
+2. 深深的插入到R6300V2的任一个USB口当中，如果你还在拿R6300V2当NAS的话，最好别插在USB3.0的接口上。插入之后，路由器的系统应该会自动   Mount这个U盘。
+3. 到路由器的高级系统设置里面打开"Enable JFFS Partition", "Enable JFFS custom scripts and configs" 和 "Enable SSH",应用设置之后重启。
+4. 重启完成之后Telenet或者putty连接到R6300V2。先输入mount命令，检查一下U盘Mount的情况。
+如果U盘已经格式化为ext3或者ext2，那么直接跳过下面这一步
+       如果U盘显示为非ext3和ext2，请输入mkfs.ext3 /dev/sda1或者sdb1（看系统把你的U盘分配到哪个上面），然后请等待命令执行完，可能时间比较长。
+
+5.输入命令
+cd /tmp&&wget -c -O entware.arm-setup.sh http://files.hqt.ro/entware.arm/entware.arm-setup.sh&&chmod +x /entware.arm-setup.sh&&./entware.arm-setup.sh
+然后应该会显示
+Info: /tmp/mnt/sda1 selected.
+
+Info: Creating /tmp/mnt/sda1/entware.arm folder...
+Info: Creating /tmp/opt symlink...
+Info: Creating /jffs scripts backup...
+tar: removing leading '/' from member names
+Info: Modifying start scripts...
+Info: Starting Entware-Arm deployment....
+
+Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+entware_install_arm. 100% |*******************************| 1701 0:00:00 ETA
+Info: Checking for prerequisites and creating folders...
+Warning: Folder /opt exists!
+Info: Opkg package manager deployment...
+Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+opkg 100% |*******************************| 123k 0:00:00 ETA
+Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+opkg.conf 100% |*******************************| 146 0:00:00 ETA
+Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+ld-2.20.so 100% |*******************************| 131k 0:00:00 ETA
+Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+libc-2.20.so 100% |*******************************| 1190k 0:00:00 ETA
+Info: Basic packages installation...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/Packages.gz.
+Updated list of available packages in /opt/var/opkg-lists/packages.
+Installing glibc-opt (2.20-5) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/glibc-opt_2.20-5_armv7soft.ipk.
+Installing libc (2.20-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/libc_2.20-8b_armv7soft.ipk.
+Installing libgcc (4.8.3-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/libgcc_4.8.3-8b_armv7soft.ipk.
+Installing libstdcpp (4.8.3-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/libstdcpp_4.8.3-8b_armv7soft.ipk.
+Installing libpthread (2.20-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/libpthread_2.20-8b_armv7soft.ipk.
+Installing librt (2.20-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/librt_2.20-8b_armv7soft.ipk.
+Installing locales (2.20-8b) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/locales_2.20-8b_armv7soft.ipk.
+Installing findutils (4.5.14-1) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/findutils_4.5.14-1_armv7soft.ipk.
+Installing terminfo (5.9-1a) to root...
+Downloading http://qnapware.zyxmon.org/binaries-armv7/terminfo_5.9-1a_armv7soft.ipk.
+Configuring libgcc.
+Configuring libc.
+Configuring terminfo.
+Configuring locales.
+qnapware uses separate locale-archive file independent from main system
+Creating locale archive - /opt/usr/lib/locale/locale-archive
+Adding en_EN.UTF-8
+Adding ru_RU.UTF-8
+/opt/usr/lib/locale/locale-archive found
+You can download locale sources from http://qnapware.zyxmon.org/sources/i18n.tar.gz
+You can add new locales for qnapware using /opt/bin/localedef.new
+Configuring libpthread.
+Configuring libstdcpp.
+Configuring librt.
+Configuring findutils.
+Configuring glibc-opt.
+Info: Congratulations!
+Info: If there are no errors above then Entware successfully initialized.
+Info: Add /opt/bin & /opt/sbin to your PATH variable
+Info: Add '/opt/etc/init.d/rc.unslung start' to startup script for qnapware services to start
+Info: Found a Bug? Please report at https://github.com/zyxmon/entware-arm/issues
+6.输入 cd /opt 此刻应该显示
+/tmp/mnt/sda1/entware.arm#
+恭喜你，你已经在路由器上安装好ARM版本的entware了。
+7.现在我们开始安装XX-net需要的python库，依次输入
+opkg install libbz2
+opkg install libdb47
+opkg install libncursesw
+opkg install libsqlite3
+opkg install python
+opkg install pyopenssl
+8.下载XXnet
+
+
+
