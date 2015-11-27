@@ -3,96 +3,161 @@
 3. 到路由器的高级系统设置里面打开"Enable JFFS Partition", "Enable JFFS custom scripts and configs" 和 "Enable SSH",应用设置之后重启。
 4. 重启完成之后Telenet或者putty连接到R6300V2。先输入mount命令，检查一下U盘Mount的情况。如果U盘已经格式化为ext3或者ext2，那么直接跳过这一步：如果U盘显示为非ext3和ext2，请输入mkfs.ext3 /dev/sda1或者sdb1（看系统把你的U盘分配到哪个上面），然后请等待命令执行完，可能时间比较长。
 5. 输入命令
-#+BEGIN_EXAMPLE 
-cd /tmp&&wget -c -O entware.arm-setup.sh http://files.hqt.ro/entware.arm/entware.arm-setup.sh&&chmod +x /entware.arm-setup.sh&&./entware.arm-setup.sh
-#+END_EXAMPLE
-如果没有出现什么异常应该会显示
-#+BEGIN_EXAMPLE
-admin@RT-AC56U:/tmp# ./entware.arm-setup.sh
-Info: This script will guide you through the Entware-Arm installation.
-Info: Script modifies only "entware.arm" folder on the chosen drive,
-Info: no other data will be touched. Existing installation will be
-Info: replaced with this one. Also some start scripts will be installed,
-Info: the old ones will be saved to .entware.armjffs_scripts_backup.tgz Info: Looking for available partitions...
-[1] --> /tmp/mnt/sda1
-=> Please enter partition number or 0 to exit
-#+END_EXAMPLE
-输入1回车
-#+BEGIN_EXAMPLE
-Info: /tmp/mnt/sda1 selected.
+    #+BEGIN_EXAMPLE 
+    cd /tmp&&wget -c -O entware.arm-setup.sh http://files.hqt.ro/entware.arm/entware.arm-setup.sh&&chmod +x /entware.arm-setup.sh&&./entware.arm-setup.sh
+    #+END_EXAMPLE
+    如果没有出现什么异常应该会显示
+    #+BEGIN_EXAMPLE
+    admin@RT-AC56U:/tmp# ./entware.arm-setup.sh
+    Info: This script will guide you through the Entware-Arm installation.
+    Info: Script modifies only "entware.arm" folder on the chosen drive,
+    Info: no other data will be touched. Existing installation will be
+    Info: replaced with this one. Also some start scripts will be installed,
+    Info: the old ones will be saved to .entware.armjffs_scripts_backup.tgz Info: Looking for available partitions...
+    [1] --> /tmp/mnt/sda1
+    => Please enter partition number or 0 to exit
+    #+END_EXAMPLE
+    输入1回车
+    #+BEGIN_EXAMPLE
+    Info: /tmp/mnt/sda1 selected.
 
-Info: Creating /tmp/mnt/sda1/entware.arm folder...
-Info: Creating /tmp/opt symlink...
-Info: Creating /jffs scripts backup...
-tar: removing leading '/' from member names
-Info: Modifying start scripts...
-Info: Starting Entware-Arm deployment....
+    Info: Creating /tmp/mnt/sda1/entware.arm folder...
+    Info: Creating /tmp/opt symlink...
+    Info: Creating /jffs scripts backup...
+    tar: removing leading '/' from member names
+    Info: Modifying start scripts...
+    Info: Starting Entware-Arm deployment....
 
-Connecting to qnapware.zyxmon.org (81.4.123.217:80)
-entware_install_arm. 100% |*******************************| 1701 0:00:00 ETA
-Info: Checking for prerequisites and creating folders...
-Warning: Folder /opt exists!
-Info: Opkg package manager deployment...
-Connecting to qnapware.zyxmon.org (81.4.123.217:80)
-opkg 100% |*******************************| 123k 0:00:00 ETA
-Connecting to qnapware.zyxmon.org (81.4.123.217:80)
-opkg.conf 100% |*******************************| 146 0:00:00 ETA
-Connecting to qnapware.zyxmon.org (81.4.123.217:80)
-ld-2.20.so 100% |*******************************| 131k 0:00:00 ETA
-Connecting to qnapware.zyxmon.org (81.4.123.217:80)
-libc-2.20.so 100% |*******************************| 1190k 0:00:00 ETA
-Info: Basic packages installation...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/Packages.gz.
-Updated list of available packages in /opt/var/opkg-lists/packages.
-Installing glibc-opt (2.20-5) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/glibc-opt_2.20-5_armv7soft.ipk.
-Installing libc (2.20-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/libc_2.20-8b_armv7soft.ipk.
-Installing libgcc (4.8.3-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/libgcc_4.8.3-8b_armv7soft.ipk.
-Installing libstdcpp (4.8.3-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/libstdcpp_4.8.3-8b_armv7soft.ipk.
-Installing libpthread (2.20-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/libpthread_2.20-8b_armv7soft.ipk.
-Installing librt (2.20-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/librt_2.20-8b_armv7soft.ipk.
-Installing locales (2.20-8b) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/locales_2.20-8b_armv7soft.ipk.
-Installing findutils (4.5.14-1) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/findutils_4.5.14-1_armv7soft.ipk.
-Installing terminfo (5.9-1a) to root...
-Downloading http://qnapware.zyxmon.org/binaries-armv7/terminfo_5.9-1a_armv7soft.ipk.
-Configuring libgcc.
-Configuring libc.
-Configuring terminfo.
-Configuring locales.
-qnapware uses separate locale-archive file independent from main system
-Creating locale archive - /opt/usr/lib/locale/locale-archive
-Adding en_EN.UTF-8
-Adding ru_RU.UTF-8
-/opt/usr/lib/locale/locale-archive found
-You can download locale sources from http://qnapware.zyxmon.org/sources/i18n.tar.gz
-You can add new locales for qnapware using /opt/bin/localedef.new
-Configuring libpthread.
-Configuring libstdcpp.
-Configuring librt.
-Configuring findutils.
-Configuring glibc-opt.
-Info: Congratulations!
-Info: If there are no errors above then Entware successfully initialized.
-Info: Add /opt/bin & /opt/sbin to your PATH variable
-Info: Add '/opt/etc/init.d/rc.unslung start' to startup script for qnapware services to start
-Info: Found a Bug? Please report at https://github.com/zyxmon/entware-arm/issues
-#+END_EXAMPLE
-恭喜你，你已经在路由器上安装好ARM版本的entware了。
-+7. 现在我们开始安装XX-net需要的python库，依次输入
-#+BEGIN_EXAMPLE and 
-opkg install libbz2
-opkg install libdb47
-opkg install libncursesw
-opkg install libsqlite3
-opkg install python
-opkg install pyopenssl
-#+END_EXAMPLE
-8. 下载XXnet，解压后，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把\XX-Net\python27\1.0\lib\webbrowser.py 拷贝到\opt\lib\python文件夹里面。
+    Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+    entware_install_arm. 100% |*******************************| 1701 0:00:00 ETA
+    Info: Checking for prerequisites and creating folders...
+    Warning: Folder /opt exists!
+    Info: Opkg package manager deployment...
+    Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+    opkg 100% |*******************************| 123k 0:00:00 ETA
+    Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+    opkg.conf 100% |*******************************| 146 0:00:00 ETA
+    Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+    ld-2.20.so 100% |*******************************| 131k 0:00:00 ETA
+    Connecting to qnapware.zyxmon.org (81.4.123.217:80)
+    libc-2.20.so 100% |*******************************| 1190k 0:00:00 ETA
+    Info: Basic packages installation...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/Packages.gz.
+    Updated list of available packages in /opt/var/opkg-lists/packages.
+    Installing glibc-opt (2.20-5) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/glibc-opt_2.20-5_armv7soft.ipk.
+    Installing libc (2.20-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/libc_2.20-8b_armv7soft.ipk.
+    Installing libgcc (4.8.3-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/libgcc_4.8.3-8b_armv7soft.ipk.
+    Installing libstdcpp (4.8.3-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/libstdcpp_4.8.3-8b_armv7soft.ipk.
+    Installing libpthread (2.20-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/libpthread_2.20-8b_armv7soft.ipk.
+    Installing librt (2.20-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/librt_2.20-8b_armv7soft.ipk.
+    Installing locales (2.20-8b) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/locales_2.20-8b_armv7soft.ipk.
+    Installing findutils (4.5.14-1) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/findutils_4.5.14-1_armv7soft.ipk.
+    Installing terminfo (5.9-1a) to root...
+    Downloading http://qnapware.zyxmon.org/binaries-armv7/terminfo_5.9-1a_armv7soft.ipk.
+    Configuring libgcc.
+    Configuring libc.
+    Configuring terminfo.
+    Configuring locales.
+    qnapware uses separate locale-archive file independent from main system
+    Creating locale archive - /opt/usr/lib/locale/locale-archive
+    Adding en_EN.UTF-8
+    Adding ru_RU.UTF-8
+    /opt/usr/lib/locale/locale-archive found
+    You can download locale sources from http://qnapware.zyxmon.org/sources/i18n.tar.gz
+    You can add new locales for qnapware using /opt/bin/localedef.new
+    Configuring libpthread.
+    Configuring libstdcpp.
+    Configuring librt.
+    Configuring findutils.
+    Configuring glibc-opt.
+    Info: Congratulations!
+    Info: If there are no errors above then Entware successfully initialized.
+    Info: Add /opt/bin & /opt/sbin to your PATH variable
+    Info: Add '/opt/etc/init.d/rc.unslung start' to startup script for qnapware services to start
+    Info: Found a Bug? Please report at https://github.com/zyxmon/entware-arm/issues
+    #+END_EXAMPLE
+    恭喜你，你已经在路由器上安装好ARM版本的entware了。
+
+6. 现在我们开始安装XX-net需要的python库，依次输入
+    #+BEGIN_EXAMPLE  
+    opkg install libbz2
+    opkg install libdb47
+    opkg install libncursesw
+    opkg install libsqlite3
+    opkg install python
+    opkg install pyopenssl
+    #+END_EXAMPLE
+7. 下载XXnet，解压后，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把\XX-Net\python27\1.0\lib\webbrowser.py 拷贝到\opt\lib\python文件夹里面。
+8. 在\XX-net\data\gae_proxy\目录下新建manual.ini 文件，在文件中写入.
+    #+BEGIN_EXAMPLE  
+    [listen]
+    ip = 0.0.0.0
+    port = 8087
+    visible = 1
+    debuginfo = 0
+
+    [pac]
+    enable = 1
+    ip = 0.0.0.0
+    port = 8086
+    file = proxy.pac
+    gfwlist = https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+    ;adblock = http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt
+    ; this project have stopped.
+    expired = 86400
+
+    [autorange]
+    threads = 8
+    maxsize = 524288
+    waitsize = 1048576
+    bufsize = 65535
+
+    [google_ip]
+    use_ipv6 = 0
+    auto_adjust_scan_ip_thread_num = 1
+    max_scan_ip_thread_num = 50
+    max_good_ip_num = 3000
+    ip_connect_interval = 8
+    max_links_per_ip = 3
+
+    ; traffic quota: 100k/second
+    ip_traffic_quota = 100000
+    ip_traffic_quota_base = 100000
+
+    [connect_manager]
+    https_max_connect_thread = 10
+    https_connection_pool_min = 5
+    https_connection_pool_max = 50
+
+    #+END_EXAMPLE
+9. 在/jffs/scripts目录新建firewall-start文件，并写入以下几句。
+    #+BEGIN_EXAMPLE  
+    #!/bin/sh
+    sleep 5
+    iptables -I INPUT -p tcp --dport 8087 -j ACCEPT
+    iptables -I INPUT -p tcp --dport 8086 -j ACCEPT
+    #+END_EXAMPLE
+10. 在/jffs/scripts目录新建services-start文件，并写入以下几句。
+    #+BEGIN_EXAMPLE 
+    #!/bin/sh
+    sleep 10
+    python2 /opt/XX-Net/Launcher/start.py &
+    #+END_EXAMPLE
+11. 键入命令 Reboot 等待路由器重启。
+12. 重启完成后，用浏览器访问http://路由器IP：8085/，如果看到配置页面，就代表安装成功了。
+
+关于Entware的安装，请参考
+https://www.hqt.ro/how-to-install-entware-arm/
+MIPS的CPU的路由器，请安装MIPS版本的Entware。
+
+我的R6300V2长时间运行的内存占用大约在60M，如果需要在内存更小的路由器上面安装，需要调整一些参数降低系统开销。同时可以把Start.py里面
+threading.stack_size(128*1024)改为threading.stack_size(64*1024)，大约会降低20M的内存占用。
 
