@@ -1,13 +1,24 @@
 1. 准备一个U盘，容量至少64M。如果有工具可以在PC上先格式化成Ext3或者Ext2的文件系统，清空U盘。
 2. 深深的插入到R6300V2的任一个USB口当中，如果你还在拿R6300V2当NAS的话，最好别插在USB3.0的接口上。插入之后，路由器的系统应该会自动   Mount这个U盘。
 3. 到路由器的高级系统设置里面打开"Enable JFFS Partition", "Enable JFFS custom scripts and configs" 和 "Enable SSH",应用设置之后重启。
-4. 重启完成之后Telenet或者putty连接到R6300V2。先输入mount命令，检查一下U盘Mount的情况。
-如果U盘已经格式化为ext3或者ext2，那么直接跳过下面这一步
-       如果U盘显示为非ext3和ext2，请输入mkfs.ext3 /dev/sda1或者sdb1（看系统把你的U盘分配到哪个上面），然后请等待命令执行完，可能时间比较长。
-
-5.输入命令
+4. 重启完成之后Telenet或者putty连接到R6300V2。先输入mount命令，检查一下U盘Mount的情况。如果U盘已经格式化为ext3或者ext2，那么直接跳过这一步：如果U盘显示为非ext3和ext2，请输入mkfs.ext3 /dev/sda1或者sdb1（看系统把你的U盘分配到哪个上面），然后请等待命令执行完，可能时间比较长。
+5. 输入命令
+#+BEGIN_EXAMPLE 
 cd /tmp&&wget -c -O entware.arm-setup.sh http://files.hqt.ro/entware.arm/entware.arm-setup.sh&&chmod +x /entware.arm-setup.sh&&./entware.arm-setup.sh
-然后应该会显示
+#+END_EXAMPLE
+如果没有出现什么异常应该会显示
+#+BEGIN_EXAMPLE
+admin@RT-AC56U:/tmp# ./entware.arm-setup.sh
+Info: This script will guide you through the Entware-Arm installation.
+Info: Script modifies only "entware.arm" folder on the chosen drive,
+Info: no other data will be touched. Existing installation will be
+Info: replaced with this one. Also some start scripts will be installed,
+Info: the old ones will be saved to .entware.armjffs_scripts_backup.tgz Info: Looking for available partitions...
+[1] --> /tmp/mnt/sda1
+=> Please enter partition number or 0 to exit
+#+END_EXAMPLE
+输入1回车
+#+BEGIN_EXAMPLE
 Info: /tmp/mnt/sda1 selected.
 
 Info: Creating /tmp/mnt/sda1/entware.arm folder...
@@ -72,17 +83,16 @@ Info: If there are no errors above then Entware successfully initialized.
 Info: Add /opt/bin & /opt/sbin to your PATH variable
 Info: Add '/opt/etc/init.d/rc.unslung start' to startup script for qnapware services to start
 Info: Found a Bug? Please report at https://github.com/zyxmon/entware-arm/issues
-6.输入 cd /opt 此刻应该显示
-/tmp/mnt/sda1/entware.arm#
+#+END_EXAMPLE
 恭喜你，你已经在路由器上安装好ARM版本的entware了。
-7.现在我们开始安装XX-net需要的python库，依次输入
++7. 现在我们开始安装XX-net需要的python库，依次输入
+#+BEGIN_EXAMPLE and 
 opkg install libbz2
 opkg install libdb47
 opkg install libncursesw
 opkg install libsqlite3
 opkg install python
 opkg install pyopenssl
-8.下载XXnet
-
-
+#+END_EXAMPLE
+8. 下载XXnet，解压后，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把\XX-Net\python27\1.0\lib\webbrowser.py 拷贝到\opt\lib\python文件夹里面。
 
