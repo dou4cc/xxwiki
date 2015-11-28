@@ -157,7 +157,7 @@
     #+BEGIN_EXAMPLE  
     opkg install libbz2 libdb47 libncursesw libsqlite3 python pyopenssl
     #+END_EXAMPLE
-7. 下载XXnet，解压到/opt/XX-net，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把\XX-Net\python27\1.0\lib\webbrowser.py 拷贝到\opt\lib\python2.7文件夹里面。
+7. 下载XXnet，解压到/opt/XX-net，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把/XX-Net/python27/1.0/lib/webbrowser.py 拷贝到/opt/lib/python2.7文件夹里面。
 8. 尝试运行一次，输入
     #+BEGIN_EXAMPLE
     python /opt/XX-Net/launcher/start.py
@@ -192,7 +192,7 @@
     Nov 28 02:15:23 - [INFO] GAE CONNECT xxnet-update.appspot.com:443
     #+END_EXAMPLE
     那么恭喜你，你一经成功安装了XX-Net在你的路由器上。下面我们做一些设置让XX-Net更好的运行
-9. 在\XX-net\data\gae_proxy\目录下新建manual.ini 文件，在文件中写入.设置监听IP为0.0.0.0，这样我们才能从其他客户端设置路由器的8087/8086端口作为代理服务器
+9. 在/XX-net/data/gae_proxy/目录下新建manual.ini 文件，在文件中写入.设置监听IP为0.0.0.0，这样我们才能从其他客户端设置路由器的8087/8086端口作为代理服务器
     #+BEGIN_EXAMPLE  
     [listen]
     ip = 0.0.0.0
@@ -234,7 +234,7 @@
     https_connection_pool_max = 50
     
     #+END_EXAMPLE
-10. 在\XX-net\data\launcher\目录下编辑文件config.yaml,找到“allow_remote_connect: 0”设置为“allow_remote_connect: 1”。这样就可以在客户端浏览器访问路由器上的XX-Net的配置页面了
+10. 在/XX-net/data/launcher/目录下编辑文件config.yaml,找到“allow_remote_connect: 0”设置为“allow_remote_connect: 1”。这样就可以在客户端浏览器访问路由器上的XX-Net的配置页面了
 11. 在/jffs/scripts目录编辑firewall-start文件，并写入以下几句。如果原来这个脚本有内容，请把第二行后面的内容追加到原来的脚本后面。
     #+BEGIN_EXAMPLE  
     #!/bin/sh
@@ -245,9 +245,13 @@
 11. 在/jffs/scripts目录编辑services-start文件，并在文件结尾追加写入以下几句。
     #+BEGIN_EXAMPLE 
     sleep 10
-    python2 /opt/XX-Net/Launcher/start.py &
+    python /opt/XX-Net/Launcher/start.py &
     #+END_EXAMPLE
-12. 键入命令 reboot 等待路由器重启。
+12. 键入命令
+    #+BEGIN_EXAMPLE 
+    chmod +x /jffs/scripts/*&&reboot
+    #+END_EXAMPLE
+等待路由器重启。
 13. 重启完成后，用浏览器访问http://路由器IP：8085/，如果看到配置页面，就代表安装成功了。剩下的操作就和在PC上一样了。
 
 关于Entware-NG的安装，请参考https://github.com/RMerl/asuswrt-merlin/wiki。MIPS的CPU的路由器，请安装MIPS版本的Entware-NG。
