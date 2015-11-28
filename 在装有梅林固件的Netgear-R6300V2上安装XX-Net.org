@@ -2,7 +2,7 @@
 2. 深深的插入到R6300V2的任一个USB口当中，如果你还在拿R6300V2当NAS的话，最好别插在USB3.0的接口上。插入之后，路由器的系统应该会自动   Mount这个U盘。
 3. 到路由器的高级系统设置里面打开"Enable JFFS Partition", "Enable JFFS custom scripts and configs" 和 "Enable SSH",应用设置之后重启。
 4. 重启完成之后Telenet或者putty连接到R6300V2。先输入mount命令，检查一下U盘Mount的情况。如果U盘已经格式化为ext3或者ext2，那么直接跳过这一步：如果U盘显示为非ext3和ext2，请输入mkfs.ext3 /dev/sda1或者sdb1（看系统把你的U盘分配到哪个上面），然后请等待命令执行完，可能时间比较长。
-5. 下载Entware-NG脚本 百度网盘：http://pan.baidu.com/s/1dD19lct ，Google Driver：https://drive.google.com/file/d/0B1SYsraWbW-rTlhLX0FLZUZwNWs/view?usp=sharing 。然后用WINSCP上传到到路由器的/tmp/目录下
+5. 下载Entware-NG安装脚本 [[https://drive.google.com/file/d/0B1SYsraWbW-rTlhLX0FLZUZwNWs/view?usp=sharing][Google Driver]] 。然后用WINSCP上传到到路由器的/tmp/目录下
 6. 输入命令
     #+BEGIN_EXAMPLE 
     cd /tmp&&chmod +x /tmp/entware.ng-setup.sh&&/bin/sh /tmp/entware.ng-setup.sh
