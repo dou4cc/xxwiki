@@ -5,7 +5,7 @@
 5. 下载Entware-NG脚本 百度网盘：http://pan.baidu.com/s/1dD19lct ，Google Driver：https://drive.google.com/file/d/0B1SYsraWbW-rTlhLX0FLZUZwNWs/view?usp=sharing 。然后用WINSCP上传到到路由器的/tmp/目录下
 6. 输入命令
     #+BEGIN_EXAMPLE 
-    chmod +x /tmp/entware.ng-setup.sh&&/bin/sh /tmp/entware_install.sh
+    cd /tmp&&chmod +x /tmp/entware.ng-setup.sh&&/bin/sh /tmp/entware.ng-setup.sh
     #+END_EXAMPLE
     如果没有出现什么异常应该会显示
     #+BEGIN_EXAMPLE
