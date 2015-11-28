@@ -255,4 +255,4 @@
 我的R6300V2长时间运行的内存占用大约在60M，如果需要在内存更小的路由器上面安装，需要调整一些参数降低系统开销。同时可以把Start.py里面
 threading.stack_size(128*1024)改为threading.stack_size(64*1024)，大约会降低20M的内存占用。
 
-更新于2015-11-28：将Entware-ARM升级到Entware-NG. 对原Entware-ARM的安装脚本做了编辑，修改了部分Bug和地址。
+更新于2015-11-28：将Entware-ARM升级到Entware-NG. 对原Entware-ARM的安装脚本做了编辑，修改了部分Bug和地址，在此基础上写了Entware-NG的安装脚本。
