@@ -245,7 +245,7 @@
 11. 在/jffs/scripts目录编辑services-start文件，并在文件结尾追加写入以下几句。
     #+BEGIN_EXAMPLE 
     sleep 10
-    python /opt/XX-Net/Launcher/start.py &
+    python /opt/XX-Net/launcher/start.py &
     #+END_EXAMPLE
 12. 键入命令
     #+BEGIN_EXAMPLE 
