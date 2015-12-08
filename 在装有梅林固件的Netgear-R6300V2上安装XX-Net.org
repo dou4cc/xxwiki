@@ -157,7 +157,7 @@
     #+BEGIN_EXAMPLE  
     opkg install libbz2 libdb47 libncursesw libsqlite3 python pyopenssl
     #+END_EXAMPLE
-7. 下载XXnet，解压到/opt/XX-net，编辑/XX-Net/Launcher/start.py 找到import webbrowser这行，前面加上“#”把这行注释掉。因为Entware是给路由器设计的，安装的Python没有Webrowser这个库。我已经提交了Patch把这一行代码放在host_port = config.get(["modules", "launcher", "control_port"], 8085)这行后面。但是还没有更新到最新的版本里面。如果嫌更新之后又要去改文件麻烦，可以把/XX-Net/python27/1.0/lib/webbrowser.py 拷贝到/opt/lib/python2.7文件夹里面。
+7. 下载XXnet，解压到/opt/XX-net。
 8. 尝试运行一次，输入
     #+BEGIN_EXAMPLE
     python /opt/XX-Net/launcher/start.py
