@@ -56,6 +56,8 @@ Chrome（谷歌）浏览器：详细图文指导参见[[使用Chrome浏览器#�
    export HTTPS_PROXY=$HTTP_PROXY
 
  再执行以下命令，导入证书以archlinux为例：
+```
  ln -s /opt/XX-Net/data/gae_proxy/CA.crt  /etc/ca-certificates/trust-source/anchors/GoAgent.crt
  trust extract-compat
+```
  
