@@ -14,15 +14,16 @@ https://www.google.com/settings/security/lesssecureapps<br>
 设备选"其他"，随便起个名词，比如GoAgent，点"生成"后，会出来一串密码。 以后就拿这个密码来上传appid部署服务端<br>
 
 # 申请appid
-1、打开 https://appengine.google.com/ ，你会看到下图的界面（当然你的列表是空的）
-![](http://i4.tietuku.com/267f4562b6c80bf9.png)<br>
-2、点击该界面中的“Create Application”按钮，会看到如下的界面
-然后按照图中的指示进行操作即可
-![](http://i4.tietuku.com/901c9f02abaedaf2.png)
-![](http://i4.tietuku.com/b20cac394ec7356a.png)<br>
+1、打开 https://console.developers.google.com/ ，你会看到下图的界面  
+![](https://cloud.githubusercontent.com/assets/10395528/12047781/43448b86-af0c-11e5-9e9f-be9431c1f9a0.png)<br>
+2、点击该界面中的“Create Application”按钮，会看到如下的界面  
+![](https://cloud.githubusercontent.com/assets/10395528/12047789/67b97c2e-af0c-11e5-8fac-e818836f9e61.png)<br>  
+  1 填入你希望的appid  
+    下面的appid会显示实际给你的appid，建议字母后面加上3-4个数字  
+  2 点选不要发邮件   
+  3 点同意  
+  4 提交  
 
-3、创建成功后，会出现一些提示信息，告诉你应用程序创建成功，当然这对于我们来说不重要
-![](http://i4.tietuku.com/665c7a7854d658b2.png)<br>
 4、打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：
 ![](http://i4.tietuku.com/809d7ca3759acb5e.png)
 ![](http://i4.tietuku.com/2ce5a40a8a0f90b2.png)
