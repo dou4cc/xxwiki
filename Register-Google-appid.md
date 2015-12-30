@@ -1,4 +1,5 @@
-注册Google帐号和appid教程
+注册Google帐号和appid教程  
+**推荐[图文版](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids)**
 
 1. 注册 Google 帐号
 
