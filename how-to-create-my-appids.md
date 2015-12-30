@@ -16,7 +16,7 @@ https://www.google.com/settings/security/lesssecureapps<br>
 # 申请appid
 1、打开 https://console.developers.google.com/ ，你会看到下图的界面  
 ![](https://cloud.githubusercontent.com/assets/10395528/12047781/43448b86-af0c-11e5-9e9f-be9431c1f9a0.png)<br>
-2、点击该界面中的“Create Application”按钮，会看到如下的界面  
+2、点击该界面中的“Create a project”按钮，会看到如下的界面  
 ![](https://cloud.githubusercontent.com/assets/10395528/12047789/67b97c2e-af0c-11e5-8fac-e818836f9e61.png)<br>  
   1 填入你希望的appid  
     下面的appid会显示实际给你的appid，建议字母后面加上3-4个数字  
