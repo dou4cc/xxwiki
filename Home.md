@@ -9,7 +9,6 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 感谢每一个贡献者。  <br>
 # 目录
 ## 概述
-[[首页|Home]]<br>
 [[English Home Page]]<br>
 [[待完善的wiki页面|Todo Wiki]]<br>
 [[如何帮助XX-Net？|How to contribute]]<br>
@@ -18,12 +17,8 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[使用方法简述|使用方法]]<br>
 [[从零开始：“Firefox浏览器”篇|使用Firefox浏览器]]<br>
 [[从零开始：“Chrome浏览器”篇|使用Chrome浏览器]]<br>
-[[XXNET超详细教程]]<br>
-[[如何设置代理|设置代理]]<br>
-[[导入证书|GoAgent Import CA]]<br>
+[[从零开始：“IE浏览器”篇|使用IE浏览器]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
-[[怎样创建我自己的appid？（文字版）|Register Google appid]]<br>
-[[安装和使用SwichySharp|安装和使用SwichySharp]]<br>
 #### 相关知识
 [[配置页面简介]]<br>
 [[托盘右键菜单简介|托盘右键菜单]]<br>
