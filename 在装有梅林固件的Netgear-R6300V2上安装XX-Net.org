@@ -155,7 +155,7 @@
     
 6. 现在我们开始安装XX-net需要的python库，输入
     #+BEGIN_EXAMPLE  
-    opkg install libbz2 libdb47 libncursesw libsqlite3 python pyopenssl
+    opkg install pyopenssl
     #+END_EXAMPLE
 7. 下载XXnet，解压到/opt/XX-net。
 8. 尝试运行一次，输入
