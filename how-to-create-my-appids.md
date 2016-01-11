@@ -23,8 +23,12 @@ https://www.google.com/settings/security/lesssecureapps<br>
   2 点选不要发邮件   
   3 点同意  
   4 提交  
-
-4、打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：
+# 设置部署权限  
+   如果你没有启用2步登录验证，请启用弱安全应用   
+       https://www.google.com/settings/security/lesssecureapps  
+  
+   如果你已经启用2步登录验证，请设置应用专用密码：  
+打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：  
 ![](http://i4.tietuku.com/809d7ca3759acb5e.png)
 ![](http://i4.tietuku.com/2ce5a40a8a0f90b2.png)
 ![](http://i4.tietuku.com/09f7a94cbaf6b2ac.png)
