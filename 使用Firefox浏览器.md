@@ -57,12 +57,14 @@
 ![防火墙警告](https://cloud.githubusercontent.com/assets/6830787/10131885/feb9afa4-6605-11e5-82c5-b2f15eb2ebd2.PNG)
 
 # 设置代理
-## 简单方法
-启动XX-Net后，右下角会出现[[托盘图标|托盘右键菜单]]。右键单击托盘图标，点击“全局PAC智能代理”即可。
-
+## 方案一：简单方法
+* 启动XX-Net后，右下角会出现[[托盘图标|托盘右键菜单]]。右键单击托盘图标，点击“全局PAC智能代理”即可。
 ![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
+* 火狐菜单 - 选项 - 高级 - 网络 - 设置，勾选自动代理设置，输入：http://127.0.0.1:8086/proxy.pac，完成。
+* 当然最后一步还是要手动导入证书，就可以畅游网络了。
 
-## 安装和使用代理切换插件
+
+## 方案二：安装和使用代理切换插件
 * 点击下面地址安装pan代理插件
   - https://addons.mozilla.org/zh-CN/firefox/addon/pan/?src=search
 ![安装pan](https://raw.githubusercontent.com/yeahwu/wu/master/pan1.png)
@@ -75,12 +77,6 @@
 * 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，默认蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 * pan插件代理到此也就设置完成了，最后导入证书，就可以畅游网络了。
-
-
-## 手动设置浏览器代理
-（待补充）
-
-菜单 - 选项 - 高级 - 网络 - 设置，勾选自动代理设置，输入：http://127.0.0.1:8086/proxy.pac
 
 ## 手动设置系统代理
 当使用托盘菜单设置代理不成功时，你可以手动设置系统代理。具体内容请看：[[设置代理]]
