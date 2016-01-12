@@ -31,7 +31,11 @@
   如果你会编程，发现bug，请试着修复，然后提交代码，我们会尽量合并进来。  
   修改之前，最好先提交bug，然后讨论修复的方案。
 
-+ 捐赠    
++ 捐赠APPID    
+  XX-Net自带公共APPID，为新手提供基础的网络访问。但由于用户众多，appid的流量有时会不够用，因此希望大家能捐赠appid。    
+  具体方法请查看：“[[如何捐赠APPID|DonateAppid]]”    
+
++ 捐赠金钱    
   比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC  
   DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E  
   paypal： https://pledgie.com/campaigns/30569  
