@@ -63,7 +63,19 @@
 ![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
 
 ## 安装和使用代理切换插件
-（待补充）
+* 点击下面地址安装pan代理插件
+  - https://addons.mozilla.org/zh-CN/firefox/addon/pan/?src=search
+![安装pan](https://raw.githubusercontent.com/yeahwu/wu/master/pan1.png)
+* 添加过滤规则，右键点击pan插件，然后再点击“过滤规则首选项”
+![过滤规则](https://raw.githubusercontent.com/yeahwu/wu/master/pan2.jpg)
+* 添加过滤规则订阅组，先点击“添加过滤规则订阅组”，再点击“添加”，完成。
+![添加过滤规则订阅组](https://raw.githubusercontent.com/yeahwu/wu/master/pan4.jpg)
+* 选择默认代理，右键点击pan，选择默认代理，再点击goagent代理。
+![默认代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan5.jpg)
+* 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
+![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
+* pan插件代理到此也就设置完成了，最后导入证书，就可以畅游网络了。
+
 
 ## 手动设置浏览器代理
 （待补充）
