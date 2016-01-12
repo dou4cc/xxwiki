@@ -1,7 +1,7 @@
 ###如果捐献AppID:
 1. 用Google 帐号申请appid  
-   尽量xxnet-开头  
-   请不要带有apple，android，ios，mobile会导致部分网站出错
+   * 推荐xxnet-开头  
+   * 请不要带有apple，android，ios，mobile会导致部分网站出错
    * 不需要部署
 
 2. 将所有权转给公共帐号：   
