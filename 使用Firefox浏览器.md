@@ -72,7 +72,7 @@
 ![添加过滤规则订阅组](https://raw.githubusercontent.com/yeahwu/wu/master/pan4.jpg)
 * 选择默认代理，右键点击pan，选择默认代理，再点击goagent代理。
 ![默认代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan5.jpg)
-* 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
+* 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，默认蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 * pan插件代理到此也就设置完成了，最后导入证书，就可以畅游网络了。
 
