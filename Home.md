@@ -61,3 +61,4 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[XX Net 1.0.0 开发笔记]]<br>
 [[技术说明]]<br>
 [[Todo List]]
+[[如何捐赠APPID|DonateAppid]]
