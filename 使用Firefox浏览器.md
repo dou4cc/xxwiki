@@ -76,7 +76,7 @@
 ![默认代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan5.jpg)
 * 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，默认蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
-* pan插件代理到此也就设置完成了，最后导入证书，就可以畅游网络了。
+* pan插件代理到此也就设置完成了，最后手动导入证书，就可以畅游网络了。
 
 ## 手动设置系统代理
 当使用托盘菜单设置代理不成功时，你可以手动设置系统代理。具体内容请看：[[设置代理]]
@@ -92,3 +92,5 @@
 ![“下载证书”窗口](https://cloud.githubusercontent.com/assets/6830787/10130813/02a7f06a-65fe-11e5-907b-e4b8b998e947.PNG)
 5. 尝试访问[[https://www.google.com/]]或[[https://www.facebook.com/]]，检验证书是否导入成功。
 ![检验证书是否导入成功](https://cloud.githubusercontent.com/assets/6830787/10130827/1aeb0b9e-65fe-11e5-9815-5f95a3a44be5.PNG)
+
+### 注（每次更新xx-net,需要删除原来的老证书，重新导入新证书）
