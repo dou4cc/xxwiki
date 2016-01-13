@@ -18,7 +18,6 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[XXNET超详细教程]]<br>
 [[从零开始：“Firefox浏览器”篇|使用Firefox浏览器]]<br>
 [[从零开始：“Chrome浏览器”篇|使用Chrome浏览器]]<br>
-[[从零开始：“IE浏览器”篇|使用IE浏览器]]<br>
 [[怎样创建我自己的appid？（图片版）|how to create my appids]]<br>
 #### 相关知识
 [[配置页面简介]]<br>
