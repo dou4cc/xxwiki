@@ -10,7 +10,7 @@ Functions
 * A stable, ease-of-use and fast proxy based on GAE
 * Friendly web UI
 
-Support platform
+Support platforms
 ================
 * XP, need tcpip.sys patch, like tcp-z  
 * Win7/8/10  
