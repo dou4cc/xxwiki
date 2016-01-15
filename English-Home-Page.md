@@ -1,18 +1,17 @@
 XX-Net
 ========
 Anti-censorship tools  
-A Reborn Goagent  
 A firewall circumvention toolkit  
+A Reborn GoAgent
 
-
-Functions
+Features
 ==========
-* A stable, ease-of-use and fast proxy based on GAE
+* A stable, easy to use and fast proxy based on GAE
 * Friendly web UI
 
-Support platforms
+Supported platforms
 ================
-* XP, need tcpip.sys patch, like tcp-z  
+* XP, need tcpip.sys patch, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC.
 * Win7/8/10  
 * Linux  
 * Mac
