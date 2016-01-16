@@ -40,12 +40,13 @@ https://github.com/XX-net/XX-Net/wiki/How-to-contribute
 * goagentfindip
 * checkgoogleip
 
-XX-net پروژه های یکپارچه و سازگاری
+XX-Net پروژه های یکپارچه و سازگاری
 ============================
 * ChromeGAE  
   http://www.ccav1.com/chromegae  
   An automatic comobo of Google Chrome browser and XX-Net  ترکیب اتوماتیک جستجوگر گووگل کروم و ایکس ایکس نت
-  Maintainer：Yanu  
+  
+Maintainer：Yanu  
  
 * XX-Net-integrated Chrome  ایکس ایکس نت سازگار با کروم 
  https://github.com/yeahwu/chrome-xx  
