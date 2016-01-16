@@ -8,7 +8,8 @@ A Reborn GoAgent نسل جدیداز نرم افزار ضدفایروال گوا
 
 Features خصوصیات
 ==========
-* A stable, easy to use and fast proxy based on GAE (Google App Engine)پایدار، ساده و سریع بر پایه پروکسی در
+* A stable, easy to use and fast proxy based on GAE 
+                     Google App Engineپایدار، ساده و سریع بر پایه پروکسی در
 * Friendly web UI سازگار با همه صفحات اینترنتی
 
 Supported platforms سیستم عاملهای قابل پشتیبان 
