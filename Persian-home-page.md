@@ -1,19 +1,13 @@
 XX-Net
 ========
-Anti-censorship tools 
-ابزار برضد سانسور  
-A firewall circumvention toolkit  
-یک ابزار دورزدن فایروال
-A Reborn GoAgent
-نسل جدید از نرم افزار ضدفابروال GoAgent
+Anti-censorship tools ابزار برضد سانسور
+A firewall circumvention toolkit یک ابزار دورزدن فایروال
+A Reborn GoAgent نسل جدیداز نرم افزار ضدفایروال گوایجنت
 
-Features
-خصوصیات
+Features خصوصیات
 ==========
-* A stable, easy to use and fast proxy based on GAE
-* پایدار، ساده و سریع بر پایه پروکسی در GAE
-* Friendly web UI
-سازگار با صفحات اینترنتی
+* A stable, easy to use and fast proxy based on GAE (Google App Engine)پایدار، ساده و سریع بر پایه پروکسی در
+* Friendly web UI سازگار با همه صفحات اینترنتی
 
 Supported platforms سیستم عاملهای قابل پشتیبان 
 ================
@@ -47,23 +41,19 @@ XX-net پروژه های یکپارچه و سازگاری
 ============================
 * ChromeGAE  
   http://www.ccav1.com/chromegae  
-  An automatic comobo of Google Chrome browser and XX-Net  
-  ترکیب اتوماتیک جستجوگر گووگل کروم و  ایکس ایکس نت
+  An automatic comobo of Google Chrome browser and XX-Net  ترکیب اتوماتیک جستجوگر گووگل کروم و ایکس ایکس نت
   Maintainer：Yanu  
  
-* XX-Net-integrated Chrome  
-یکپارچگی کروم ایکس ایکس نت  
+* XX-Net-integrated Chrome  ایکس ایکس نت سازگار با کروم 
  https://github.com/yeahwu/chrome-xx  
 
 * plusburg  
   https://github.com/Plusburg/Plusburg  
-  XX-Net-integrated bootable CD image  
-سی دی قابل بووت شدن ایکس ایکس نت یکپارچه
+  XX-Net-integrated bootable CD image  سی دی قابل بووت شدن ایکس ایکس نت یکپارچه
 * appifed-xx-net  
   https://github.com/binarydist/appified-xx-net  
-  A standard Mac app on Mac OS X  
-  سیستم استاندارد برای مک 
-  
+  A standard Mac app on Mac OS X  سیستم استاندارد برای مک 
+ 
 * ComodoDragonPortable: 
 جستجو گر کومودو دراگون بدون نیاز به نصب و قابل انتقال
 https://github.com/mikedchavez1010/ComodoDragonPortable  
