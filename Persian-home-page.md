@@ -14,7 +14,7 @@ Features خصوصیات
 
 Supported platforms سیستم عاملهای قابل پشتیبان 
 ================
-* XP, tcpip.sys patch needed, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC. سازگار با سیست عامل های مختلف ویندوز، لینوکس و مک. توجه: تی سی پی ای پی در ویندوز ایکس پی بایستی به 2048 افزایش یابد و کامپیوتر مجددا روشن کنید
+* XP, tcpip.sys patch needed, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC. سازگار با سیست عامل های مختلف ویندوز، لینوکس و مک. توجه: تی سی پی ای پی در ویندوز ایکس پی بایستی به 2048 افزایش یابد و کامپیوتر را مجددا روشن کنید
 * Win7/8/10  
 * Linux  
 * Mac
