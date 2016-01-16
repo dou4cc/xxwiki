@@ -11,7 +11,7 @@ Features
 
 Supported platforms
 ================
-* XP, need tcpip.sys patch, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC.
+* XP, tcpip.sys patch needed, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC.
 * Win7/8/10  
 * Linux  
 * Mac
