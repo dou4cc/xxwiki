@@ -25,7 +25,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[部署GAE服务端时的网络通道选择|Deploy By GAE]]<br>
 [[goagent连接状态|GoAgent Connection status]]<br>
 [[goagent的局限性|GoAgent Limitation]]<br>
-[[隐私与匿名性说明|Anonymous and Security]]<br>
+[[隐私与匿名性说明|Anonymity and Security]]<br>
 ## 参数与设置
 [[“自动升级”选项和相关知识|Auto update]]<br>
 [[如何隐藏XX-Net图标|How to hide XX Net windows tray]]<br>
