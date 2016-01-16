@@ -1,7 +1,9 @@
 XX-Net
 ========
 Anti-censorship tools ابزار برضد سانسور
+
 A firewall circumvention toolkit یک ابزار دورزدن فایروال
+
 A Reborn GoAgent نسل جدیداز نرم افزار ضدفایروال گوایجنت
 
 Features خصوصیات
