@@ -50,4 +50,14 @@
 ![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx3.JPG)
 * 导入bak文件
 ![导入／导出](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx4.JPG)
+![从备份文件中恢复](https://github.com/yeahwu/recycle-bin/blob/master/xx5.JPG)
+* 点击从备份文件中恢复后，找到XX-Net/SwitchyOmega/OmegaOptions.bak文件，点击打开
+![bak文件](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx5.5.JPG)
+* 跳过教程
+![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx6.JPG)
+* 点击SwitchyOmega，切换成“自动代理”
+![切换代理](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx7.JPG)
+* 到此，浏览器端设置代理也就完成了，还需最后一步，把XX-Net切换为“取消全局代理”，就可以畅游网络了。
+![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 
+# 手动导入证书
