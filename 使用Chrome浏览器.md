@@ -8,10 +8,34 @@
 4. [[手动导入证书|使用Chrome浏览器#手动导入证书]]
 
 # 下载和安装Chrome浏览器
-
+## 下载
 * Chrome官网下载地址：http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html
+![Chrome官网](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/cxx.JPG)
 * 虽然是CN网站，但是挂了"google"这个敏感词，所以会经常抽风。那么下面就多提供几个下载地址。
+
   _ 浏览迷网站：http://liulanmi.com/  
   _ 新浪软件中心：http://tech.sina.com.cn/down/  
   _ 卡饭chrome区：http://bbs.kafan.cn/forum-214-1.html  
-上面几个网站搜索或者点击chrome浏览器下载，建议用“Stable（稳定版）”。
+
+上面几个网站搜索或者点击chrome浏览器下载，建议用“Stable（稳定版）”
+
+# 安装
+* 为了不侮辱大家的智商，安装Chrome就不详解了，一路“确定”就ok了。
+
+# 获取和运行XX-Net
+* 打开[[https://github.com/XX-net/XX-Net#下载链接]]，注意看网址前是否有绿色的证书验证成功的显示。
+![下载链接](https://cloud.githubusercontent.com/assets/6830787/10131883/fe7b78ba-6605-11e5-9bff-75dd7e24a42b.PNG)
+* 选择下载稳定版，下载之后解压缩。运行文件夹中的start快捷方式（也可以运行start.vbs）
+![运行](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
+* 如果弹出管理员权限请求（用户账户控制），请允许。
+
+![管理员权限请求](https://cloud.githubusercontent.com/assets/6830787/10132435/079df852-6609-11e5-824d-06c8c4bb929b.PNG)
+
+* 首次运行可能会弹出防火墙警告，请允许访问。
+
+![防火墙警告](https://cloud.githubusercontent.com/assets/6830787/10131885/feb9afa4-6605-11e5-82c5-b2f15eb2ebd2.PNG)
+
+# 设置代理
+## 方案一：简单方法
+* 启动XX-Net后，右下角会出现[[托盘图标|托盘右键菜单]]。右键单击托盘图标，点击“全局PAC智能代理”即可。
+![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
