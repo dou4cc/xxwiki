@@ -58,6 +58,7 @@
 * 点击SwitchyOmega，切换成“自动代理”
 ![切换代理](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx7.JPG)
 * 到此，浏览器端设置代理也就完成了，还需最后一步，把XX-Net切换为“取消全局代理”，就可以畅游网络了。
+
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 
 # 手动导入证书
