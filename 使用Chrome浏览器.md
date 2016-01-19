@@ -39,3 +39,15 @@
 ## 方案一：简单方法
 * 启动XX-Net后，右下角会出现[[托盘图标|托盘右键菜单]]。右键单击托盘图标，点击“全局PAC智能代理”即可。
 ![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
+
+## 方案二：安装和使用代理切换插件
+* 打开XX-Net/SwitchyOmega文件夹；打开浏览器，设置-扩展程序 页面。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。如图
+![SwitchyOmega](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx0.JPG)
+![安装扩展程序](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx1.JPG)
+* 添加扩展程序
+![添加扩展程序](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx2.JPG)
+* 跳过教程
+![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx3.JPG)
+* 导入bak文件
+![导入／导出](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx4.JPG)
+
