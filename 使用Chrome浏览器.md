@@ -1,4 +1,4 @@
-本页面将详细演示如何在一台全新的Windows7电脑上架设起Chrome+XXnet的上网渠道。
+本页面将详细演示如何在一台全新的Windows7电脑上架设起Chrome+XX_Net的上网渠道。
 
 本文包含以下部分：
 
@@ -20,7 +20,7 @@
 上面几个网站搜索或者点击chrome浏览器下载，建议用“Stable（稳定版）”
 
 # 安装
-* 为了不侮辱大家的智商，安装Chrome就不详解了，一路“确定”就ok了。
+* 为了不侮辱大家的智商，安装Chrome就不详解了，一路“确定”就ok了
 
 # 获取和运行XX-Net
 * 打开[[https://github.com/XX-net/XX-Net#下载链接]]，注意看网址前是否有绿色的证书验证成功的显示。
@@ -62,3 +62,16 @@
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 
 # 手动导入证书
+* 正常情况下，Chrome的证书都是自动导入的。手动导入证书，只是非正常情况下才会用到，比如遇到“您打开的链接不是私密连接”，这个时候就需要手动导入证书了。
+* 点击浏览器 菜单-设置-下翻点击“显示高级设置”-点击“管理证书”
+![管理证书](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs0.JPG)
+* 选择“受信任的根证书颁发机构”这一栏，然后点击导入
+![导入证书](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs1.JPG)
+![下一步](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs2.JPG)
+* 点击浏览，然后定位到xx-net/data/gae_proxy文件夹，点击CA.crt文件，打开
+![浏览](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs3.JPG)
+![导入CA](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs4.JPG)
+* 将证书存放在“受信任的根证书颁发机构”，点击下一步，完成
+![存放](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs5.JPG)
+![完成](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs6.JPG)
+* 到此手动导入证书也就完成了。
