@@ -42,6 +42,7 @@ https://github.com/XX-net/XX-Net/wiki/Todo-Wiki  <br>
 [[在Linux下如何将XX-Net作为后台服务启动]]<br>
 [[在装有梅林固件的Netgear R6300V2上安装XX Net]]<br>
 
+[[x-tunnel使用教程]]
 [[PHP代理|PHP proxy]]    
 [[xxnet php搭建教程]]      
 [[xx-net教程-使用OpenShift搭建php空间]]    
