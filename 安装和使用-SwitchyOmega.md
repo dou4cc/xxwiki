@@ -1,6 +1,6 @@
-SwichySharp已经改名字为SwitchyOmega，虽然Chrome商店里面可以下载和搜索，但是，下载完成安装以后，会自动被要求更新为SwitchyOmega，所以，下面的介绍和流程将直接展示SwitchyOmega的安装，当然，如果之前有SwichySharp的配置，也可以导入到SwitchyOmega中，他们没有冲突。
+SwichySharp已经改名字为SwitchyOmega，虽然Chrome商店里面可以下载和搜索，但是，下载完成安装以后，会被要求更新为SwitchyOmega（可以选择无视这个提醒），所以，下面的介绍和流程将直接展示SwitchyOmega的安装，当然，如果之前有SwichySharp的配置，也可以导入到SwitchyOmega中，他们没有冲突。
 
-> 下面的安装步骤将告诉你，在你的网络还没有能力访问Chrome的网上运用商店的做法。
+* 下面的安装步骤将告诉你，在你的网络还没有能力访问Chrome的网上运用商店的做法。
 
 ###下载
 
