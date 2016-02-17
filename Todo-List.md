@@ -1,11 +1,12 @@
 + 模块化加载  
   目的：减少第一次下载的包大小，避免被GFW 截断  
   难度中：中  
-  工作量：1 month
+  工作量：1 month  
   优先级：中  
 
 + 升级python3  
   目的：利用fqrouter的代码  
+  工作量：4 week  
   优先级：中  
 
 + Auto Switch  
