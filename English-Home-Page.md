@@ -45,8 +45,8 @@ XX-Net-integrated projects
   An automatic comobo of Google Chrome browser and XX-Net  
   Maintainer：Yanu  
 
-* XX-Net-integrated Chrome  
-  https://github.com/yeahwu/chrome-xx  
+* XX-Net-integrated Firefox  
+  https://github.com/yeahwu/firefox-xx  
 
 * plusburg  
   https://github.com/Plusburg/Plusburg  
