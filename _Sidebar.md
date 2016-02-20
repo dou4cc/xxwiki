@@ -1,6 +1,6 @@
 * [[中文文档]]
-* [[English Home Page]]
-* [[Persian-home-page]]
+* [[English|English Home Page]]
+* [[Persian|Persian-home-page]]
 
 * [[使用方法]]
 * [[导入证书|GoAgent Import CA]]
