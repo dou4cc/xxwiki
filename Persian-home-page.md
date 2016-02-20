@@ -48,9 +48,9 @@ XX-Net پروژه های یکپارچه و سازگاری
   
   Maintainer：Yanu  
  
-* XX-Net-integrated Chrome  ایکس ایکس نت سازگار با کروم 
+* XX-Net-integrated Firefox  ایکس ایکس نت سازگار با فایرفاکس 
 
-  https://github.com/yeahwu/chrome-xx  
+  https://github.com/yeahwu/firefox-xx  
 
 * plusburg  
   https://github.com/Plusburg/Plusburg  
