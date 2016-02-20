@@ -1,5 +1,4 @@
 
-## 集成XX-Net的项目
 * ChromeGAE  
   http://www.ccav1.com/chromegae  
   集成Google Chrome和XX-Net的自动翻墙浏览器  
