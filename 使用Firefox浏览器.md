@@ -70,8 +70,8 @@
 ![安装pan](https://raw.githubusercontent.com/yeahwu/wu/master/pan1.png)
 * 添加过滤规则，右键点击pan插件，然后再点击“过滤规则首选项”
 ![过滤规则](https://raw.githubusercontent.com/yeahwu/wu/master/pan2.jpg)
-* 添加过滤规则订阅组，先点击“添加过滤规则订阅组”，再点击“添加”，完成。
-![添加过滤规则订阅组](https://raw.githubusercontent.com/yeahwu/wu/master/pan4.jpg)
+* 添加过滤规则订阅组，先点击“添加过滤规则订阅组”，再点击“添加”，完成。一定要添加订阅“GFWList Main”规则组。
+![添加过滤规则订阅组](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/pan4.jpg)
 * 选择默认代理，右键点击pan，选择默认代理，再点击goagent代理。
 ![默认代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan5.jpg)
 * 做到这一步，浏览器端插件设置算是完成了，记住点击pan插件，默认蓝色图标——表示“自动代理”，绿色——“全局代理”，灰色——“禁用代理”。下面是xx-net端，请点击“取消全局代理”
