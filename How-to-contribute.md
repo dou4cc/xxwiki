@@ -37,11 +37,15 @@
   XX-Net自带公共APPID，为新手提供基础的网络访问。但由于用户众多，appid的流量有时会不够用，因此希望大家能捐赠appid。    
   具体方法请查看：“[[如何捐赠APPID|DonateAppid]]”    
 
-+ 捐赠金钱    
++ 资助    
   比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC  
   DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E  
   paypal： https://pledgie.com/campaigns/30569  
 
++ 购买X_tunnel流量
+  可参考[[X_Tunnel介绍]]
+  X_tunnel模块服务端需要购买服务器，其余部分作为项目发展资金
+  我们相信商业化能使项目长久发展。
   
 
-感谢你的热情和参与！
+感谢你的热情支持和参与！
