@@ -42,10 +42,10 @@
   DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E  
   paypal： https://pledgie.com/campaigns/30569  
 
-+ 购买X_tunnel流量
-  可参考[[X_Tunnel介绍]]
-  X_tunnel模块服务端需要购买服务器，其余部分作为项目发展资金
-  我们相信商业化能使项目长久发展。
++ 购买X_tunnel流量  
+  可参考[[X_Tunnel介绍]]  
+  X_tunnel模块需要购买服务器流量，其余部分作为项目发展资金  
+  我们相信商业化能使项目长久发展。  
   
 
-感谢你的热情支持和参与！
+感谢您的热情支持和参与！
