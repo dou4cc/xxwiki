@@ -15,4 +15,4 @@
 #### 数据传输过程
 客户端的 socks5 请求，封装成 http 协议数据，通过 GAE 转发到 x_tunnel 服务器，然后 x_tunnel 服务器还原 socks5 协议，连接目标网站，然后再把目标网站数据封装成 http 协议数据，通过 GAE 传回客户端，再还原成 socks5 协议，返回给PC机，可以解决 SS 的直连模式造成的服务器IP被封问题。
 （此处应有一结构图）
-![](https://drive.google.com/file/d/0B_zCT0lTm5wFMTExU05TVC1hWkU/view?usp=sharing)
+![](E:\Proxy Tools\Xtunnel_GAE流程.JPG)
