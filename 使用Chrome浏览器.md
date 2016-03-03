@@ -55,7 +55,7 @@
 ![bak文件](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx5.5.JPG)
 * 跳过教程
 ![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx6.JPG)
-* 右键点击SwitchyOmega，切换成“XX-Net自动切换”，如果使用的是X-Tunnel或SS，请点击“X-Tunnel自动切换”。
+* 点击SwitchyOmega，切换成“XX-Net自动切换”，如果使用的是X-Tunnel或SS，请点击“X-Tunnel自动切换”。
 ![切换代理](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx7.png)
 * 到此，浏览器端设置代理也就完成了，还需最后一步，把XX-Net切换为“取消全局代理”，就可以畅游网络了。
 
