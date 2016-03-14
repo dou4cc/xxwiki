@@ -12,6 +12,10 @@
 * 翻墙路径：
 > 浏览器 -> XXNet/GoAgent -> Google App Engine -> 目标服务器
 
+结构图如下：
+
+![](https://cloud.githubusercontent.com/assets/17795455/13734940/48ef4a3c-e9de-11e5-9f98-12b77bfe9c06.jpg)
+
 
 **内网（需要设置局域网）用户**
 
@@ -20,6 +24,10 @@
 
 * 翻墙路径：
 > 浏览器 -> XXNet/GoAgent -> 局域网代理 -> Google App Engine -> 目标服务器
+
+结构图如下：
+
+![](https://cloud.githubusercontent.com/assets/17795455/13734951/85a76298-e9de-11e5-9315-2d52b199d1e3.JPG)
 
 
 **功能特性：**
