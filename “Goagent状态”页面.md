@@ -43,7 +43,7 @@
 * **当前工作AppID**
 ————使用中的APPID，最好用自己申请的可以看youtube不限流量，且相对保证私密性，公共APPID只能浏览网页。
 
-    拥有并使用自己的AppID步骤：<br>
+    拥有并使用自己的AppID步骤：
 1. [注册](how-to-create-my-appids)
 2. [部署](“部署服务端”页面)
 3. [配置](“Goagent配置”页面)
