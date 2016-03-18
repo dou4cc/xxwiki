@@ -78,8 +78,7 @@
 * **诊断信息**<br>
 ————主要信息，遇到问题可复制粘贴到[github](https://github.com/XX-net/XX-Net/issues)或[google](https://groups.google.com/forum/#!forum/xx-net)讨论组，让大家帮助解决
 
-* **显示详细信息**
-
+* **显示详细信息**<br>
 ————显示详细信息**(On)**
 **（显示）**以上所有状态信息<br>
 ————显示详细信息**(Off)**
