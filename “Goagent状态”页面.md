@@ -19,3 +19,14 @@
 * **连接池**
 ————数字均为零时不能翻墙，详见[“连接池帮助”](GoAgent Connection status)
 
+* **浏览器代理设置**
+————浏览器是否监听到GAE代理端口，默认端口127.0.0.1：8087，监听到值为“OK”否则为“Fail”
+
+* **CA证书状态**
+————检测GAE证书是否安装到浏览器，检测到值为“OK”否则为“Fail”，Fail时可手动[下载安装](http://127.0.0.1:8085/module/gae_proxy/control/download_cert)或重新运行XX－net下start.bat
+
+* **扫描IP线程数**
+————XX后台扫描线程数，默认50线程，可根据具体情况[设置](http://127.0.0.1:8085/?module=gae_proxy&menu=advanced#scan_ip)
+
+* **屏蔽状态**
+————与GAE服务器的联通状态，值为OK时可上网，Block倒计时需等待，详见[帮助](GoAgent-Blocked)
