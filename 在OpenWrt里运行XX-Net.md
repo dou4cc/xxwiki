@@ -1,7 +1,7 @@
 
 ### 需要的条件:
-安装python2.7运行环境和pyOpenSSL库。 
-`opkg install python-pyopenssl` 
+安装python2.7运行环境和pyOpenSSL库。  
+`opkg install python-pyopenssl`  
 
 ### 具体步骤：
 登陆OpenWrt控制台  
