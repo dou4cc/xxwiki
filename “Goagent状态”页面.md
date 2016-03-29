@@ -1,9 +1,6 @@
 ### 说明如下：
 
 ![](https://cloud.githubusercontent.com/assets/17795455/13872209/b112be30-ed23-11e5-9d27-a5369c489daf.JPG)
-![](https://cloud.githubusercontent.com/assets/17795455/13872210/b14b4142-ed23-11e5-8a53-c147dd834883.jpg)
-![](https://cloud.githubusercontent.com/assets/17795455/13872212/b18c770c-ed23-11e5-8605-a21dd6224180.jpg)
-
 
 * 本例中**“尚未建立连接”**为XX-net的运行状态，如显示**“XX-Net version(版本号)，一切正常，你可以访问真正的互联网了”**，即可访问GFW封锁的网址。
 
@@ -31,6 +28,8 @@
 * **屏蔽状态**<br>
 ————与GAE服务器的联通状态，值为OK时可上网，Block倒计时需等待，详见[帮助](GoAgent-Blocked)
 
+![](https://cloud.githubusercontent.com/assets/17795455/13872210/b14b4142-ed23-11e5-8a53-c147dd834883.jpg)
+
 * **监听代理**<br>
 ————本机监听代理端口，默认端口127.0.0.1：8087，可修改为0.0.0.0:8087，作为其它设备的代理翻墙，配置方法详见[为其他设备提供代理服务](为其他设备提供代理服务)
 
@@ -53,6 +52,8 @@
 
 * **System Platform**<br>
 ————系统平台
+
+![](https://cloud.githubusercontent.com/assets/17795455/13872212/b18c770c-ed23-11e5-8605-a21dd6224180.jpg)
 
 * **OS System**<br>
 ————操作系统类型
