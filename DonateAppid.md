@@ -5,7 +5,7 @@
    * 不需要部署
 
 2. 将所有权转给公共帐号：   
-  * 进入 https://appengine.google.com  
+  * 进入 https://console.cloud.google.com  
   * 分别进入你的Appid，点击左边的Permissions（注意灰色的字体）<br>
 ![Permissions](https://cloud.githubusercontent.com/assets/10395528/12252904/5ce28110-b916-11e5-8630-243b62d3f1c3.png)<br>
   会跳到（console.developers.google.com/permissions?project=**_yourappid-001_**&src=ac)<br>
