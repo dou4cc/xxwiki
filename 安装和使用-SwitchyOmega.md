@@ -31,6 +31,7 @@ eyJjb25maWciOiJ7XCJmaXJzdFRpbWVcIjpcIjpdXCIsXCJwcm94eU1vZGVcIjpcImF1dG9cIixcImF1
 4. 选择从“备份文件恢复”，将XX-net目录下 SwitchyOmega文件夹->SwitchyOptions.bak导入进去；
 
 5. 完成安装，默认的代理端口是8087，
+
 *6. 默认的pac地址是http://127.0.0.1:8086/proxy.pac
 在“选项”中添加 PAC 文件 PAC URL中输入http://127.0.0.1:8086/proxy.pac
 
