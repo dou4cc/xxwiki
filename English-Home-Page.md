@@ -25,7 +25,7 @@ can do the job for you (Increase the count to 2048 and restart your PC.)
 |Download: |https://github.com/XX-net/XX-Net/releases|
 |Easy Browser Bundle: |https://github.com/yeahwu/chrome-xx|
 |Issues:  |https://github.com/XX-net/XX-Net/issues|
-|Discus:  |https://groups.google.com/forum/#!forum/xx-net|
+|Discuss:  |https://groups.google.com/forum/#!forum/xx-net|
 |Email:   |xxnet.dev at gmail.com|
 
 How to contribute
