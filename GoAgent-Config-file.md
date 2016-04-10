@@ -86,3 +86,6 @@ forward_max_connect_thread = 10   <- fwd 模式的最大发起连接
 ; 保留GoAgent 的爱心广告  
 enable = 0  
 tip = \u8bf7\u5173\u6ce8\u5317\u4eac\u5931\u5b66\u513f\u7ae5~~  
+
+
+external link:[为其他设备提供代理服务](https://github.com/XX-net/XX-Net/wiki/%E4%B8%BA%E5%85%B6%E4%BB%96%E8%AE%BE%E5%A4%87%E6%8F%90%E4%BE%9B%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1)
