@@ -1,4 +1,5 @@
 文字版：https://github.com/XX-net/XX-Net/wiki/Register-Google-appid<br>
+#如何注册自己的appid
 # 前期准备
 ## 注册 Google 帐号<br>
 请填入手机号，为后面使用appengine做准备<br>
