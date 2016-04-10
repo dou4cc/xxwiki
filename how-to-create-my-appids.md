@@ -15,7 +15,7 @@ https://www.google.com/settings/security/lesssecureapps<br>
 设备选"其他"，随便起个名词，比如GoAgent，点"生成"后，会出来一串密码。 以后就拿这个密码来上传appid部署服务端)<br>
 
 # 申请appid
-1、打开 https://console.developers.google.com/ ，你会看到下图的界面  
+1、打开 https://console.cloud.google.com ，你会看到下图的界面  
 ![](https://cloud.githubusercontent.com/assets/10395528/12047781/43448b86-af0c-11e5-9e9f-be9431c1f9a0.png)<br>
 2、点击该界面中的“Create a project”按钮，会看到如下的界面  
 ![](https://cloud.githubusercontent.com/assets/10395528/12047789/67b97c2e-af0c-11e5-8fac-e818836f9e61.png)<br>  
