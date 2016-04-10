@@ -11,8 +11,8 @@ https://myaccount.google.com/phone?pli=1<br>
 https://www.google.com/settings/security/lesssecureapps<br>
 对于多数用户而言，你只需要启用弱安全应用，就可以上传appid<br>
 
-注：如果你已经启用2步登录验证，那么不需要启用弱安全应用，而是设置应用专用密码： https://security.google.com/settings/security/apppasswords<br>
-设备选"其他"，随便起个名词，比如GoAgent，点"生成"后，会出来一串密码。 以后就拿这个密码来上传appid部署服务端<br>
+(注：如果你已经启用2步登录验证，那么不需要启用弱安全应用，而是设置应用专用密码： https://security.google.com/settings/security/apppasswords<br>
+设备选"其他"，随便起个名词，比如GoAgent，点"生成"后，会出来一串密码。 以后就拿这个密码来上传appid部署服务端<br>)
 
 # 申请appid
 1、打开 https://console.developers.google.com/ ，你会看到下图的界面  
