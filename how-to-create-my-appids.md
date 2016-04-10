@@ -2,10 +2,10 @@
 #如何注册自己的appid
 # 前期准备
 ## 注册 Google 帐号<br>
-请填入手机号，为后面使用appengine做准备<br>
+为后面使用appengine做准备，会需要手机号<br>
 https://accounts.google.com/SignUp<br>
 ## 绑定手机号码<br>
-https://security.google.com/settings/phone?pli=1<br>
+https://myaccount.google.com/phone?pli=1<br>
 没有绑定手机号码，是不能注册appengine服务的<br>
 ## 启用弱安全应用<br>
 https://www.google.com/settings/security/lesssecureapps<br>
@@ -37,14 +37,18 @@ https://www.google.com/settings/security/lesssecureapps<br>
 
 # 上传服务端
  - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。    
-1、打开http://127.0.0.1:8085/?module=goagent&menu=deploy ，按下图说明操作：
-![](http://i4.tietuku.com/42cc5b145e4ccd76.png)
-![](http://i4.tietuku.com/0252209010b5ad68.png)<br>
-2、如果你成功做到这一步，那么恭喜你，你即将修成正果，只差最后一步。
-打开http://127.0.0.1:8085/?module=goagent&menu=config ，然后老样子看图即可。
+1、打开http://127.0.0.1:8085/?module=gae_proxy&menu=deploy
+
+2、在框中输入你已经申请的AppID, “批量部署多个AppID, 请用|分割”
+![deploy](https://cloud.githubusercontent.com/assets/14904657/14408865/469f6342-ff38-11e5-871d-99ae5282b5c4.png)
+
+3、部署完成
+
+4、打开http://127.0.0.1:8085/?module=gae_proxy&menu=config，填入你的AppID。多个AppID, 请用|分割。
 ![](http://i4.tietuku.com/be7a1a71ab4ce795.png)<br>
-3、当你点击“保存并重启”的那一刻，你就脱离了苦海，视频畅饮，没有任何限制<br>
+
+4、当你点击“保存并重启”的那一刻，你就脱离了苦海，视频畅饮，没有任何限制<br>
 
 # 一些说明
-1、每个GAE应用每天限额流量1G，每个帐号限制12个<br>
+1、每个GAE应用每天限额流量1G，每个google帐号限制12个AppID<br>
 2、appid只影响流量，不影响速度<br>
