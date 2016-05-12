@@ -30,10 +30,10 @@ https://www.google.com/settings/security/lesssecureapps<br>
   
    如果你已经启用2步登录验证，请设置应用专用密码：  
 打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：  
-![](http://cloud.githubusercontent.com/assets/19320102/15206891/05dcfee2-1855-11e6-83a7-ea1514bf8096.png)
-![](http://cloud.githubusercontent.com/assets/19320102/15206889/05dbec6e-1855-11e6-99ee-e8c48fb44f34.png)
-![](http://cloud.githubusercontent.com/assets/19320102/15206888/05cfcbe6-1855-11e6-8c79-ca1848a7e2b4.png)
-![](http://cloud.githubusercontent.com/assets/19320102/15206890/05dce75e-1855-11e6-81b8-aa0a7efb0480.png)<br>
+![](https://cloud.githubusercontent.com/assets/19320102/15206891/05dcfee2-1855-11e6-83a7-ea1514bf8096.png)
+![](https://cloud.githubusercontent.com/assets/19320102/15206889/05dbec6e-1855-11e6-99ee-e8c48fb44f34.png)
+![](https://cloud.githubusercontent.com/assets/19320102/15206888/05cfcbe6-1855-11e6-8c79-ca1848a7e2b4.png)
+![](https://cloud.githubusercontent.com/assets/19320102/15206890/05dce75e-1855-11e6-81b8-aa0a7efb0480.png)<br>
 
 # 上传服务端
  - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。    
