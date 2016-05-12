@@ -16,7 +16,7 @@ https://www.google.com/settings/security/lesssecureapps<br>
 
 # 申请appid
 1、打开 https://console.cloud.google.com ，你会看到下图的界面  
-![](https://cloud.githubusercontent.com/assets/13873808/15204523/bc97f930-1840-11e6-8c58-7674120cccfb.png)<br>
+![](https://cloud.githubusercontent.com/assets/19320102/15206852/cd0a0466-1854-11e6-8f2f-2d8cb1f4077c.png)<br>
 2、点击该界面中的“Create a project”按钮，会看到如下的界面  
 ![](https://cloud.githubusercontent.com/assets/10395528/12047789/67b97c2e-af0c-11e5-8fac-e818836f9e61.png)<br>  
   1 填入你希望的appid  
@@ -30,13 +30,14 @@ https://www.google.com/settings/security/lesssecureapps<br>
   
    如果你已经启用2步登录验证，请设置应用专用密码：  
 打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：  
-![](http://i4.tietuku.com/809d7ca3759acb5e.png)
-![](http://i4.tietuku.com/2ce5a40a8a0f90b2.png)
-![](http://i4.tietuku.com/09f7a94cbaf6b2ac.png)
-![](http://i4.tietuku.com/6c120045abe36a1b.png)<br>
+![](http://https://cloud.githubusercontent.com/assets/19320102/15206891/05dcfee2-1855-11e6-83a7-ea1514bf8096.png)
+![](http://https://cloud.githubusercontent.com/assets/19320102/15206889/05dbec6e-1855-11e6-99ee-e8c48fb44f34.png)
+![](http://https://cloud.githubusercontent.com/assets/19320102/15206888/05cfcbe6-1855-11e6-8c79-ca1848a7e2b4.png)
+![](http://https://cloud.githubusercontent.com/assets/19320102/15206890/05dce75e-1855-11e6-81b8-aa0a7efb0480.png)<br>
 
 # 上传服务端
  - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。    
+
 1、打开http://127.0.0.1:8085/?module=gae_proxy&menu=deploy
 
 2、在框中输入你已经申请的AppID, “批量部署多个AppID, 请用|分割”
