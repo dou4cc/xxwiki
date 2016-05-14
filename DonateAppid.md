@@ -5,17 +5,10 @@
    * 不需要部署
 
 2. 将所有权转给公共帐号：   
-  * 进入 https://console.cloud.google.com/permissions
-  * 选择你要贡献的Appid(右上角)
-<br>
-![permissions](https://cloud.githubusercontent.com/assets/14904657/14408469/a9a648a8-ff28-11e5-959d-ec36146903de.png)
-<br>
-  跳转至 console.developers.google.com/permissions/projectpermissions?project=**_yourappid-001_**)
-<br>
-<br>
-  * 点击 Add members
+  * 进入 https://console.cloud.google.com/iam-admin/projects
+  * 选择你要贡献的Appid
   * 将xxnet.service@gmail.com填入Members，role选Owner，提交(add)<br>  
-![submit](https://cloud.githubusercontent.com/assets/14904657/14408485/9c096dbe-ff29-11e5-9159-aaee5ac340cb.png)
+![](https://cloud.githubusercontent.com/assets/19320102/15267708/9044092a-19fb-11e6-94e4-de6558dd5939.png)
 <br>
 
 
