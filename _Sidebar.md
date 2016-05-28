@@ -3,8 +3,8 @@
 [[English|English Home Page]]<br>
 [[Persian|Persian-home-page]]<br>
     
-* [[How_to_use]]
-* [[How_to_update]]
+* [[使用方法|How_to_use]]
+* [[更新方法|How_to_update]]
 * [[导入证书|GoAgent Import CA]]
 * [[创建自己的appid|how to create my appids]]
 * [[故障速查|故障速查手册]]
