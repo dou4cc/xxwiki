@@ -1,3 +1,5 @@
+更新方法
+========
 ## 手动更新(推荐)
 * 备份__data__文件夹
 * 下载[__XX-Net-Release__](https://github.com/XX-net/XX-Net/releases)版本或者根据[__下载页面__](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)提示进行版本选择
