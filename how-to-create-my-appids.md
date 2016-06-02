@@ -40,15 +40,14 @@ https://www.google.com/settings/security/lesssecureapps<br>
 
 1、打开http://127.0.0.1:8085/?module=gae_proxy&menu=deploy
 
-2、在框中输入你已经申请的AppID, “批量部署多个AppID, 请用|分割”
+2、在框中输入你已经申请的AppID, 批量部署多个AppID, 请用|分割，点击“开始部署”进行部署。
 ![deploy](https://cloud.githubusercontent.com/assets/14904657/14408865/469f6342-ff38-11e5-871d-99ae5282b5c4.png)
 
-3、部署完成
+3、打开http://127.0.0.1:8085/?module=gae_proxy&menu=config
+   填入你的AppID。多个AppID, 请用|分割，点击“保存”完成部署
+![](https://cloud.githubusercontent.com/assets/19320102/15735542/425a7214-28cc-11e6-8d64-958679a55747.png)<br>
 
-4、打开http://127.0.0.1:8085/?module=gae_proxy&menu=config，填入你的AppID。多个AppID, 请用|分割。
-![](http://i4.tietuku.com/be7a1a71ab4ce795.png)<br>
 
-4、当你点击“保存并重启”的那一刻，你就脱离了苦海，视频畅饮，没有任何限制<br>
 
 # 一些说明
 1、每个GAE应用每天限额流量1G，每个google帐号限制12个AppID<br>
