@@ -62,7 +62,7 @@
      `code/xx_net.sh start/stop/restart`
 
 ## 关于 ArchLinux
-  - 可能需要的包: `python2-pyopenssl libffi pygtk python2-notify nss`  
+  - 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss`  
 
 ## 关于 Fedora
   - 添加 [FZUG 源](https://github.com/FZUG/repo/wiki/%E6%B7%BB%E5%8A%A0-FZUG-%E6%BA%90)，安装 xx-net
