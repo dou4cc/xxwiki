@@ -5,12 +5,11 @@
 1. [[下载和安装Chrome浏览器|使用Chrome浏览器#下载和安装Chrome浏览器]]
 2. [[获取和运行XX-Net|使用Chrome浏览器#%E8%8E%B7%E5%8F%96%E5%92%8C%E8%BF%90%E8%A1%8Cxx-net]]
 3. [[设置代理|使用Chrome浏览器#设置代理]]
-4. [[手动导入证书|使用Chrome浏览器#手动导入证书]]
+4. [[手动导入证书(备选）|使用Chrome浏览器#手动导入证书]]
 
 # 下载和安装Chrome浏览器
 ## 下载
-* Chrome官网下载地址：http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html
-![Chrome官网](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/cxx.JPG)
+* Chrome官网下载地址：https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html
 * 虽然是CN网站，但是挂了"google"这个敏感词，所以会经常抽风。那么下面就多提供几个下载地址。
 
   _ 浏览迷网站：http://liulanmi.com/  
@@ -23,10 +22,10 @@
 * 为了不侮辱大家的智商，安装Chrome就不详解了，一路“确定”就ok了
 
 # 获取和运行XX-Net
-* 打开[[https://github.com/XX-net/XX-Net#下载链接]]，注意看网址前是否有绿色的证书验证成功的显示。
-![下载链接](https://cloud.githubusercontent.com/assets/6830787/10131883/fe7b78ba-6605-11e5-9bff-75dd7e24a42b.PNG)
-* 选择下载稳定版，下载之后解压缩。运行文件夹中的start快捷方式（也可以运行start.vbs）
-![运行](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
+* 打开[[https://github.com/XX-net/XX-Net/blob/master/code/default/download.md]]，选择稳定版下载.
+![下载链接](https://cloud.githubusercontent.com/assets/13873808/16293362/eaa5e1ee-394b-11e6-8660-04d84892c8d2.png)
+* 下载完毕后解压缩文件夹，运行文件夹中start.vbs文件
+![运行](https://cloud.githubusercontent.com/assets/13873808/16293263/150b6cc0-394b-11e6-9b84-9428caa6f780.png)
 * 如果弹出管理员权限请求（用户账户控制），请允许。
 
 ![管理员权限请求](https://cloud.githubusercontent.com/assets/6830787/10132435/079df852-6609-11e5-824d-06c8c4bb929b.PNG)
@@ -41,7 +40,7 @@
 ![托盘右键菜单](https://cloud.githubusercontent.com/assets/6830787/10132436/07a149f8-6609-11e5-8e1b-1dbe9336b226.PNG)
 
 ## 方案二：安装和使用代理切换插件
-* 打开XX-Net/SwitchyOmega文件夹；打开浏览器，设置-扩展程序 页面。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。如图
+* 打开XX-Net/SwitchyOmega文件夹；打开浏览器的扩展程序页面 chrome://extensions 。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。如图
 ![SwitchyOmega](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx0.JPG)
 ![安装扩展程序](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx1.JPG)
 * 添加扩展程序
