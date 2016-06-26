@@ -2,18 +2,21 @@
 + 一般用户使用WebUI配置即可，不必修改配置文件  
 + WebUI的配置，保存到 data/gae_proxy/config.ini  
 + gae_proxy/local/proxy.ini 会在升级时被覆盖，请不用修改  
-+ 高级用户想修改某个参数，可以生成 data/gae_proxy/manual.ini 在里面放对应的配置  
++ 高级用户想修改某个参数，可以生成 data/gae_proxy/manual.ini 在里面放对应的配置   
+  例如：将监听IP改为0.0.0.0，则在manual.ini中写下:   
+   [listen]   
+   ip = 0.0.0.0   
+   port = 8087   
 
 ###配置文件格式说明：  
 
 [listen]  
 ip = 127.0.0.1   <- GoAgent代理服务的监听绑定ip  
 port = 8087      <- 代理绑定端口  
-visible = 1      <- 目前无效  
-debuginfo = 0    <- 目前无效  
 
 [gae]  
-appid = xxnet-1  
+public_appid =  <-公共appid    
+appid =         <-私人appid，可在web页面中部署，参见[[创建自己的appid|how to create my appids]]   
 password =  
   
   
@@ -44,9 +47,8 @@ bufsize = 8192         <- 后续读写量，一般不要修改
 enable = 1  
 ip = 127.0.0.1  
 port = 8086  
-file = proxy.pac  
-gfwlist = https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
-
+file = proxy.pac <-可以替换成个人的pac文件，将个人编写的pac文件（例如myproxy.pac）放到code\default\gae_proxy\local文件夹中，此行改为“file =myproxy.pac”      
+gfwlist = https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt  
 ;adblock = http://adblock-chinalist.googlecode.com/svn/trunk/adblock.txt  
 ; adblock 项目已经停止维护更新  
 expired = 86400  
