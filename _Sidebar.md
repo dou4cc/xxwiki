@@ -10,4 +10,6 @@
 * [[故障速查|故障速查手册]]
 * [[启动失败|How-to-get-start-error-log]]
 * [[证书错误]]
+* [[使用Chrome浏览器]]
+* [[使用Firefox浏览器]]
 
