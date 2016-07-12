@@ -1,16 +1,23 @@
-更新方法
---------
+# 更新方法
 
-# 手动更新(推荐)
+手动更新(推荐)
+===========
+
 * 备份 __data__ 文件夹(__data__ 文件夹内保存了 appid,ip 等配置信息)
+
 * 下载[__XX-Net-Release__](https://github.com/XX-net/XX-Net/releases)版本或者根据[__下载页面__](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)提示进行版本选择
+
 * 解压缩下载的文件
+
 * 将 __data__ 文件夹放到解压缩目录
+
 * 更新完成
 
-# 自动更新
+自动更新
+=======
 
-## 自动升级的类型
+自动升级的类型
+-----------
 
 为了方便升级，同时适应不同用户的需要，提供几种不同的升级方式：  
 
@@ -32,7 +39,8 @@
 自动检查更新频率：每次启动时，以及启动后每24小时
 
 
-## 如何设置
+如何设置
+-------
 
 * 启动XX-Net后，打开http://127.0.0.1:8085/?module=launcher&menu=config
 ![升级管理](https://cloud.githubusercontent.com/assets/6830787/8200348/44002270-14f6-11e5-8bd9-62d27af83773.PNG)
@@ -43,5 +51,6 @@
 * 在下拉菜单中进行选择，窗口上方会出现“设置已成功保存.”字样，设置完成。
 ![设置成功保存](https://cloud.githubusercontent.com/assets/6830787/8200383/da77c618-14f6-11e5-8b2a-4fb9385d3437.PNG)
 
-## 使用 Git 更新(不推荐新手)
+使用 Git 更新(不推荐新手)
+==============
 * 等待编写
