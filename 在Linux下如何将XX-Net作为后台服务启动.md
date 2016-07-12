@@ -1,22 +1,36 @@
 #把 XX-Net 作为后台服务启动
 
-有些时候，在没有安装桌面的 Linux 服务器上，需要把 xx-net 作为后台服务启动,
-这时候只需要在 XX-Net 目录下，用 root 权限运行 xx_net.sh 就可以了.
+如果希望把XX-Net作为服务启动，XX-net 其实已经提供了sysv的启动脚本。假设你的XX-Net 的目录在/home/yourName/XX-Net，那么在/etc/init.d 目录下执行
+
+sudo ln -s /home/yourName/XX-Net/code/default/xx_net.sh xx_net
+
+如果系统使用systemD 进行服务管理，则执行下面命令启用xx_net服务：
+
+    sudo systemctl enable xx_net
+
+如果你是debian的系统，则使用下面命令启用xx_net服务:
+    
+    sudo update-rc.d enable xx_net 
 
 启动xx-net：
 
-    sudo xx_net.sh start
+    sudo service xx_net start
 
   
 停止xx-net：
 
-    sudo xx_net.sh stop
+    sudo service xx_net stop
 
   
 重启xx-net:
 
-    sudo xx_net.sh restart
+    sudo service xx_net restart
 
+查看XX-net状态：
+    sudo service xx_net status
+
+也或者用下面命令更靠谱些：
+    sudo netstat -tlanp|grep 8087
   
 日志保存在/var/log/messages文件中，用tail命令查看：
 
