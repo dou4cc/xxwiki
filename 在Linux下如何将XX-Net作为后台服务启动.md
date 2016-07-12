@@ -27,9 +27,11 @@ sudo ln -s /home/yourName/XX-Net/code/default/xx_net.sh xx_net
     sudo service xx_net restart
 
 查看XX-net状态：
+
     sudo service xx_net status
 
 也或者用下面命令更靠谱些：
+
     sudo netstat -tlanp|grep 8087
   
 日志保存在/var/log/messages文件中，用tail命令查看：
