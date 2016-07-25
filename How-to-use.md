@@ -53,7 +53,7 @@
 ![](https://github.com/sonichy/CMDU/blob/master/Firefox%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE.png)   
     推荐Chrome + SwitchyOmega
   - ubuntu 下，可能需要安装  
-     `sudo apt-get install python-OpenSSL`  
+     `sudo apt-get install python-openssl`  
      `sudo apt-get install libffi-dev`  
      `sudo apt-get install -y python-gtk2`   
      `sudo apt-get install python-appindicator`  
