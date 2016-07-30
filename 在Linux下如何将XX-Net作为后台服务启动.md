@@ -4,7 +4,7 @@
 
 sudo ln -s /home/yourName/XX-Net/code/default/xx_net.sh xx_net
 
-__ Tips: 如果你发现使用上面超链接的方式，在系统启动时xx_net的服务起不来，但是使用sudo service xx_net start 却可以启动服务，而在dmesg|grep xx_net 时，会发现有/etc/init.d/xx_net no such file or directory 的错误，那你可能遇到了systemd 的bug,解决办法是拷贝/home/yourName/XX-Net/code/default/xx_net.sh 到 /etc/init.d/xx_net ,然后修改/etc/init.d/xx_net 里的$PACKAGE_PATH='/home/yourName/XX-Net/code/default'
+*Tips: 如果你发现使用上面超链接的方式，在系统启动时xx_net的服务起不来，但是使用sudo service xx_net start 却可以启动服务，而在dmesg|grep xx_net 时，会发现有/etc/init.d/xx_net no such file or directory 的错误，那你可能遇到了systemd 的bug,解决办法是拷贝/home/yourName/XX-Net/code/default/xx_net.sh 到 /etc/init.d/xx_net ,然后修改/etc/init.d/xx_net 里的$PACKAGE_PATH='/home/yourName/XX-Net/code/default'*
 
 如果系统使用systemD 进行服务管理，则执行下面命令启用xx_net服务：
 
