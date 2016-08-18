@@ -11,4 +11,4 @@
      在Archlinux中使用yaourt命令安装软件，也会出错  
      相比之下，goproxy可以
 
-2. 和goproxy相比，xx-net下载大文件容易断开
+2. 和goproxy相比，xx-net下载大文件（90M以上）容易断开
