@@ -59,7 +59,9 @@
      `sudo apt-get install python-appindicator`  
      `sudo apt-get install libnss3-tools`  
   - 后台运行：在终端中运行：    
-     `code/xx_net.sh start/stop/restart`
+     `code/default/xx_net.sh start/stop/restart`
+  - 开机自启：在/etc/rc.local中添加一行：    
+     `sudo /home/username/xxnet/code/default/xx_net.sh start`
 
 ## 关于 ArchLinux
   - 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss`  
