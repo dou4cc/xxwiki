@@ -1,5 +1,3 @@
-此教程可切换至[无图版](https://github.com/XX-net/XX-Net/wiki/Register-Google-appid)  
-
 # 登录Google帐户 #
 https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能需要更换线路或[梯子](https://wsgzao.github.io/post/fq))  
 
