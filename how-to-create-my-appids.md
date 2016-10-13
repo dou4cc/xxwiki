@@ -1,54 +1,25 @@
-文字版：https://github.com/XX-net/XX-Net/wiki/Register-Google-appid<br>
-#如何注册自己的appid
-# 前期准备
-## 注册 Google 帐号<br>
-为后面使用appengine做准备，会需要手机号<br>
-https://accounts.google.com/SignUp<br>
-## 绑定手机号码<br>
-https://myaccount.google.com/phone?pli=1<br>
-没有绑定手机号码，是不能注册appengine服务的<br>
-## 启用弱安全应用<br>
-对于多数用户而言，你只需要启用弱安全应用，就可以上传appid<br>
-https://www.google.com/settings/security/lesssecureapps<br>
-![](https://cloud.githubusercontent.com/assets/19320102/16114233/cb73085a-33f2-11e6-9515-be483c43e43a.png)<br>
-(注：如果你已经启用2步登录验证，那么不需要启用弱安全应用，而是设置应用专用密码： https://security.google.com/settings/security/apppasswords<br>
-设备选"其他"，随便起个名词，比如GoAgent，点"生成"后，会出来一串密码。 以后就拿这个密码来上传appid部署服务端)<br>
+此教程可切换至[无图版](https://github.com/XX-net/XX-Net/wiki/Register-Google-appid)  
 
-# 申请appid
-1、打开 https://console.cloud.google.com ，你会看到下图的界面  
-![](https://cloud.githubusercontent.com/assets/19320102/15206852/cd0a0466-1854-11e6-8f2f-2d8cb1f4077c.png)<br>
-2、点击该界面中的“Create a project”按钮，会看到如下的界面  
-![](https://cloud.githubusercontent.com/assets/10395528/12047789/67b97c2e-af0c-11e5-8fac-e818836f9e61.png)<br>  
-  1 填入你希望的appid  
-    下面的appid会显示实际给你的appid，建议字母后面加上3-4个数字  
-  2 点选不要发邮件   
-  3 点同意  
-  4 提交  
-# 设置部署权限  
-   如果你没有启用2步登录验证，请启用弱安全应用   
-       https://www.google.com/settings/security/lesssecureapps  
-  
-   如果你已经启用2步登录验证，请设置应用专用密码：  
-打开 https://security.google.com/settings/security/apppasswords ，并且按照下图操作：  
-![](https://cloud.githubusercontent.com/assets/19320102/15206891/05dcfee2-1855-11e6-83a7-ea1514bf8096.png)
-![](https://cloud.githubusercontent.com/assets/19320102/15206889/05dbec6e-1855-11e6-99ee-e8c48fb44f34.png)
-![](https://cloud.githubusercontent.com/assets/19320102/15206888/05cfcbe6-1855-11e6-8c79-ca1848a7e2b4.png)
-![](https://cloud.githubusercontent.com/assets/19320102/15206890/05dce75e-1855-11e6-81b8-aa0a7efb0480.png)<br>
+# 登录Google帐户 #
+https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能需要更换线路或[梯子](https://wsgzao.github.io/post/fq))  
 
-# 上传服务端
- - 提示：在部署之前，APPID是无法使用的，不要将他们填入到XX-Net的配置中。    
+# 创建AppID #
+1. 打开https://console.developers.google.com ，左击顶部`Project`，然后左击`创建项目`  
+![1-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19354947/1f4ae8ac-919b-11e6-9cc8-e0a589080de2.png)  
+2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  
+![2-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19355039/7080b8a0-919b-11e6-89f4-34b649975804.png)  
 
-1、打开http://127.0.0.1:8085/?module=gae_proxy&menu=deploy
+# 部署服务端 #
+1. 打开XX-Net的设置页：http://127.0.0.1:8085 ，切换到`部署服务端`
+2. 输入AppID后，左击`开始部署`，会弹出授权窗口  
+![3-Deploy.png](https://cloud.githubusercontent.com/assets/5118705/19356731/61e3b1ca-91a1-11e6-85b3-c4e034d99d65.png)
+3. 左击`Allow`，然后就会进行服务端的部署  
+![4-RequestForPermission.png](https://cloud.githubusercontent.com/assets/5118705/19356129/501fa69e-919f-11e6-9b7a-549e4a0151de.png)
+4. 部署完成后，切换到`配置`，输入部署好的AppID后左击`保存`  
+![5-Config.png](https://cloud.githubusercontent.com/assets/5118705/19356467/884aaba8-91a0-11e6-9f45-4d4648510d64.png)
+5. 切换到`状态`来确认状态  
+![6-Status.png](https://cloud.githubusercontent.com/assets/5118705/19358167/87d799a4-91a7-11e6-8e1c-ee29c53ae18e.png)
 
-2、在框中输入你已经申请的AppID, 批量部署多个AppID, 请用|分割，点击“开始部署”进行部署。
-![deploy](https://cloud.githubusercontent.com/assets/14904657/14408865/469f6342-ff38-11e5-871d-99ae5282b5c4.png)
-
-3、打开http://127.0.0.1:8085/?module=gae_proxy&menu=config
-   填入你的AppID。多个AppID, 请用|分割，点击“保存”完成部署
-![](https://cloud.githubusercontent.com/assets/19320102/15735542/425a7214-28cc-11e6-8d64-958679a55747.png)<br>
-
-
-
-# 一些说明
-1、每个GAE应用每天限额流量1G，每个google帐号限制12个AppID<br>
-2、appid只影响流量，不影响速度<br>
+# 说明 #
+1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
+2. AppID的数量只影响流量，不影响速度
