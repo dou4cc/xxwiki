@@ -4,8 +4,8 @@ data/x_tunnel/client.json
 
 ###内容：
 `{
-  "socks_host"： "127.0.0.1",
-  "socks_port": 1080
+  "socks_host" : "127.0.0.1",
+  "socks_port" : 1080
 }`
 
 ###说明：
