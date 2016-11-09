@@ -52,7 +52,7 @@
 ![从备份文件中恢复](https://github.com/yeahwu/recycle-bin/blob/master/xx5.JPG)
 * 点击从备份文件中恢复后，找到XX-Net/SwitchyOmega/OmegaOptions.bak文件，点击打开
 ![bak文件](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx5.5.JPG)
-* 跳过教程
+* 点击情景模式中的 XX-Net自动切换 ,跳过教程
 ![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx6.JPG)
 * 下拉点击“立即更新情景模式”
 ![更新情景模式](https://cloud.githubusercontent.com/assets/13328328/16223849/f6731972-37d1-11e6-83c1-88b876f4f52d.png)
