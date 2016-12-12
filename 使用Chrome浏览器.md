@@ -62,7 +62,7 @@
 
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 
-# 手动导入证书
+# 手动导入证书（备选）
 * 正常情况下，Chrome的证书都是自动导入的。手动导入证书，只是非正常情况下才会用到，比如遇到“您打开的链接不是私密连接”，这个时候就需要手动导入证书了。
 * 点击浏览器 菜单-设置-下翻点击“显示高级设置”-点击“管理证书”
 ![管理证书](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs0.JPG)
