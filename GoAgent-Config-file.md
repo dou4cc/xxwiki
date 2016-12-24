@@ -1,15 +1,18 @@
 ###GoAgent配置说明：
 + 一般用户使用WebUI配置即可，不必修改配置文件  
-+ WebUI的配置，保存到 data/gae_proxy/config.ini  
-+ gae_proxy/local/proxy.ini 会在升级时被覆盖，请不用修改  
-+ 高级用户想修改某个参数，可以生成 data/gae_proxy/manual.ini 在里面放对应的配置   
-  例如：将监听IP改为0.0.0.0，则在manual.ini中写下:   
++ WebUI的配置，保存到 `data/gae_proxy/config.ini`
++ `gae_proxy/local/proxy.ini` 会在升级时被覆盖，请不用修改  
++ 高级用户想修改某个参数，可以生成 `data/gae_proxy/manual.ini` 在里面放对应的配置   
+  例如：将监听IP改为`0.0.0.0`，则在`manual.ini`中写下:   
+```ini
    [listen]   
    ip = 0.0.0.0   
    port = 8087   
+```
 
 ###配置文件格式说明：  
 
+```ini
 [listen]  
 ip = 127.0.0.1   <- GoAgent代理服务的监听绑定ip  
 port = 8087      <- 代理绑定端口  
@@ -88,6 +91,6 @@ forward_max_connect_thread = 10   <- fwd 模式的最大发起连接
 ; 保留GoAgent 的爱心广告  
 enable = 0  
 tip = \u8bf7\u5173\u6ce8\u5317\u4eac\u5931\u5b66\u513f\u7ae5~~  
+```
 
-
-external link:[为其他设备提供代理服务](https://github.com/XX-net/XX-Net/wiki/%E4%B8%BA%E5%85%B6%E4%BB%96%E8%AE%BE%E5%A4%87%E6%8F%90%E4%BE%9B%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1)
+External link: [为其他设备提供代理服务](https://github.com/XX-net/XX-Net/wiki/%E4%B8%BA%E5%85%B6%E4%BB%96%E8%AE%BE%E5%A4%87%E6%8F%90%E4%BE%9B%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1)
