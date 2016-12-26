@@ -5,7 +5,7 @@
 1. [[下载和安装Chrome浏览器|使用Chrome浏览器#下载和安装Chrome浏览器]]
 2. [[获取和运行XX-Net|使用Chrome浏览器#%E8%8E%B7%E5%8F%96%E5%92%8C%E8%BF%90%E8%A1%8Cxx-net]]
 3. [[设置代理|使用Chrome浏览器#设置代理]]
-4. [[手动导入证书（备选）|使用Chrome浏览器#手动导入证书（备选）]]
+4. [[手动导入证书（备选）|使用Chrome浏览器#手动导入证书(备选)]]
 
 # 下载和安装Chrome浏览器
 ## 下载
@@ -62,7 +62,7 @@
 
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
 
-# 手动导入证书（备选）
+# 手动导入证书(备选)
 * 正常情况下，Chrome的证书都是自动导入的。手动导入证书，只是非正常情况下才会用到，比如遇到“您打开的链接不是私密连接”，这个时候就需要手动导入证书了。
 * 点击浏览器 菜单-设置-下翻点击“显示高级设置”-点击“管理证书”
 ![管理证书](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/zs0.JPG)
