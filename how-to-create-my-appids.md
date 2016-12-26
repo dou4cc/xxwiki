@@ -6,6 +6,13 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 ![1-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19354947/1f4ae8ac-919b-11e6-9cc8-e0a589080de2.png)  
 2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  
 ![2-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19355039/7080b8a0-919b-11e6-89f4-34b649975804.png)  
+3. 2016年12月后新注册用户部署AppID出现404错误的请转至`设置AppID的App引擎`解决相应问题
+
+# 设置AppID的App引擎 #
+1. 打开https://console.cloud.google.com/home/ (Google Cloud Platform)，可在左上角选择对应AppID
+2. 在页面顶端中部搜索栏输入`App 引擎`回车进入App引擎管理界面
+3. 在弹出的“欢迎使用App引擎”界面的左侧点击`选择一种语言`，选择`Python` (解决方案最先源于https://github.com/XX-net/XX-Net/issues/4720)
+4. 在“你想在哪里提供自己的应用？”界面，更改`选择位置`为`us-central`
 
 # 部署服务端 #
 1. 打开XX-Net的设置页：http://127.0.0.1:8085 ，切换到`部署服务端`
