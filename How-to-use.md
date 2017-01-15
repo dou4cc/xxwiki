@@ -62,7 +62,7 @@
   - 后台运行：在终端中运行：    
      `xx_net.sh start/stop/restart`
   - 开机自启：在/etc/rc.local中添加一行：    
-     `sudo /home/username/xxnet/code/default/xx_net.sh start`
+     `sudo /home/username/xxnet/xx_net.sh start`
 
 ## 关于 ArchLinux
   - 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss`  
