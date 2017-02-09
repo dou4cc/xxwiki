@@ -15,13 +15,17 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 4. 在“你想在哪里提供自己的应用？”界面，更改`选择位置`为`us-central`
 
 
-  以上方法为老方法，因GAE升级，部署appid需要用新的方法,[链接](https://github.com/XX-net/XX-Net/issues/4973)
+  以上方法为老方法,
+
+##  [因GAE升级，设置AppID的App引擎需要用新的方法](https://github.com/XX-net/XX-Net/issues/4973)
 
 1.进入 https://console.cloud.google.com/start ，点击 Project 、创建项目，记下您的项目id，点击创建。
 
+![default](https://cloud.githubusercontent.com/assets/25559628/22777761/3adf4de0-eeef-11e6-89ac-9967809eee0b.png)
+
 2.点击搜索框右边的按钮激活云端shell，页面底部会出现黑底白字，输入 gcloud config set project 23333 ，将前面的23333替换为您的项目id ，按下键盘的enter键，然后输入 gcloud beta app create --region us-central ，再按一次enter。
 
-3.当底部出现 Success! The app is now created. Please use 'gcloud app deploy' to deploy your first app. 时，创建appid成功。此时可以重复前面两步，部署更多的appid
+3.当底部出现 Success! The app is now created. Please use 'gcloud app deploy' to deploy your first app. 时，创建appid成功。此时可以重复前面两步，创建更多的appid
 
 # 部署服务端 #
 1. 打开XX-Net的设置页：http://127.0.0.1:8085 ，切换到`部署服务端`
