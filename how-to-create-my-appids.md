@@ -8,7 +8,8 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 ![2-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19355039/7080b8a0-919b-11e6-89f4-34b649975804.png)  
 3. 2016年12月后新注册用户部署AppID出现404错误的请转至`设置AppID的App引擎`解决相应问题
 
-因GAE升级，部署appid需要用新的方法,[链接](https://github.com/XX-net/XX-Net/issues/4973)
+# 创建AppID新 #
+  因GAE升级，部署appid需要用新的方法,[链接](https://github.com/XX-net/XX-Net/issues/4973)
 
 1.进入 https://console.cloud.google.com/start ，点击 Project 、创建项目，记下您的项目id，点击创建。
 
