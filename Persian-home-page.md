@@ -6,13 +6,13 @@ A firewall circumvention toolkit یک ابزار دورزدن فایروال
 
 A Reborn GoAgent نسل جدیداز نرم افزار ضدفایروال گوایجنت
 
-Features خصوصیات
+Features ویژگی‌ها
 ==========
 * A stable, easy to use and fast proxy based on GAE 
  (Google App Engineپایدار، ساده و سریع بر پایه پروکسی در)
 * Friendly web UI سازگار با همه صفحات اینترنتی
 
-Supported platforms سیستم عاملهای قابل پشتیبان 
+Supported platforms سیستم‌عامل‌های پشتیبانی شده
 ================
 * XP, tcpip.sys patch needed, like tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). Increase the count to 2048 and restart your PC. سازگار با سیست عامل های مختلف ویندوز، لینوکس و مک. توجه: تی سی پی ای پی در ویندوز ایکس پی بایستی به 2048 افزایش یابد و کامپیوتر را مجددا روشن کنید
 * Win7/8/10  
@@ -32,7 +32,7 @@ Supported platforms سیستم عاملهای قابل پشتیبان
 ====================
 https://github.com/XX-net/XX-Net/wiki/How-to-contribute
 
-سپاسگذاری از 
+سپاسگزاری از 
 =========
 * Google App Engine
 * GoAgent
@@ -40,7 +40,7 @@ https://github.com/XX-net/XX-Net/wiki/How-to-contribute
 * goagentfindip
 * checkgoogleip
 
-XX-Net پروژه های یکپارچه و سازگاری
+XX-Net پروژه‌های یکپارچه و سازگاری
 ============================
 * ChromeGAE  
   http://www.ccav1.com/chromegae  
