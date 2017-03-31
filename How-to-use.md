@@ -78,8 +78,9 @@
   - [[在装有梅林固件的Netgear R6300V2上安装XX Net]]<br>
 
 ## Android
-  计划开发中  
   [[Android技术设计]]
+  - [搭配firefox使用说明](https://github.com/XX-net/XX-Net/issues/5142)
+  - [搭配chrome使用说明](https://github.com/XX-net/XX-Net/issues/5160)
 
 # 附录
 ## 关于服务端
