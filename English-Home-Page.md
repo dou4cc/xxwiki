@@ -22,11 +22,11 @@ can do the job for you (Increase the count to 2048 and restart your PC.)
 ## Links
 |   |   |
 | --------   | :----  |
-|Download: |https://github.com/XX-net/XX-Net/releases|
-|Easy Browser Bundle: |https://github.com/yeahwu/chrome-xx|
-|Issues:  |https://github.com/XX-net/XX-Net/issues|
-|Discuss:  |https://groups.google.com/forum/#!forum/xx-net|
-|Email:   |xxnet.dev at gmail.com|
+|Download: |https://github.com/XX-net/XX-Net/releases |
+|Easy Browser Bundle: |https://github.com/yeahwu/chrome-xx |
+|Issues:  |https://github.com/XX-net/XX-Net/issues |
+|Discuss:  |https://groups.google.com/forum/#!forum/xx-net |
+|Email:   |xxnet.dev at gmail.com |
 
 How to contribute
 ====================
