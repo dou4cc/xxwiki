@@ -24,15 +24,15 @@ eyJjb25maWciOiJ7XCJmaXJzdFRpbWVcIjpcIjpdXCIsXCJwcm94eU1vZGVcIjpcImF1dG9cIixcImF1
 > 
 1. 新建一个文件“SwitchyOptions.bak”,将上面面的内容拷贝进去保存；
 
-1. 安装好SwitchyOmega了以后，在安装扩展程序的页面找到SwitchyOmega，点击“选项”；
+2. 安装好SwitchyOmega了以后，在安装扩展程序的页面找到SwitchyOmega，点击“选项”；
 
-2. 点击**左边**的“导入导出选项”；
+3. 点击**左边**的“导入导出选项”；
 
-3. 选择从“备份文件恢复”，将XX-net目录下 SwitchyOmega文件夹->SwitchyOptions.bak导入进去；
+4. 选择从“备份文件恢复”，将XX-net目录下 SwitchyOmega文件夹->SwitchyOptions.bak导入进去；
 
-4. 完成安装，默认的代理端口是8087，
+5. 完成安装，默认的代理端口是8087，
 
-*5. 默认的pac地址是http://127.0.0.1:8086/proxy.pac
+6. 默认的pac地址是http://127.0.0.1:8086/proxy.pac
 在“选项”中添加 PAC 文件 PAC URL中输入http://127.0.0.1:8086/proxy.pac
 
 ### 使用
