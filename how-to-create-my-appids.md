@@ -34,4 +34,4 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 # 说明 #
 1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
 2. AppID的数量只影响流量，不影响速度
-3. 若部署过程中始终无法弹出窗口,建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
+3. 若部署过程中始终无法弹出窗口 , 建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
