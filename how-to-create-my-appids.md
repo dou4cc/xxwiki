@@ -2,30 +2,23 @@
 https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能需要更换线路或[梯子](https://wsgzao.github.io/post/fq))  
 
 # 创建AppID #
-1. 打开https://console.developers.google.com ，左击顶部`Project`，然后左击`创建项目`  
-![1-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19354947/1f4ae8ac-919b-11e6-9cc8-e0a589080de2.png)  
+1. 打开https://console.cloud.google.com/start ，点击`选择项目`，然后点击`创建项目`  
+![Create_My_Project_1](https://cloud.githubusercontent.com/assets/19320102/26750556/af503ee2-4858-11e7-811b-30367691d912.png)
+![Create_My_Project_2](https://cloud.githubusercontent.com/assets/19320102/26750550/6abaaed4-4858-11e7-8386-e07f0391325f.png)
 2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  
-![2-CreateProject.png](https://cloud.githubusercontent.com/assets/5118705/19355039/7080b8a0-919b-11e6-89f4-34b649975804.png)  
-3. 2016年12月后新注册用户部署AppID出现404错误的请转至`设置AppID的App引擎`解决相应问题
+![Create_My_Project_3](https://cloud.githubusercontent.com/assets/19320102/26750564/00414760-4859-11e7-910d-983dfdea17af.png)
 
 # 设置AppID的App引擎 #
-1. 打开https://console.cloud.google.com/home/ (Google Cloud Platform)，可在左上角选择对应AppID
-2. 在页面顶端中部搜索栏输入`App 引擎`回车进入App引擎管理界面
-3. 在弹出的“欢迎使用App引擎”界面的左侧点击`选择一种语言`，选择`Python` (解决方案最先源于https://github.com/XX-net/XX-Net/issues/4720)
-4. 在“你想在哪里提供自己的应用？”界面，更改`选择位置`为`us-central`
-
-
-  以上方法为老方法,
-
-##  [因GAE升级，设置AppID的App引擎需要用新的方法](https://github.com/XX-net/XX-Net/issues/4973)
-
-1.进入 https://console.cloud.google.com/start ，点击 Project 、创建项目，记下您的项目id，点击创建。
-
-![default](https://cloud.githubusercontent.com/assets/25559628/22777761/3adf4de0-eeef-11e6-89ac-9967809eee0b.png)
-
-2.点击搜索框右边的按钮激活云端shell，页面底部会出现黑底白字，输入 gcloud config set project 23333 ，将前面的23333替换为您的项目id ，按下键盘的enter键，然后输入 gcloud beta app create --region us-central ，再按一次enter。
-
-3.当底部出现 Success! The app is now created. Please use 'gcloud app deploy' to deploy your first app. 时，创建appid成功。此时可以重复前面两步，创建更多的appid
+1. 点击`激活Google云端Shell`，点击`启动云端SHELL`进入Shell
+![Create_My_Project_4](https://cloud.githubusercontent.com/assets/19320102/26750594/bb6ac110-4859-11e7-8d57-d5cf3a6b4e0a.png)
+![Create_My_Project_5](https://cloud.githubusercontent.com/assets/19320102/26750604/df6bd4c8-4859-11e7-88a0-5cfc9fee94e0.png)
+![Create_My_Project_6](https://cloud.githubusercontent.com/assets/19320102/26750642/815227c4-485a-11e7-81f7-d544f35650d3.png)
+2. 在页面底部输入`gcloud config set project 项目ID`,按下键盘的enter键，然后输入 `gcloud beta app create --region us-central` ，再按一次enter。
+![Create_My_Project_7](https://cloud.githubusercontent.com/assets/19320102/26750655/a038fc8a-485a-11e7-88ed-1fdb19f971ae.png)
+![Create_My_Project_8](https://cloud.githubusercontent.com/assets/19320102/26750667/dcd4ca16-485a-11e7-8474-afac8dc25996.png)
+![Create_My_Project_9](https://cloud.githubusercontent.com/assets/19320102/26750674/f2b29160-485a-11e7-8a4c-d1f5367c016f.png)
+3. 当底部出现 Success! The app is now created. Please use 'gcloud app deploy' to deploy your first app. 时，创建appid成功。此时可以重复前面两步，创建更多的appid
+![Create_My_Project_10](https://cloud.githubusercontent.com/assets/19320102/26750675/0b68f654-485b-11e7-982c-b9fcffca63cc.png)
 
 # 部署服务端 #
 1. 打开XX-Net的设置页：http://127.0.0.1:8085 ，切换到`部署服务端`
