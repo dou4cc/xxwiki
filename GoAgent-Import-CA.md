@@ -34,6 +34,10 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 3. 选择“HTTP/SSL”选项下的“Managene Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
+# Android手动导入证书
+1.打开设置-系统安全-从SD卡安装凭据（证书）
+2.依次进入 XX-Net/data/gae_proxy , 选择该目录下的 CA.crt , 输入任意名称 , 按确定即可. 
+
 # 在浏览器中手动导入的方式
 
 Firefox（火狐）浏览器：详细图文指导参见[[使用Firefox浏览器#手动导入证书]]。
