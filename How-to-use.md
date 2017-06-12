@@ -79,8 +79,7 @@
 
 ## Android
   [[Android技术设计]]
-  - [搭配firefox使用说明](https://github.com/XX-net/XX-Net/issues/5142)
-  - [搭配chrome使用说明](https://github.com/XX-net/XX-Net/issues/5160)
+  - [使用说明](https://github.com/XX-net/XX-Net/issues/5687)
 
 # 附录
 ## 关于服务端
