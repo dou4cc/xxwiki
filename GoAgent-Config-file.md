@@ -1,4 +1,4 @@
-###GoAgent配置说明：
+### GoAgent配置说明：
 + 一般用户使用WebUI配置即可，不必修改配置文件  
 + WebUI的配置，保存到 `data/gae_proxy/config.ini`
 + `gae_proxy/local/proxy.ini` 会在升级时被覆盖，请不用修改  
@@ -10,7 +10,7 @@
    port = 8087   
 ```
 
-###配置文件格式说明：  
+### 配置文件格式说明：  
 
 ```ini
 [listen]  
