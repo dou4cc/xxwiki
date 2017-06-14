@@ -3,7 +3,7 @@
 [[English|English Home Page]]<br>
 [[Persian|Persian-home-page]]<br>
     
-* [[使用方法|How-to-use]] ( [[Chrome浏览器|使用Chrome浏览器]]、[[Firefox浏览器|使用Firefox浏览器]]、[[Android app](https://github.com/XX-net/XX-Net/issues/5687)] )
+* [[使用方法|How-to-use]] ( [[Chrome浏览器|使用Chrome浏览器]]、[[Firefox浏览器|使用Firefox浏览器]]、[安卓版](https://github.com/XX-net/XX-Net/issues/5687) )
 * [[更新方法|How-to-update]]
 * [[导入证书|GoAgent Import CA]]
 * [[创建自己的appid|how to create my appids]]
