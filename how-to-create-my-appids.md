@@ -35,6 +35,6 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
 2. AppID的数量只影响流量，不影响速度
 3. 若部署过程中始终无法弹出窗口 , 建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
-4. 若部署一直失败，可以安装[Google Cloud SDK](https://cloud.google.com/sdk/)，gcloud init设置代理，
-[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)上传gae,在app.yaml中不要指定application和version
+4. 若部署一直失败，可以安装[Google Cloud SDK](https://cloud.google.com/sdk/)，gcloud init设置代理，[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)上传[gae文件夹](https://github.com/XX-net/XX-Net/tree/master/code/default/gae_proxy/server/gae)，在app.yaml中不要指定application和version
+
 ![deploy](https://ws1.sinaimg.cn/mw690/b64a58e3gy1fh9rhes8idj20i50fzwga.jpg)
