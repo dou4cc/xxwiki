@@ -51,7 +51,7 @@ Congratulations! You should now be ready to rock and roll!
 
 # (Optional) Step Four: Install SwitchyOmega for One-click on and off
 One tool to make switching between VPN and non-VPN super simple is SwitchyOmega add on for Chrome. To add SwitchyOmega to your Chrome Browser follow these few simple steps:
-1. Download SwitchyOmega from here
+1. Download SwitchyOmega from here https://github.com/XX-net/XX-Net/tree/master/SwitchyOmega
 1. When the download is complete, drag the SwitchyOmega file into a new tab in Google Chrome. This will open the tab to download and install SwitchyOmega.
 1. Download and Install Chrome Proxy Add-on
 1. On the left hand side panel, open Settings>Import/Export
