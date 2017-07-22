@@ -1,9 +1,11 @@
-XX-Net is an Open-Source project for securing your internet connection. The tool works well for most browsing activity in China. There are three high-level steps
+XX-Net is an Open-Source project for securing your internet connection. The tool works well for most browsing activity in China. There are four high-level steps
 1. Install XX-Net Proxy source code from Github
-2. Setup Google API server to get access to video streaming etc.
+1. Setup Chrome Certificates
+1. Deploy a new Google API Server
+1. Install SwitchyOmega to enable 1-click VPN
 
-# Step One: Install Proxy
-1. Download Source code from https://github.com/XX-net/XX-Net/releases/tag/3.2.8
+# Step One: Install XX-Net Proxy
+1. Download Source code from https://codeload.github.com/XX-net/XX-Net/zip/3.3.1
 1. Unzip contents of folder to any location. Make sure you remember the location, you'll need this later
 1. Double-click start.vbs or start.bat to start.
 1. A dialog box may appear. If it is in Chinese, the dialog box is asking if you want to put a desktop shortcut to XX-net. A desktop shortcut will make it easy to use in the future, so I recommend adding the desktop shortcut.
@@ -12,10 +14,10 @@ XX-Net is an Open-Source project for securing your internet connection. The tool
 1. A tray icon will appear in the lower right on the desktop. You can use this to access the commonly used Functions of XX-Net
 
 
-At this point, you may begin browsing google and other websites that are usually blocked in Internet Explorer. However, Chrome may have some security settings that mean you cannot browse in Google Chrome just yet. In addition, video streaming is unavailable at this point since you are using the default free proxy server provided by XX-net. Video streaming is blocked to reduce the amount of traffic going through this server.
+At this point, you may begin browsing google and other websites that are usually blocked in Internet Explorer. However, Chrome may have some security settings that mean you cannot browse in Google Chrome just yet. In addition, video streaming is unavailable at this point since you are using the default free proxy server provided by XX-net. Video streaming is blocked to reduce the amount of traffic going through this server. We'll fix this shortly.
 
 
-# Step Two: Enable security in Chrome
+# Step Two: Set up browser security certificates
 1. In your Chrome Browser, Go to Chrome://settings
 1. Scroll to bottom of settings and click "Show Advanced Settings"
 1. Click Manage Certificates
@@ -26,7 +28,7 @@ At this point, you may begin browsing google and other websites that are usually
 1. Complete the wizard, accepting all default options
 
 
-At this point, Chrome is now fully functional, with the exception of video streaming. The next step is to create our own proxy server provided by Google APIs
+At this point, Chrome is now fully functional, with the exception of video streaming. The next step is to create our own proxy server(s) provided by Google APIs. Each server provides 1GB of traffic each day, so set up the appropriate amount of servers based on your estimate of usage.
 
 # Step Three: Deploy a new Google API Server
 1. Go to https://console.developers.google.com/
