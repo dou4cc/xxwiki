@@ -1,8 +1,8 @@
 XX-Net is an Open-Source project for securing your internet connection. The tool works well for most browsing activity in China. There are four high-level steps
-1. Install XX-Net Proxy source code from Github
-1. Setup Chrome Certificates
-1. Deploy a new Google API Server
-1. Install SwitchyOmega to enable 1-click VPN
+1. [[Install XX-Net Proxy source code from Github|step-one]]
+1. [[Setup Chrome Certificates|step-two]]
+1. [[Deploy a new Google API Server|step-three]]
+1. [[(Optional)Install SwitchyOmega to enable 1-click VPN |step-four]]
 
 # Step One: Install XX-Net Proxy
 1. Download Source code from https://codeload.github.com/XX-net/XX-Net/zip/3.3.1
