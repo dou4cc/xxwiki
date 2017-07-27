@@ -13,7 +13,7 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 ![Create_My_Project_4](https://cloud.githubusercontent.com/assets/19320102/26750594/bb6ac110-4859-11e7-8d57-d5cf3a6b4e0a.png)
 ![Create_My_Project_5](https://cloud.githubusercontent.com/assets/19320102/26750604/df6bd4c8-4859-11e7-88a0-5cfc9fee94e0.png)
 ![Create_My_Project_6](https://cloud.githubusercontent.com/assets/19320102/26750642/815227c4-485a-11e7-81f7-d544f35650d3.png)
-2. 在页面底部输入`gcloud config set project 项目ID`,按下键盘的enter键，然后输入 `gcloud beta app create --region us-central` ，再按一次enter。（gcloud app regions list可以查询https://cloud.google.com/compute/docs/regions-zones/regions-zones）
+2. 在页面底部输入`gcloud config set project 项目ID`,按下键盘的enter键，然后输入 `gcloud beta app create --region us-central` ，再按一次enter。 gcloud app regions list可以查询选择https://cloud.google.com/compute/docs/regions-zones/regions-zones
 ![Create_My_Project_7](https://cloud.githubusercontent.com/assets/19320102/26750655/a038fc8a-485a-11e7-88ed-1fdb19f971ae.png)
 ![Create_My_Project_8](https://cloud.githubusercontent.com/assets/19320102/26750667/dcd4ca16-485a-11e7-8474-afac8dc25996.png)
 ![Create_My_Project_9](https://cloud.githubusercontent.com/assets/19320102/26750674/f2b29160-485a-11e7-8a4c-d1f5367c016f.png)
@@ -35,6 +35,4 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
 2. AppID的数量只影响流量，不影响速度
 3. 若部署过程中始终无法弹出窗口 , 建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
-4. 若部署一直失败，可以安装[Google Cloud SDK](https://cloud.google.com/sdk/)，gcloud init设置代理，[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)上传[gae文件夹](https://github.com/XX-net/XX-Net/tree/master/code/default/gae_proxy/server/gae)，在app.yaml中不要指定application和version
-
-![deploy](https://ws1.sinaimg.cn/mw690/b64a58e3gy1fh9rhes8idj20i50fzwga.jpg)
+4. 若部署一直失败，可以本地安装[Google Cloud SDK](https://cloud.google.com/sdk/)手动部署，参考[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)，需要全局代理工具(如SSR)
