@@ -37,6 +37,7 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 # Android手动导入证书
 1. 打开设置-系统安全-从SD卡安装凭据（证书）.
 2. 依次进入 XX-Net/data/gae_proxy , 选择该目录下的 CA.crt , 输入任意名称 , 按确定即可. 
+3. 若以上方法导入的证书无效，可下载 Root Certificate Manager ， 使用该软件将证书导入系统文件中
 
 # 在浏览器中手动导入的方式
 
