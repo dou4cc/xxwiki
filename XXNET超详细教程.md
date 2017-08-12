@@ -1,3 +1,5 @@
+#旧网站全部被封了
+新网站：[XX-NET史上最详细完整教程](https://cloudfra.com/xx-net-important.html)
 # 1.xxnet新版教程
 ## 说明：
 基于google app engine 项目更新，申请appid与原版本区别较大。
