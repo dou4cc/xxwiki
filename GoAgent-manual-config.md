@@ -6,7 +6,8 @@ https://github.com/XX-net/XX-Net/wiki/GoAgent-Config-file
   
 ### 目前GoAgent配置文件有：  
 + 默认配置文件 /code/default/gae_proxy/local/proxy.ini，随版本升级更新。（非必要请勿编辑此文件。文件使用ANSI编码）  
-+ web_ui生成的用户配置文件： data/gae_proxy/config.ini，UI配置后，会刷新  
++ web_ui生成的用户配置文件： data/gae_proxy/config.ini，UI配置后，会刷新。
++ 请不要修改以上两个文件，一切修改在manual.ini进行，软件会优先使用manual.ini
   
 为了方便手动设置更多高级参数，增加了一个手动配置文件：  
 data/gae_proxy/manual.ini  
