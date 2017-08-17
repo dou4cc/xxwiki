@@ -1,6 +1,6 @@
 ### GoAgent配置说明：
 + 一般用户使用WebUI配置即可，不必修改配置文件  
-+ WebUI的配置，保存到 `data/gae_proxy/config.ini`
++ WebUI的配置，保存到 `data/gae_proxy/config.ini`（不要使用文本编辑器修改）
 + `gae_proxy/local/proxy.ini` 会在升级时被覆盖，请不用修改  
 + 高级用户想修改某个参数，可以生成 `data/gae_proxy/manual.ini` 在里面放对应的配置   
   例如：将监听IP改为`0.0.0.0`，则在`manual.ini`中写下:   
