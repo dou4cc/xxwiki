@@ -39,6 +39,12 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 2. 依次进入 XX-Net/data/gae_proxy , 选择该目录下的 CA.crt , 输入任意名称 , 按确定即可. 
 3. 若以上方法导入的证书无效，可下载 Root Certificate Manager ， 使用该软件将证书导入系统
 
+#IPAD/IPHONE手动导入证书
+说明：Ios移动端只能通过自带邮件程序打开邮件附件的CA.crt，才能安装证书。经验证浏览器登录邮箱无法打开附件的CA.crt。
+1. 在其它设备（PC端）登录邮箱，将CA.crt以附件的方式发送，CA.crt地址： XX-Net/data/gae_proxy。
+2. 在IPAD/IPHONE 邮件程序设置为第一步的邮箱地址。
+3. 找到第一步发送的邮件，点击附件，自动提示安装，需要输入IPAD/IPHONE的密码，确认后即可安装成功。
+
 # 在浏览器中手动导入的方式
 
 Firefox（火狐）浏览器：详细图文指导参见[[使用Firefox浏览器#手动导入证书]]。
