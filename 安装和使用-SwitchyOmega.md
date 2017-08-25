@@ -3,10 +3,7 @@ SwichySharp已经改名字为SwitchyOmega，虽然Chrome商店里面可以下载
 * 下面的安装步骤将告诉你，在你的网络还没有能力访问Chrome的网上运用商店的做法。
 
 ### 下载
-
-```
-https://github.com/FelisCatus/SwitchyOmega/releases
-```
+* https://github.com/FelisCatus/SwitchyOmega/releases
 
 下载以后Chrome会自动安装，如果失败了，请根据下面的方法手动安装。
 
