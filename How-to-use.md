@@ -78,8 +78,11 @@
   - [[在装有梅林固件的Netgear R6300V2上安装XX Net]]<br>
 
 ## Android
-  [[Android技术设计]]
-  - [使用说明](https://github.com/XX-net/XX-Net/issues/5687)
+  - [[Android技术设计]]
+  - [安卓版使用说明](https://github.com/XX-net/XX-Net/issues/5687)
+  - FireFox安卓版设置参考：
+    1. http://kb.mozillazine.org/About:config_entries#Network.
+    1. https://github.com/XX-net/XX-Net/issues/6322#issuecomment-325212863
 
 # 附录
 ## 关于服务端
