@@ -7,10 +7,10 @@
   * <del>方法1 双击 start.bat  
   * 方法2 打开cmd运行（XX-Net路径为D:\Tools\XX-Net）
 
-      > "D:\Tools\XX-Net\code\default\python27\1.0\pythonw.exe"  "D:\Tools\XX-Net\code\default\launcher\start.py"
+      > "D:\Tools\XX-Net\code\default\python27\1.0\python.exe"  "D:\Tools\XX-Net\code\default\launcher\start.py"
 
      或者
-     > "D:\Tools\XX-Net\code\default\python27\1.0\python.exe"  "D:\Tools\XX-Net\code\default\launcher\start.py"
+     > "D:\Tools\XX-Net\code\default\python27\1.0\pythonw.exe"  "D:\Tools\XX-Net\code\default\launcher\start.py"
 
 ### Mac和Linux平台  
   1. 打开命令行终端窗口  
