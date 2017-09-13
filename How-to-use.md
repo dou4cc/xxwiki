@@ -82,13 +82,10 @@
   - [安卓版使用说明](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E5%8D%93%E7%89%88)
   - FireFox安卓版设置：
     1. Firefox安卓浏览器本身支持安装证书，可以不用安装在手机上。
-    2. Firefox安卓浏览器可以使用Pan插件(默认代理方式为SS)，类似pc版的autoproxy插件，可以在about:config 设置代理方式为GoAgent 
+    2. Firefox安卓浏览器可以使用Pan插件(默认代理方式为SS)，类似pc版的autoproxy插件，可以在about:config 设置代理方式为GoAgent.
+    3. 如果不使用代理插件,可在地址栏输入 about:config ,搜索 proxy.type 将5改成1 ,然后搜索 proxy.http ，在上面横线填上 127.0.0.1 下面横线填上 8087
 
-![](https://cloud.githubusercontent.com/assets/14154547/23933979/12088db6-097d-11e7-8020-1ebaed563650.png)
-
-    3. 如果不使用代理插件,可在地址栏输入 about:config ,搜索 proxy.type 将5改成1 ,然后搜索 proxy.http ，在上面横线填上 127.0.0.1 下面横线填上 8087 
-
-![](https://user-images.githubusercontent.com/23282821/29607899-31211a02-8825-11e7-8799-5e710fc98b71.png)
+<img src="https://cloud.githubusercontent.com/assets/14154547/23933979/12088db6-097d-11e7-8020-1ebaed563650.png" alt="GitHub" title="GitHub,Social Coding" width="303.75" height="540" /> <img src="https://user-images.githubusercontent.com/23282821/29607899-31211a02-8825-11e7-8799-5e710fc98b71.png" alt="GitHub" title="GitHub,Social Coding" width="303.75" height="540" />
 
 # 附录
 ## 关于服务端
