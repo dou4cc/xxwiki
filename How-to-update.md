@@ -13,7 +13,7 @@
 
 * 更新完成
 
-自动更新
+[自动更新](https://github.com/XX-net/XX-Net/wiki/Auto-update)
 =======
 
 自动升级的类型
