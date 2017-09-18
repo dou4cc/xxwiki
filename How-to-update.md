@@ -1,9 +1,9 @@
 # 更新方法
 
-手动更新(推荐)
+手动更新(不推荐新手)
 ===========
 
-* 备份 __data__ 文件夹(__data__ 文件夹内保存了 appid,ip 等配置信息)
+* 备份 __data__ 文件夹(__data__ 文件夹内保存了 appid,good_ip 等配置信息)
 
 * 下载[__XX-Net-Release__](https://github.com/XX-net/XX-Net/releases)版本或者根据[__下载页面__](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)提示进行版本选择
 
