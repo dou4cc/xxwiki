@@ -4,7 +4,7 @@
 这里给出分析问题的途径：start.bat/start.sh  
 
 ### Windows系统  
-  * <del>方法1 双击 start.bat  
+  * 方法1 双击 start.bat  
   * 方法2 打开cmd运行（XX-Net路径为D:\Tools\XX-Net）
 
       > "D:\Tools\XX-Net\code\default\python27\1.0\python.exe"  "D:\Tools\XX-Net\code\default\launcher\start.py"
