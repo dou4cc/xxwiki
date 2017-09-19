@@ -10,7 +10,7 @@ X_tunnel是XX-Net新推出的功能，发布说明帖：[《x_tunnel 功能发�
 
 下一步，浏览器安装代理插件    
 * 火狐用 pan 或者`autoproxy`
-* chrome 用`SwitchyOmega`调用    
+* chrome 用[SwitchyOmega](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8-SwitchyOmega)调用（[导入在线恢复文件](https://raw.githubusercontent.com/XX-net/XX-Net/master/SwitchyOmega/OmegaOptions.bak)，一键完成设置）
 * 最后socks5 主机127.0.0.1 端口1080 (同ss端口代理)    
 
 | 代理协议 | 代理服务器 | 代理端口 |
