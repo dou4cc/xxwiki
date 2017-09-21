@@ -1,4 +1,8 @@
-X_tunnel是XX-Net新推出的功能，发布说明帖：[《x_tunnel 功能发布》](https://github.com/XX-net/XX-Net/issues/1977)
+## X_tunnel是XX-Net的新功能模块  [](https://github.com/XX-net/XX-Net/issues/1977)
+提供socks5代理特性，解决GAE证书问题<br>
+<del>解决GAE代理暴露个人appid问题
+
+端口 1080
 
 ## 使用方法
 
@@ -25,3 +29,19 @@ X_tunnel是XX-Net新推出的功能，发布说明帖：[《x_tunnel 功能发�
 
 ### 最后一步
 * 右键托盘图标，勾选“取消全局代理”    
+
+
+### 如何获得流量：
+每捐赠1个appid，奖励1G流量/1年
+
+https://github.com/XX-net/XX-Net/wiki/DonateAppid
+
+捐赠后给xxnet.dev@gmail.com发邮件，告知appid和你的x_tunnel account
+
+|paypal| 购买|
+|-----|------|
+|季度 |$4.5 300G |
+|年度 |$15 1200G|
+
+
+参与项目的，在dev留x_tunnel account
