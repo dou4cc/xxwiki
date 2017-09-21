@@ -75,7 +75,6 @@
 # 其他平台
 ## OpenWrt
   - [[在OpenWrt里运行XX-Net]]<br>
-  - [[在装有梅林固件的Netgear R6300V2上安装XX Net]]<br>
 
 ## Android
   - [[Android技术设计]]
