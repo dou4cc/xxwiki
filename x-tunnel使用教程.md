@@ -32,16 +32,16 @@
 
 
 ### 如何获得流量：
-每捐赠1个appid，奖励1G流量/1年
+1. 每捐赠1个appid，奖励1G流量/1年
 
-https://github.com/XX-net/XX-Net/wiki/DonateAppid
+    https://github.com/XX-net/XX-Net/wiki/DonateAppid
 
-捐赠后给xxnet.dev@gmail.com发邮件，告知appid和你的x_tunnel account
+    捐赠后给xxnet.dev@gmail.com发邮件，告知appid和你的x_tunnel account
+2.  
+    |paypal| 购买|
+    |-----|------|
+    |季度 |$4.5 300G |
+    |年度 |$15 1200G|
 
-|paypal| 购买|
-|-----|------|
-|季度 |$4.5 300G |
-|年度 |$15 1200G|
 
-
-参与项目的，在dev留x_tunnel account
+3. 参与项目的，在dev留x_tunnel account
