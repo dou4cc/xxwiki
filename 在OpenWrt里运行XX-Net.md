@@ -4,8 +4,9 @@
 `opkg install python-pyopenssl`  
 
 ### 具体步骤：
-登陆OpenWrt控制台  
 拷贝XX-Net到OpenWrt  
+登陆OpenWrt控制台  
+启动XX-Net  
 `cd XX-Net`   
 `./start.sh`  
   
@@ -24,10 +25,20 @@ ip = 0.0.0.0
 [pac]
 ip = 0.0.0.0
 ```
+
+**允许远程访问X-Tunnel 代理：**  
+修改 data/x_tunnel/client.json  
+```
+{ "socks_host" : "0.0.0.0", "socks_port" : 1080 }  
+```
+
 重启XX-Net  
   
 **浏览器中打开**
- http://OpenWrt 的ip:8085  
+```http://OpenWrt_ip:8085```  
 
 ### 远程下载、导入证书  
   在状态页中，有证书下载链接  
+
+
+
