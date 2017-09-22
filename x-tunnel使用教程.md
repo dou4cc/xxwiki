@@ -1,9 +1,9 @@
 ## X_tunnel是XX-Net的新功能模块  [](https://github.com/XX-net/XX-Net/issues/1977)
-提供socks5代理特性，解决GAE证书问题<br>
-支持完整的SSL/HTTPS 加密通讯，支持非http协议。
-不受GAE封锁影响。
-
-端口 1080
+* 提供socks5代理特性，解决GAE证书问题  
+  支持完整的SSL/HTTPS 加密通讯，支持非http协议。  
+* 不受GAE封锁影响。  
+  
+  
 
 ## 使用方法
 
@@ -39,10 +39,12 @@
 
     捐赠后给xxnet.dev@gmail.com发邮件，告知appid和你的x_tunnel account
 2.  
-    |paypal| 购买|
-    |-----|------|
-    |季度 |$4.5 300G |
-    |年度 |$15 1200G|
+    |paypal| 价格|流量|
+    |-----|-----|---|
+    |季度 |$4.5  | 300G |
+    |年度 |$15   | 1200G|
+
+   我们鼓励您将多余的流量送给朋友使用。  
 
 
-3. 参与项目的，在dev留x_tunnel account
+3. 参与项目的贡献，可在dev留x_tunnel account
