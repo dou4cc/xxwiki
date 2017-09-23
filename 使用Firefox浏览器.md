@@ -46,8 +46,8 @@
 # 获取和运行XX-Net
 * 打开[[https://github.com/XX-net/XX-Net#下载链接]]，注意看网址前是否有绿色的证书验证成功的显示。
 ![下载链接](https://cloud.githubusercontent.com/assets/6830787/10131883/fe7b78ba-6605-11e5-9bff-75dd7e24a42b.PNG)
-* 选择下载稳定版，下载之后解压缩。运行文件夹中的start快捷方式（也可以运行start.vbs）
-![运行](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
+* 选择下载稳定版，下载之后解压缩。运行文件夹中的start.bat，生成桌面快捷方式（以后通过快捷方式启动）
+[](https://cloud.githubusercontent.com/assets/6830787/10131884/fea44a56-6605-11e5-95e0-9c8b301f45bf.PNG)
 * 如果弹出管理员权限请求（用户账户控制），请允许。
 
 ![管理员权限请求](https://cloud.githubusercontent.com/assets/6830787/10132435/079df852-6609-11e5-824d-06c8c4bb929b.PNG)
@@ -65,7 +65,7 @@
 
 
 ## 方案二：安装和使用代理切换插件
-* 点击下面地址安装pan代理插件
+* 点击下面地址安装pan代理插件（[firefox57+可以安装switchyomega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)）
   - https://addons.mozilla.org/zh-CN/firefox/addon/pan/?src=search
 ![安装pan](https://raw.githubusercontent.com/yeahwu/wu/master/pan1.png)
 * 添加过滤规则，右键点击pan插件，然后再点击“过滤规则首选项”
@@ -93,4 +93,4 @@
 5. 尝试访问[[https://www.google.com/]]或[[https://www.facebook.com/]]，检验证书是否导入成功。
 ![检验证书是否导入成功](https://cloud.githubusercontent.com/assets/6830787/10130827/1aeb0b9e-65fe-11e5-9815-5f95a3a44be5.PNG)
 
-### 注（每次更新xx-net,需要删除原来的老证书，重新导入新证书）
+### 注（每次更新xx-net,保留data文件夹，不需要重新导入证书）
