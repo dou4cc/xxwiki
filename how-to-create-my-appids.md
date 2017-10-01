@@ -6,19 +6,28 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 ![Create_My_Project_1](https://cloud.githubusercontent.com/assets/19320102/26750556/af503ee2-4858-11e7-811b-30367691d912.png)
 ![Create_My_Project_2](https://cloud.githubusercontent.com/assets/19320102/26750550/6abaaed4-4858-11e7-8386-e07f0391325f.png)
 2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  
-![Create_My_Project_3](https://cloud.githubusercontent.com/assets/19320102/26750564/00414760-4859-11e7-910d-983dfdea17af.png)
+![](https://user-images.githubusercontent.com/31188782/31053682-abce8a2c-a6d5-11e7-919c-c6f57fa9d06e.JPG)
 
 ## 设置AppID的App引擎 
-1. 点击`激活Google云端Shell`，点击`启动云端SHELL`进入Shell
-![Create_My_Project_4](https://cloud.githubusercontent.com/assets/19320102/26750594/bb6ac110-4859-11e7-8d57-d5cf3a6b4e0a.png)
-![Create_My_Project_5](https://cloud.githubusercontent.com/assets/19320102/26750604/df6bd4c8-4859-11e7-88a0-5cfc9fee94e0.png)
-![Create_My_Project_6](https://cloud.githubusercontent.com/assets/19320102/26750642/815227c4-485a-11e7-81f7-d544f35650d3.png)
-2. 在页面底部输入`gcloud config set project 项目ID`,按下键盘的enter键，然后输入 `gcloud beta app create --region us-central` ，再按一次enter。 gcloud app regions list可以查询选择https://cloud.google.com/compute/docs/regions-zones/regions-zones
-![Create_My_Project_7](https://cloud.githubusercontent.com/assets/19320102/26750655/a038fc8a-485a-11e7-88ed-1fdb19f971ae.png)
-![Create_My_Project_8](https://cloud.githubusercontent.com/assets/19320102/26750667/dcd4ca16-485a-11e7-8474-afac8dc25996.png)
-![Create_My_Project_9](https://cloud.githubusercontent.com/assets/19320102/26750674/f2b29160-485a-11e7-8a4c-d1f5367c016f.png)
-3. 当底部出现 Success! The app is now created. Please use 'gcloud app deploy' to deploy your first app. 时，创建appid成功。此时可以重复前面两步，创建更多的appid
-![Create_My_Project_10](https://cloud.githubusercontent.com/assets/19320102/26750675/0b68f654-485b-11e7-982c-b9fcffca63cc.png)
+1. 访问APP引擎信息中心， https://console.cloud.google.com/appengine/start?project=你的项目id
+
+    ![](https://user-images.githubusercontent.com/31188782/31053684-abff5224-a6d5-11e7-9fa2-8ec6f785e6eb.JPG)
+
+2. 选择一种语言--Python
+
+    ![](https://user-images.githubusercontent.com/31188782/31053685-ac0ee2fc-a6d5-11e7-9fe1-512ce35ae0ed.JPG)
+
+3. 选择区域，默认us-central即可（看不到地图的请选择全局代理或者更换梯子）
+
+    ![](https://user-images.githubusercontent.com/31188782/31053686-ac15ad6c-a6d5-11e7-868b-b04f76fabf76.JPG)
+
+4. 等待后台完成初始化配置
+
+    ![](https://user-images.githubusercontent.com/31188782/31053687-ac1721d8-a6d5-11e7-9d44-74c9797d6ae7.JPG)
+
+5. 点击退出教程，进行下一步[部署服务端](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids#%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E7%AB%AF)
+
+    ![](https://user-images.githubusercontent.com/31188782/31053688-ac174b7c-a6d5-11e7-9908-def218d60326.JPG)
 
 ## 部署服务端 
 ### XX-net更新不需要重新部署服务端，除非XX-Net升级说明中提到“升级服务端功能代码”
