@@ -5,3 +5,4 @@
 
 [**فارسی صفحه اصلی**](https://github.com/XX-net/XX-Net/wiki/Persian-home-page)  
 
+[](牛鬼蛇神到处乱窜，天天就知道吹人权自由，连芝娜畜生都能挂在嘴上，一点儿有用的代码教程捐助都没有)
