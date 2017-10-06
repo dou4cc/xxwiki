@@ -23,7 +23,7 @@
   2. 启动完毕后，将弹出浏览器，访问 http://localhost:8085/ （[[配置页面简介]]）
   3. 右下角将出现托盘图标：点击可弹出上述的XX-Net配置页面, 右键可显示[[常用功能菜单|托盘右键菜单]]。
   4. 第一次启动, 会提示在桌面建立快捷方式,可根据自己需要选择。
-  - 推荐[[使用Chrome浏览器]], [[安装SwichySharp|安装和使用SwichySharp]], 可在XX-Net目录中的SwitchySharp文件夹下找到插件和配置文件。
+  - 推荐[[使用Chrome浏览器]], [[安装SwichyOmega|安装和使用-SwitchyOmega]], 可在XX-Net目录中的SwitchyOmega文件夹下找到插件和配置文件。
   - 也可以选择[[使用Firefox（火狐）浏览器|使用Firefox浏览器]]。需[[手动导入证书|GoAgent Import CA#Firefox浏览器手动导入的方式]]
   - 启动失败，请关闭后双击start.bat再次启动程序，把日志发到bug反馈区  
 
@@ -39,7 +39,7 @@
 
 注：
 * 命令行启动方式：./start
-* 推荐[[使用Chrome|使用Chrome浏览器]]和[[SwitchyOmega扩展|安装和使用SwichySharp]]
+* 推荐[[使用Chrome|使用Chrome浏览器]]和[[SwitchyOmega扩展|安装和使用-SwitchyOmega]]
 * 部分版本可能需要手动升级python。命令为：brew upgrade
 
 # Linux系统
