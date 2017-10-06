@@ -5,21 +5,19 @@ SwichySharp已经改名字为SwitchyOmega，虽然Chrome商店里面可以下载
 ### 下载
 * https://github.com/FelisCatus/SwitchyOmega/releases
 
-下载以后Chrome会自动安装，如果失败了，请根据下面的方法手动安装。
 
 ### 安装
 1. 打开Chrome；
-2. 打开“设置”选项；
-3. 点击**左上角**的“扩展程序”；
-4. 将下载的SwitchyOmega.crx直接拖入到Chrome的页面内；
+2. 选择更多工具 ->拓展程序(在更老的chrome中，“设置”选项 -> 扩展程序)；
+3. 将下载好的SwitchyOmega_Chromium.crx直接拖入到Chrome的页面内；
+
+![installation](https://user-images.githubusercontent.com/14904657/31257672-624ac3da-aa6c-11e7-8318-795ad1e01707.jpg)
 
 ### 配置
 > 
-1. 安装好SwitchyOmega了以后，在安装扩展程序的页面找到SwitchyOmega，点击“选项”；
+1. 安装好SwitchyOmega了以后，在弹出的窗口中点击“**导入/导出**”；
 
-3. 点击**左边**的“导入导出选项”；
-
-4. 选择从“备份文件恢复”，将XX-net目录下 SwitchyOmega文件夹->SwitchyOptions.bak导入进去；
+2. 选择“从备份文件恢复”，将XX-net目录下 SwitchyOmega文件夹->SwitchyOptions.bak（OmegaOptions.bak）导入进去；
 
 ### 使用
 
@@ -33,6 +31,6 @@ Q：SwitchyOmega显示很多资源未加载？
 
 A：有可能需要等一会，如果等待1分钟左右还没有反映，说明XX-net没有正常工作。
 
-Q：XX-net，XX-net PAC和自动切换模式有什么区别？
+Q：XX-net与XX-net自动切换模式有什么区别？
 
-A：如果设置为XX-net，表示全局代理，所有的数据都通过XX-net传输；XX-net PAC是代理自动配置，将不需要代理的网站进行直接访问；比如逛淘宝，看优酷很慢，可以选择XX-net PAC模式，这时候淘宝和优酷这种国内的网站就是直接访问；自动情境模式与GoAgent PAC的效果和目地一样，只是这个访问的选择交给了插件来决定，方便修改。
+A：如果设置为XX-net，表示全局代理，浏览器的所有的数据都通过XX-net传输；XX-net自动切换模式只会将在pac黑名单中的域名通过XX-net传输，其他流量自动选择直接连接
