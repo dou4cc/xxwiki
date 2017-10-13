@@ -25,7 +25,7 @@
   
    包括界面，采用html/css/js，会的人很多，都能参与进来。
 
-## 夸平台
+## 跨平台
    目前支持的平台： Windows 全系列、Linux、MacOS、OpenWrt、Android  
    IOS也只是需要时间来解决。  
   
