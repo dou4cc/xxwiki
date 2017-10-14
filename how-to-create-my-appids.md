@@ -21,20 +21,15 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 
     ![](https://user-images.githubusercontent.com/31188782/31053686-ac15ad6c-a6d5-11e7-868b-b04f76fabf76.JPG)
 
-4. 等待后台完成初始化配置
-
+4. 等待后台完成初始化配置，然后[打开XX-Net](http://127.0.0.1:8085/?module=gae_proxy&menu=deploy)开始[部署服务端的操作](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids#%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E7%AB%AF)
     ![](https://user-images.githubusercontent.com/31188782/31053687-ac1721d8-a6d5-11e7-9d44-74c9797d6ae7.JPG)
-
-5. 点击退出教程，进行下一步[部署服务端](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids#%E9%83%A8%E7%BD%B2%E6%9C%8D%E5%8A%A1%E7%AB%AF)
-
-    ![](https://user-images.githubusercontent.com/31188782/31053688-ac174b7c-a6d5-11e7-9908-def218d60326.JPG)
-
+![https://raw.githubusercontent.com/Alvin9999/PAC/master/appid6.png](https://user-images.githubusercontent.com/31188782/31576639-79cd52a4-b131-11e7-94c3-b2620103c79b.png)
 ## 部署服务端 
 ### XX-net更新不需要重新部署服务端，除非XX-Net升级说明中提到“升级服务端功能代码”
 1. 打开XX-Net的设置页，切换到`部署服务端`http://127.0.0.1:8085/?module=gae_proxy&menu=deploy
 2. 输入AppID后，点击打开Show Debug Log
 
-    左击`开始部署`，会弹出授权窗口  
+    左击`开始部署`，会弹出授权窗口 （如果点击按钮部署不成功，请[参考脚本部署](https://github.com/XX-net/XX-Net/tree/master/code/default/gae_proxy/server)）
 ![3-Deploy.png](https://cloud.githubusercontent.com/assets/5118705/19356731/61e3b1ca-91a1-11e6-85b3-c4e034d99d65.png)
 3. 左击`Allow`，然后就会进行服务端的部署  
 ![4-RequestForPermission.png](https://cloud.githubusercontent.com/assets/5118705/19356129/501fa69e-919f-11e6-9b7a-549e4a0151de.png)
