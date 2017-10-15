@@ -56,7 +56,7 @@
   - ubuntu 下，可能需要安装  
      `sudo apt-get install python-openssl`  
      `sudo apt-get install libffi-dev`  
-     `sudo apt-get install -y python-gtk2`   
+     `sudo apt-get install python-gtk2`   
      `sudo apt-get install python-appindicator`  
      `sudo apt-get install libnss3-tools`  
   - 后台运行：在终端中运行：    
