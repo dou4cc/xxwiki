@@ -1,5 +1,7 @@
-## 登录Google帐户
-https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能需要更换线路或[梯子](https://wsgzao.github.io/post/fq))  
+## 登录Google帐户 
+https://www.google.com/ncr 
+
+若无帐户，需注册，若注册失败，可能需要更换注册环境 （使用不同的代理/VPN， 不同的终端/浏览器）
 
 ## 创建AppID
 1. 打开https://console.cloud.google.com/start ，点击`选择项目`，然后点击`创建项目`  
