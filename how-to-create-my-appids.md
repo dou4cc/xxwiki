@@ -5,7 +5,7 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 1. 打开https://console.cloud.google.com/start ，点击`选择项目`，然后点击`创建项目`  
 ![Create_My_Project_1](https://cloud.githubusercontent.com/assets/19320102/26750556/af503ee2-4858-11e7-811b-30367691d912.png)
 ![Create_My_Project_2](https://cloud.githubusercontent.com/assets/19320102/26750550/6abaaed4-4858-11e7-8386-e07f0391325f.png)
-2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  
+2. 输入项目名称后，会自动帮你匹配可用ID，然后左击`创建`(请细读此教程底部[说明](#说明))  （注意：不要使用带有个人信息的名称）
 ![](https://user-images.githubusercontent.com/31188782/31053682-abce8a2c-a6d5-11e7-919c-c6f57fa9d06e.JPG)
 
 ## 设置AppID的App引擎 
@@ -48,5 +48,6 @@ https://www.google.com/ncr (若无帐户，需注册，若注册失败，可能�
 1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
 1. AppID一次部署，多端通用，你还可以将appid分享给不能注册gmail的朋友使用
 1. AppID的数量只影响流量，不影响速度
+1. AppID的名称中切勿带有个人信息，因为使用GAE代理时目标网站可以看到你的AppID
 1. 若部署过程中始终无法弹出窗口 , 建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
 1. 若部署一直失败，可以本地安装[Google Cloud SDK](https://cloud.google.com/sdk/)手动部署，参考[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)，需要全局代理工具(如SS,OVPN)
