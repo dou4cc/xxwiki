@@ -12,9 +12,10 @@
 * Chrome官网下载地址：https://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html
 * 虽然是CN网站，但是挂了"google"这个敏感词，所以会经常抽风。那么下面就多提供几个下载地址。
 
-  _ 浏览迷网站：http://liulanmi.com/  
-  _ 新浪软件中心：http://tech.sina.com.cn/down/  
-  _ 卡饭chrome区：http://bbs.kafan.cn/forum-214-1.html  
+  - 浏览迷网站：http://liulanmi.com/  
+  - 新浪软件中心：http://tech.sina.com.cn/down/  
+  - 卡饭chrome区：http://bbs.kafan.cn/forum-214-1.html  
+  - chrome离线包：https://api.shuax.com/tools/getchrome
 
 上面几个网站搜索或者点击chrome浏览器下载，建议用“Stable（稳定版）”
 
@@ -52,12 +53,13 @@
 ![从备份文件中恢复](https://github.com/yeahwu/recycle-bin/blob/master/xx5.JPG)
 * 点击从备份文件中恢复后，找到XX-Net/SwitchyOmega/OmegaOptions.bak文件，点击打开
 ![bak文件](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx5.5.JPG)
-* 点击情景模式中的 XX-Net自动切换 ,跳过教程
+* 点击情景模式中的 GAE-Proxy自动切换 ,跳过教程
 ![教程](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx6.JPG)
 * 下拉点击“立即更新情景模式”
-![更新情景模式](https://cloud.githubusercontent.com/assets/13328328/16223849/f6731972-37d1-11e6-83c1-88b876f4f52d.png)
-* 点击SwitchyOmega，切换成“XX-Net自动切换”，如果使用的是X-Tunnel或SS，请点击“X-Tunnel自动切换”。
-![切换代理](https://raw.githubusercontent.com/yeahwu/recycle-bin/master/xx7.png)
+![更新情景模式](https://user-images.githubusercontent.com/31188782/31662044-7c88c902-b36f-11e7-890b-2e10dddadac1.png)
+
+* 点击SwitchyOmega，切换成“GAE-Proxy自动切换”，如果使用的是X-Tunnel或SS，请点击“X-Tunnel自动切换”。
+![切换代理](https://user-images.githubusercontent.com/31188782/31662260-33c95e42-b370-11e7-87b9-d9a6985cb1c9.png)
 * 到此，浏览器端设置代理也就完成了，还需最后一步，把XX-Net切换为“取消全局代理”，就可以畅游网络了。
 
 ![取消全局代理](https://raw.githubusercontent.com/yeahwu/wu/master/pan8.jpg)
