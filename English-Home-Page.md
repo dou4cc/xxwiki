@@ -1,22 +1,20 @@
 XX-Net
 ========
 Anti-censorship tools  
-A firewall circumvention toolkit  
-A Reborn GoAgent
-
-Features
-==========
-* A stable, easy to use and fast proxy based on GAE
-* Friendly web UI
+Include:  
+* GAE_proxy  
+* [X-Tunnel](how-to-use-X-Tunnel)  
 
 Supported platforms
 ================
-* Windows XP systems requires modifications on "tcpip.sys", 
+* Windows XP  
+   systems requires modifications on "tcpip.sys", 
 software such as tcp-z (https://github.com/yeahwu/wu/raw/master/WindowsXP-TCPIP-concurrency-count-patch.rar). 
 can do the job for you (Increase the count to 2048 and restart your PC.)
 * Win7/8/10  
 * Linux  
 * Mac
+* [Android](https://github.com/XX-net/xxnet-android/releases)
 
 
 ## Links
