@@ -3,7 +3,7 @@ XX-Net
 Anti-censorship tools  
 Include:  
 * GAE_proxy  
-* [X-Tunnel](how-to-use-X-Tunnel)  
+* [X-Tunnel](How-to-use-XTunnel)  
 
 Supported platforms
 ================
