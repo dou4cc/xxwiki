@@ -9,12 +9,18 @@
 <br>
 
 ## 通过各种隧道，获得IPv6  
+  6to4隧道适用公网ip用户，teredo隧道适用内网ip用户。
+
   各操作系统情况不同，方法也不一样。  
+
 * [[IPv6-Win10]]  
 * [[IPv6-Win7]]  
 * [[IPv6-WinXP]]  
 * [[IPv6-Linux]]  
 * [[IPv6-Mac]]  
 
+
+## 开启失败排查
+1. 开启teredo失败时的解决方案 http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat
 
   
