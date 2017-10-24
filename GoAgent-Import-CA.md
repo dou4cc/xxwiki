@@ -5,7 +5,10 @@
 GoAgent对https网站，是通过GAE服务获取到内容，再重新加密返回浏览器的。  
 因此https的证书必须重新生成。 
 
-浏览器需要导入GoAgent的证书，否则会遇到[[证书错误]]。  
+浏览器需要导入GoAgent的证书，否则会遇到[[证书错误]]。 
+- CA status: Fail 不一定是证书错误，可能是浏览器缓存问题。
+- Chrome：Ctrl + F5 ；
+    其他浏览器：[绕过浏览器缓存](https://zh.wikipedia.org/wiki/Help:%E7%BB%95%E8%BF%87%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98)
 
 GoAgent证书的路径：  
  第一次启动后，会生成data\gae_proxy\CA.crt证书。  
