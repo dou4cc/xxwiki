@@ -14,7 +14,7 @@
   各操作系统情况不同，方法也不一样。  
 
 * [[IPv6-Win10]]  
-* [[IPv6-Win7]]  
+* [[IPv6-Win7 小白指引]]  
 * [[IPv6-WinXP]]  
 * [[IPv6-Linux]]  
 * [[IPv6-Mac]]  
