@@ -1,8 +1,13 @@
-## X_tunnel是XX-Net的新功能模块  [](https://github.com/XX-net/XX-Net/issues/1977)
+## X_tunnel是XX-Net的新功能模块  
 * 提供socks5代理特性，解决GAE证书问题  
   支持完整的SSL/HTTPS 加密通讯，支持非http协议。  
-* 不受GAE封锁影响。  
-  
+* 更多前端，更快更稳定  
+  目前支持GAE, cloudflare, heroku  
+  客户端根据速度，智能调度。  
+* 更安全  
+  流量混淆  
+    通过流量分析，无法了解用户传输什么内容。  
+  中间经过2跳，任意节点无法知道谁，在访问什么网站。  
   
 
 ## 使用方法
@@ -31,6 +36,8 @@
 ### 最后一步
 * 右键托盘图标，勾选“取消全局代理”    
 
+### 高级技巧
+* [指定服务器](X-Tunnel-use-special-server)
 
 ### 如何获得流量：
 1. 每捐赠1个appid，奖励1G流量/1年
