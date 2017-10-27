@@ -49,7 +49,6 @@ SET PYTHONPATH=
 "%~dp0%start.vbs" noconsole
 ```
 发个快捷方式到桌面，改“管理员权限”，以后启动XX-Net用这个快捷方式就好了！
-![快捷方式](https://user-images.githubusercontent.com/16462258/31304665-110bc54e-ab59-11e7-92d6-e87eaf3a0f2e.png)
 
 END！！！
 
