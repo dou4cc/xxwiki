@@ -1,15 +1,16 @@
 
 ## ISP商直接提供IPv6支持  
   部分地区的运营商开通得了IPv6原生支持。  
-  目前IPv6未受到GFW干扰，可以直接使用。  
+  目前IPv6未受到GFW干扰，可以直接使用。 
+ 
   [[如何获取原生IPv6]]  
 
-  校园网络一般直接支持，还免流量费。  
-  
-<br>
+  教育网一般可获得原生IPV6，并且可免费使用。  
 
 ## 通过各种隧道，获得IPv6  
   6to4隧道适用公网ip用户，teredo隧道适用内网ip用户。
+
+  未开通原生IPV6的教育网用户可以使用[教育网ISTAP隧道服务](https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md)
 
   各操作系统情况不同，方法也不一样。  
 
