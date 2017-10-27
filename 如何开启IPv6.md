@@ -20,6 +20,7 @@
 * [[IPv6-WinXP]]  
 * [[IPv6-Linux]]  
 * [[IPv6-Mac]]  
+* [[IPV6-路由器]]
 
 ## 开启失败排查
 1. [开启teredo失败时的解决方案](http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat)
