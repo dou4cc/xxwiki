@@ -10,11 +10,11 @@
 
 ## 通过各种隧道，获得IPv6  
   6to4隧道适用公网ip用户，teredo隧道适用内网ip用户。
+
 ###Teredo隧道方法
 参考下图设置本地网络连接的IPv6设置：
 ![20171007113415](https://user-images.githubusercontent.com/16462258/31304645-70cbdf06-ab58-11e7-9819-db4060aa7bc5.png)
-**上图的Step4只需要手动指定下面的DNS地址，上面的保持自动即可！**
-~~[内网IPv6地址计算](http://ip-lookup.net/conversion.php)，输入本地网络连接IPv4的地址，如：192.168.1.100~~
+
 
 下面的保存为批处理(**bat**)文件，感谢[Anudorannador 的提点](#issuecomment-335017476) ：
 ```bash
