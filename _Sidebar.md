@@ -5,6 +5,7 @@
     
 * [[使用方法|How-to-use]] ( [[Chrome浏览器|使用Chrome浏览器]]、[[Firefox浏览器|使用Firefox浏览器]]、[安卓版](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E5%8D%93%E7%89%88) )
 * [[X-Tunnel使用教程]]
+* [[如何开启IPv6]]
 * [[更新方法|How-to-update]]
 * [[导入证书|GoAgent Import CA]]
 * [[创建自己的appid|how to create my appids]]
