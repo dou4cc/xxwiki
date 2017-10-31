@@ -57,10 +57,6 @@ sudo route add -inet6 ::/0 -interface gif0
 
 这样 ISATAP就配置好了！
 
-关闭IPv6
-
-`sudo ifconfig gif0 destroy`
-
 注意，OS X 中 safari 对于 ISATAP 的 IPv6 接入不友好，仍然会打开 IPv4 地址。
 
  请通过`ping6 ipv6.tsinghua.edu.cn`验证接入。
