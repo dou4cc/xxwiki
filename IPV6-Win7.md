@@ -1,9 +1,6 @@
 ## Teredo隧道 
  
-### 命令行方法 
-参考下图设置本地网络连接的IPv6设置：
-![20171007113415](https://user-images.githubusercontent.com/16462258/31304645-70cbdf06-ab58-11e7-9819-db4060aa7bc5.png)
-
+### 命令行方法
 
 下面的保存为批处理(**bat**)文件，感谢[Anudorannador 的提点](#issuecomment-335017476) ：
 ```bash
