@@ -13,7 +13,7 @@
 ## 使用方法
 
 ### 首先[下载XX-Net客户端](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)    
-* 解压后点击 start.vbs 运行    
+* 解压后点击 start.bat/start.vbs/start 运行    
 * 点击xx图标，进入web页面      
 * 左侧栏会有个 x_tunnel，点击 、首页、注册、登录。
 * x-tunnel 服务器带宽流量需要购买，条件允许请支持项目。    
