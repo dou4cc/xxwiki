@@ -25,13 +25,14 @@
 
 <img src="https://user-images.githubusercontent.com/31188782/30581444-bdbef186-9d52-11e7-9f25-e51486647340.JPG" height=250/>
 
-* SwitchyOmega选择X_Tunnel自动切换模式
+* SwitchyOmega选择X_Tunnel自动切换模式   
+
+支持的代理协议
 
 | 代理协议 | 代理服务器 | 代理端口 |
 |----------|------------|----------|
-| SOCKS5   | 127.0.0.1  | 1080     |
-
-* [代理设置指导](https://github.com/XX-net/XX-Net/wiki/%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86)    
+| SOCKS   | 127.0.0.1  | 1080     |
+|HTTP      |127.0.0.1|1080|
 
 ### 最后一步
 * 右键托盘图标，勾选“取消全局代理”    
