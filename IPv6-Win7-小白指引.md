@@ -116,7 +116,24 @@ cmd<br>
 ![ip10000](https://user-images.githubusercontent.com/32607791/31721450-02ea0bd2-b44c-11e7-8474-56973be76887.PNG)
 
 ### 9.其它<br>
-* IPv6使用一段时间连接失败时，登陆[http://test-ipv6.com/](http://test-ipv6.com/)查看是否无法获取IPv6地址，如无法获取时请再**运行两遍IPv6_2.bat**<br>
+* IPv6使用一段时间连接失败时或ipv6可用地址为零时，请转到XX-net的web界面，点击高级——检查所有IP——运行，如检查完毕有效IP仍为零请**运行一遍IPv6_2.bat**，点击屏幕右下角XX图标选择重启GAEporxy再通过检查IP来获取有效IP<br>
+
+* IPv6使用一段时间连接失败时请登陆[http://test-ipv6.com/](http://test-ipv6.com/)查看是否无法获取IPv6地址，如无法获取时请再**运行一遍IPv6_2.bat**<br>
+
+* IPv6_2.bat运行报错请打开命令行运行以下命令<br>
+netsh int ipv6 show teredo<br>
+查看Teredo服务器连接<br>
+状态——probe     （请求中）<br>
+状态——offline   （离线）<br>
+状态——qualified （正常使用）<br>
+请将IPv6_2.bat中的<br>
+netsh interface teredo set state server=teredo.remlab.net<br>
+teredo.remlab.net修改为以下备选Teredo服务器中的一个（有两处修改，请注意）<br>
+teredo-debian.remlab.net<br>
+teredo.trex.fi<br>
+teredo2.remlab.net<br>
+teredo.iks-jena.de<br>
+替换一次就保存一次，再运行IPv6_2.bat，再来用netsh int ipv6 show teredo检查查看Teredo服务器状态，直到状态显示为qualified就可以重启GAEporxy再通过检查IP来获取有效IP，请保持耐心多试几次（有时ping不通的Teredo服务器也是可用的）一定会成功。<br>
 
 * **IPV6相关命令及说明**<br>
 
