@@ -15,7 +15,7 @@ IPv6 是一个互联网协议 (IP) 版本，比 IPv4 提供更多的 IP 地址�
 ### teredo
 安装miredo https://github.com/darconeous/miredo-osx
 
-### [istap](https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境)
+### [isatap](https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境)
 
 编写脚本 /usr/local/bin/thu6tunnel.sh，加入以下内容
 ```
