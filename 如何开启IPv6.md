@@ -22,7 +22,8 @@
 * [[IPv6-Mac]]  
 * [[IPV6-路由器]]
 
+系统开启隧道后，在[[“配置”页面]]打开XX-Net的ipv6功能
+
 ## 开启失败排查
 1. [开启teredo失败时的解决方案](http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat)
-
   
