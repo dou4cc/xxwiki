@@ -8,7 +8,7 @@
   教育网一般可获得原生IPV6，并且可免费使用。  
 
 ## 通过各种隧道，获得IPv6  
-  6to4隧道适用公网ip用户，teredo隧道适用内网ip用户。
+  6to4隧道适用公网ip用户，[[teredo]]隧道适用内网ip用户。
 
   未开通原生IPV6的教育网用户可以使用[教育网ISATAP隧道服务](https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md)
 
