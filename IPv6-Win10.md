@@ -21,17 +21,23 @@
     netsh interface teredo set state server=teredo.remlab.net
   ```
 ## 专业版
-1. 命令行
+### 命令行方法：
+ <待补充>
 
-1. 组策略
-一、win+R打开gpedit.msc
- 1.png 
-二、依顺序打开“计算机配置”——“管理模板”——“网络”——“TCPIP 设置”——“IPv6 转换技术”
- 2.png 
-三、“6to4 状态” 和 “ISATAP 状态” 都配置为 “已禁用状态”
- 3.PNG 
- 3.1.png  3.2.png 
-四、重头戏，配置Teredo
-1、“Teredo 状态” 配置为 “企业客户端”
- 4.1.png 
-2、“Teredo 默认限定” 配置为 “已启用状态”
+### 组策略方法  
+* win+R打开gpedit.msc  
+ 1.png   
+
+* 依顺序打开“计算机配置”——>“管理模板”——>“网络”——>“TCPIP 设置”——>“IPv6 转换技术”  
+ 2.png   
+
+* “6to4 状态” 和 “ISATAP 状态” 都配置为 “已禁用状态”  
+ 3.PNG  
+ 3.1.png   
+ 3.2.png   
+
+* 重头戏，配置Teredo  
+ 1. “Teredo 状态” 配置为 “企业客户端”  
+  4.1.png   
+
+ 2. “Teredo 默认限定” 配置为 “已启用状态”   
