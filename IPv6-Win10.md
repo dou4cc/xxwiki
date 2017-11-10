@@ -5,7 +5,7 @@
 
   ```bat
     // 设置 teredo 服务器，默认为：win10.ipv6.microsoft.com
-    netsh interface teredo set state default server=default
+    netsh interface teredo set state enterpriseclient server=default
 
     // 重置 ipv6 配置
     netsh interface ipv6 reset
