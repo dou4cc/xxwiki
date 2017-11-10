@@ -19,7 +19,7 @@ https://www.google.com/ncr
 
     ![](https://user-images.githubusercontent.com/31188782/31053685-ac0ee2fc-a6d5-11e7-9fe1-512ce35ae0ed.JPG)
 
-3. 选择区域，默认us-central即可（看不到地图的请选择全局代理或者更换梯子）
+3. 选择区域，默认us-central即可（部分地区可以点选日本服务器，看不到地图的请选择全局代理或者更换梯子）
 
     ![](https://user-images.githubusercontent.com/31188782/31053686-ac15ad6c-a6d5-11e7-868b-b04f76fabf76.JPG)
 
