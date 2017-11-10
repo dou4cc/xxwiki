@@ -1,21 +1,15 @@
-### [6to4](https://support.apple.com/kb/PH25406?locale=zh_CN)
+## 概述：
+ Mac 下有3种方法获得IPv6
 
-IPv6 是一个互联网协议 (IP) 版本，比 IPv4 提供更多的 IP 地址空间。
 
-如果您需要连接到 IPv6 地址，但您的网络不提供 IPv6 连接，则可以设置 6to4 网络端口配置。
+## teredo
+安装miredo https://github.com/darconeous/miredo-osx  
+注： Mac10.13 不支持。
 
-1. 选取苹果菜单 >“系统偏好设置”，然后点按“网络”。
 
-1. 点按添加按钮 ，点按“接口”弹出式菜单，然后选取“6to4”。
-
-1. 为该配置指定名称，然后点按“创建”。
-
-1. 如果您获得了一个中转地址，点按“配置”弹出式菜单，选取“手动”，然后输入该地址。否则，保留设置为“自动”。
-
-### teredo
-安装miredo https://github.com/darconeous/miredo-osx
-
-### [isatap](https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境)
+## isatap
+https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境  
+只适合教育网用户  
 
 编写脚本 /usr/local/bin/thu6tunnel.sh，加入以下内容
 ```
@@ -60,3 +54,19 @@ sudo route add -inet6 ::/0 -interface gif0
 注意，OS X 中 safari 对于 ISATAP 的 IPv6 接入不友好，仍然会打开 IPv4 地址。
 
  请通过`ping6 ipv6.tsinghua.edu.cn`验证接入。
+
+
+## 6to4
+https://support.apple.com/kb/PH25406?locale=zh_CN
+
+IPv6 是一个互联网协议 (IP) 版本，比 IPv4 提供更多的 IP 地址空间。
+
+如果您需要连接到 IPv6 地址，但您的网络不提供 IPv6 连接，则可以设置 6to4 网络端口配置。
+
+1. 选取苹果菜单 >“系统偏好设置”，然后点按“网络”。
+
+1. 点按添加按钮 ，点按“接口”弹出式菜单，然后选取“6to4”。
+
+1. 为该配置指定名称，然后点按“创建”。
+
+1. 如果您获得了一个中转地址，点按“配置”弹出式菜单，选取“手动”，然后输入该地址。否则，保留设置为“自动”。
