@@ -4,8 +4,8 @@
 
 ## teredo
 安装miredo https://github.com/darconeous/miredo-osx  
-注： Mac10.13 不支持。
-
+注： Mac10.13 不支持。  
+参考： https://github.com/XX-net/XX-Net/issues/8045
 
 ## isatap
 https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境  
