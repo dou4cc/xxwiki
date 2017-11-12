@@ -4,8 +4,9 @@ https://zh.wikipedia.org/wiki/Teredo隧道
 
 输入命令（XP需要先运行`netsh interface ipv6 install`）
 ```
-
-netsh interface ipv6 set teredo type=enterpriseclient servername=teredo.remlab.net refreshinterval=30 clientport=default
+netsh interface ipv6 set teredo enterpriseclient servername=teredo.remlab.net 30 clientport=default
+ping -6 [2001:470:1:18::125]
+netsh int ipv6 show teredo state 
 ```
 
 其中servername可以自行择优选择(https://zh.wikipedia.org/wiki/Teredo%E9%9A%A7%E9%81%93#.E6.9C.8D.E5.8A.A1.E5.99.A8)
