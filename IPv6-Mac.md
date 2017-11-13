@@ -57,9 +57,8 @@ sudo route add -inet6 ::/0 -interface gif0
 
 
 ## 6to4
-https://support.apple.com/kb/PH25406?locale=zh_CN
-
-IPv6 是一个互联网协议 (IP) 版本，比 IPv4 提供更多的 IP 地址空间。
+https://support.apple.com/kb/PH25406?locale=zh_CN  
+说明：这个方法，基本无法使用，仅做记录。  
 
 如果您需要连接到 IPv6 地址，但您的网络不提供 IPv6 连接，则可以设置 6to4 网络端口配置。
 
