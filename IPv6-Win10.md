@@ -22,7 +22,7 @@
   ```
 ## 专业版
 ### 命令行方法：
- 运行 XX-Net\code\default\gae_proxy\local\ipv6_tunnel\enable_ipv6.bat  
+ 以管理员权限运行 XX-Net\code\default\gae_proxy\local\ipv6_tunnel\enable_ipv6.bat  
 
 ### 组策略方法  
 * win+R打开gpedit.msc  
