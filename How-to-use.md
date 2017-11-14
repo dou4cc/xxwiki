@@ -73,8 +73,11 @@
   - 配置浏览器代理插件
 
 # 其他平台
-## OpenWrt
-  - [[在OpenWrt里运行XX-Net]]<br>
+## 路由器
+  1. OpenWrt
+     - [[在OpenWrt里运行XX-Net]]<br>
+  2. 梅林固件
+     - [[在有USB接口的梅林固件路由器上安装XX-Net-（懒人脚本）]]<br>
 
 ## Android
   - [[Android技术设计]]
