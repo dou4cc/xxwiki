@@ -3,8 +3,10 @@
 
 
 ## teredo
-安装miredo https://github.com/darconeous/miredo-osx  
-注： Mac10.13 不支持。  
+安装miredo https://github.com/darconeous/miredo-osx    
+注： 很多反馈Mac10.13 安装不了。 
+可以试试下载安装： https://sourceforge.net/projects/tuntaposx/  
+ 
 参考： https://github.com/XX-net/XX-Net/issues/8045
 
 ## isatap
@@ -58,7 +60,7 @@ sudo route add -inet6 ::/0 -interface gif0
 
 ## 6to4
 https://support.apple.com/kb/PH25406?locale=zh_CN  
-说明：这个方法，基本无法使用，仅做记录。  
+说明：需要外网IP地址，大部分用户不具备  
 
 如果您需要连接到 IPv6 地址，但您的网络不提供 IPv6 连接，则可以设置 6to4 网络端口配置。
 
