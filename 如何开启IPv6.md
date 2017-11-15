@@ -25,3 +25,4 @@
 ## 开启失败排查
 1. [开启teredo失败时的解决方案](http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat)
 2. [在隧道接口上启用/禁用 IPv6](https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows)  
+3. [IPv6自动关闭怎么处理](https://github.com/XX-net/XX-Net/issues/8357)
