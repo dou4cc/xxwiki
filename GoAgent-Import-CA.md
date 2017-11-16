@@ -37,6 +37,29 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 3. 选择“HTTP/SSL”选项下的“Managene Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
+# Linux 手动处理用户级别证书
+
+创建文件夹
+
+    mkdir -p ~/.pki/nssdb
+
+手动导入证书到数据库
+
+    certutil -d sql:. -A -t "C,," -n "GoAgent XX-Net - GoAgent" -i "/pathto/CA.crt"
+
+若失败,可尝试更改证书数据库密码,可改为空
+
+    modutil -changepw "NSS Certificate DB" -dbdir ~/.pki/nssdb
+
+
+查看证书:
+
+    certutil -L -d sql:~/.pki/nssdb
+
+若要删除证书:
+
+    certutil -d sql:~/.pki/nssdb -D -n "GoAgent XX-Net - GoAgent"
+
 # Android手动导入证书
 1. 打开设置-系统安全-从SD卡安装凭据（证书）.
 2. 依次进入 XX-Net/data/gae_proxy , 选择该目录下的 CA.crt , 输入任意名称 , 按确定即可. 
