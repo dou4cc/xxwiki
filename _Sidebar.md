@@ -11,4 +11,4 @@
 * [[创建自己的appid|how to create my appids]]
 * [[故障速查|故障速查手册]]
 * [[启动失败解决方法|How-to-get-start-error-log]]
-* [[证书错误解决方法]]
+* [[证书错误解决方法|证书错误]]
