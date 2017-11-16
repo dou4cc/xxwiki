@@ -39,6 +39,7 @@
 
 ### 高级技巧
 * [指定服务器](X-Tunnel-use-special-server)
+* [[修改监听端口|X_tunnel-Config-file]]
 
 ### 如何获得流量：
 1. 每捐赠1个appid，奖励10G流量/2年
