@@ -4,10 +4,16 @@
 
 ## teredo
 安装miredo https://github.com/darconeous/miredo-osx    
-注： 很多反馈Mac10.13 安装不了。 
-可以试试下载安装： https://sourceforge.net/projects/tuntaposx/  
+下载安装： https://sourceforge.net/projects/tuntaposx/  
+
+注： 很多反馈Mac10.13 安装不了，是系统保护，关闭就好了：   
+`command+R`  
+`csrutil disable`  
+`reboot`  
+重新安装  
  
-参考： https://github.com/XX-net/XX-Net/issues/8045
+相关讨论： https://github.com/XX-net/XX-Net/issues/8045
+
 
 ## isatap
 https://github.com/tuna/ipv6.tsinghua.edu.cn/blob/master/isatap.md#mac-os-x环境  
