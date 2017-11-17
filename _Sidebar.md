@@ -1,14 +1,12 @@
-
-[[中文文档]]<br>
-[[English|English Home Page]]<br>
-[[Persian|Persian-home-page]]<br>
-    
-* [[使用方法|How-to-use]] ( [[Chrome浏览器|使用Chrome浏览器]]、[[Firefox浏览器|使用Firefox浏览器]]、[安卓版](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E5%8D%93%E7%89%88) )
-* [[X-Tunnel使用教程]]
-* [[如何开启IPv6]]
-* [[更新方法|How-to-update]]
-* [[如何导入证书|GoAgent Import CA]]
-* [[创建自己的appid|how to create my appids]]
-* [[故障速查|故障速查手册]]
-* [[启动失败解决方法|How-to-get-start-error-log]]
-* [[证书错误解决方法|证书错误]]
+* [[中文文档]]
+  * [[使用方法|How-to-use]] ( [[Chrome浏览器|使用Chrome浏览器]]、[[Firefox浏览器|使用Firefox浏览器]]、[安卓版](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E5%8D%93%E7%89%88) )
+  * [[X-Tunnel使用教程]]
+  * [[如何开启IPv6]]
+  * [[更新方法|How-to-update]]
+  * [[如何导入证书|GoAgent Import CA]]
+  * [[创建自己的appid|how to create my appids]]
+  * [[故障速查|故障速查手册]]
+  * [[启动失败解决方法|How-to-get-start-error-log]]
+  * [[证书错误解决方法|证书错误]]
+* [[English|English Home Page]]
+* [[Persian|Persian-home-page]]
