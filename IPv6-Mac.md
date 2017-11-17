@@ -12,7 +12,9 @@
 `reboot`  
 重新安装  
  
-相关讨论： https://github.com/XX-net/XX-Net/issues/8045
+相关讨论：   
+https://github.com/XX-net/XX-Net/issues/8045  
+https://github.com/XX-net/XX-Net/issues/8425  
 
 
 ## isatap
