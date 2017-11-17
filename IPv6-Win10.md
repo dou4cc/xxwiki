@@ -27,6 +27,8 @@
 
  - 其他参考
    - https://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat
+   - http://www.windows7en.com/jiaocheng/26518.html
+
 
 ## 专业版
 ### 命令行方法：
