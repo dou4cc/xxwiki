@@ -65,11 +65,12 @@
 
 
 ## 方案二：安装和使用代理切换插件
-firefox57+ 推荐插件：
+firefox57+ 可用插件：
+* https://addons.mozilla.org/zh-CN/firefox/addon/simpleproxy/
+* https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/ 
 * https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-basic/
-* https://addons.mozilla.org/en-US/firefox/addon/switchyomega/ (老版本无法使用)  
   
-* 老版本，点击下面地址安装pan代理插件
+* 56与长期支持版，可安装pan代理插件
   - https://addons.mozilla.org/zh-CN/firefox/addon/pan/?src=search
 ![安装pan](https://raw.githubusercontent.com/yeahwu/wu/master/pan1.png)
 * 添加过滤规则，右键点击pan插件，然后再点击“过滤规则首选项”
