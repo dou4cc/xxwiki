@@ -50,6 +50,8 @@
    - https://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat
    - https://support.xbox.com/zh-HK/xbox-on-windows/social/troubleshoot-party-chat
    - http://www.windows7en.com/jiaocheng/26518.html
-
+   - [Launch the Windows Settings app](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
+      - ms-settings:gaming-xboxnetworking
+      - ms-settings:network-proxy	
    [![xbox](https://user-images.githubusercontent.com/31188782/33045390-948f05ba-ce87-11e7-99e8-6c3ffb0ccfbf.png)](https://support.xbox.com/en-US/xbox-on-windows/social/troubleshoot-party-chat)
 
