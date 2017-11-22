@@ -32,7 +32,7 @@
 ### 命令行方法：
  同家庭版  
 
-### 组策略方法  
+### 组策略方法:（建议不要混用两种方法）
 * Win+R 打开gpedit.msc  
  ![组策略](https://user-images.githubusercontent.com/31188782/33045995-0b620dac-ce8a-11e7-9df2-e704eb987d9d.png)  
 
