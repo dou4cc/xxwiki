@@ -37,4 +37,4 @@
 
 **配置页面：**
 
-[GAEProxy局域网代理](http://127.0.0.1:8085/?module=gae_proxy&menu=config)
+[GAEProxy局域网代理](http://127.0.0.1:8085/?module=launcher&menu=config)
