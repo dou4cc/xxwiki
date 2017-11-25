@@ -1,16 +1,8 @@
 ## Teredo隧道 
  
-### 命令行方法
+### 命令行方法 
+### **运行code\version\gae_proxy\local\ipv6_tunnel文件夹下的enable_ipv6.bat**
 
-下面的保存为批处理(**bat**)文件，感谢[Anudorannador 的提点](#issuecomment-335017476) ：
-```bash
-@echo off
-netsh interface isatap set state default
-netsh interface teredo set state default
-netsh interface teredo set state server=teredo.remlab.net
-netsh interface ipv6 set teredo enterpriseclient
-cmd
-```
 >下面的"**有效的Teredo接口名称**”需要自己查找替换，具体名称规则，不是**Teredo**开头的“Teredo Tunneling Pseudo-Interface”，就是**本地连接**挂*的，状态应该是**已连接**(connected)
 
 右键管理员权限执行一次，稍等一下（10~20s左右），执行`netsh int ipv6 add route ::/0 "有效的Teredo接口名称"`(**引号不可缺**) 回显提示：“**对象已存在**”即可。
@@ -34,9 +26,13 @@ SET PYTHONPATH=
 1. 检查路由表，`netsh int ipv6 show route`，看看你设置的是不是**唯一**的` ::/0 `项。如果多余不唯一，参见下面问题3。如果没有你设置的则跳转到下一步检查。
 2. 检查teredo服务状态，`netsh int ipv6 show teredo`，看看**状态**是不是`qualified`，[参考解决办法](http://ju.outofmemory.cn/entry/94277)。连**状态行**都没有的话，[检查IP Helper服务是否启动](#issuecomment-334945915)，进一步参考[“未能打开隧道适配器”](#issuecomment-334978237) @qumaggot [修改注册表的方法](https://github.com/XX-net/XX-Net/issues/6918#issuecomment-334987098) @FrankHB [参考方法](http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat)
 3. 检查**策略组**(运行gpedit.msc开启)中的ISATAP状态是不是下图的样子
+
 ![isatap](https://user-images.githubusercontent.com/16462258/31307823-0ff8536c-ab9e-11e7-887f-505ef8c52a33.png)
+
 家庭版的系统没有**策略组**，使用`netsh int ipv6 show int`查看网络接口中有没有`isatap`开头的
-4. 检查网络连接的IPv6静态网址和IPv4自动获取的网址是不是对应的，如果出现IPv6退回自动的状态，参见下面的问题5。**建议把IPv4地址也设置成静态或者在路由器中设置绑定MAC地址到固定IP。**
+
+4. 检查网络连接的IPv6静态网址和IPv4自动获取的网址是不是对应的，如果出现IPv6退回自动的状态，参见下面的问题
+5. **建议把IPv4地址也设置成静态或者在路由器中设置绑定MAC地址到固定IP。**
 
 ### 补充几个常见问题
 1. 有个别朋友的网络环境差异，导致Teredo服务器可能连不上，尝试几次换换服务器可能成功。[参考](http://ju.outofmemory.cn/entry/94277)
