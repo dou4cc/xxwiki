@@ -28,15 +28,18 @@
   ```
    ![dormant](https://user-images.githubusercontent.com/31188782/33047065-cf1932f8-ce8e-11e7-9701-c0a679886859.png)
 
- 特别重要：找到本地连接-属性-ipv6协议，把勾去掉，确定。启动XX-NET，等待1分钟。
+特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。
 
 ## 专业版或企业版
 ### 命令行方法：
  同家庭版  
 
- 脚本：
+特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。
+ 
+### 脚本：
  打开XX-Net 代码目录，切换到 code\default\gae_proxy\local\ipv6_tunnel  
  执行 enable_ipv6.bat  
+特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。
 
 ### 组策略方法:（建议不要混用两种方法）
 * Win+R 打开gpedit.msc  
@@ -48,7 +51,7 @@
 
    **“Teredo 状态” 配置为 “企业客户端”，“Teredo 默认限定” 配置为 “已启用状态”**
 
-特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。启动XX-NET，等待1分钟。
+特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。
 
    ![IPv6 转换技术](https://user-images.githubusercontent.com/31188782/33046760-6e3af0d0-ce8d-11e7-8a39-ea26ca3d2212.png)
 
