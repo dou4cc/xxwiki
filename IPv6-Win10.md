@@ -28,7 +28,9 @@
   ```
    ![dormant](https://user-images.githubusercontent.com/31188782/33047065-cf1932f8-ce8e-11e7-9701-c0a679886859.png)
 
-## 专业版
+ 特别重要：找到本地连接-属性-ipv6协议，把勾去掉，确定。启动XX-NET，等待1分钟。
+
+## 专业版或企业版
 ### 命令行方法：
  同家庭版  
 
@@ -46,6 +48,8 @@
 
    **“Teredo 状态” 配置为 “企业客户端”，“Teredo 默认限定” 配置为 “已启用状态”**
 
+特别重要：找到本地连接（无线网络找到WLAN或者蓝牙网络连接）-属性-ipv6协议，把勾去掉，确定。启动XX-NET，等待1分钟。
+
    ![IPv6 转换技术](https://user-images.githubusercontent.com/31188782/33046760-6e3af0d0-ce8d-11e7-8a39-ea26ca3d2212.png)
 
    ___![Teredo 状态](https://user-images.githubusercontent.com/31188782/33046845-ca9bab1c-ce8d-11e7-8a4b-b485befea07e.png)
@@ -58,4 +62,3 @@
       - ms-settings:gaming-xboxnetworking
       - ms-settings:network-proxy	
    [![xbox](https://user-images.githubusercontent.com/31188782/33045390-948f05ba-ce87-11e7-99e8-6c3ffb0ccfbf.png)](https://support.xbox.com/en-US/xbox-on-windows/social/troubleshoot-party-chat)
-
