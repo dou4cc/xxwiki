@@ -38,10 +38,8 @@
   具体方法请查看：“[[如何捐赠APPID|DonateAppid]]”    
 
 + 资助    
-  比特币收款地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC  
-  DASH收款地址：Xwgc7wYZH4TNVpKi4KJs1TLzpJyfdo947E  
+  比特币地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC 
   paypal： xxnet.dev@gmail.com  
-  donate page: https://pledgie.com/campaigns/30569  
 
 + 购买X_tunnel流量  
   可参考[[X_Tunnel介绍]]  
