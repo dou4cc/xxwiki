@@ -38,7 +38,7 @@
   具体方法请查看：“[[如何捐赠APPID|DonateAppid]]”    
 
 + 资助    
-  比特币地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC 
+  比特币地址：1CJHmCuVAcDj2PNka6RDAHSWRb4RQSxXRC   
   paypal： xxnet.dev@gmail.com  
 
 + 购买X_tunnel流量  
