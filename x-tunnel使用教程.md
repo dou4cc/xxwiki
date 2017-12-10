@@ -19,7 +19,7 @@
 * x-tunnel 服务器带宽流量需要购买，条件允许请支持项目。    
 
 ### 浏览器安装代理插件    
-* 火狐用 pan 或者`autoproxy`
+* 火狐用 pan 或者`autoproxy`(57版本之后的用switchOmega)
 * chrome 用[SwitchyOmega](https://github.com/XX-net/XX-Net/wiki/%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8-SwitchyOmega)调用（[导入在线恢复文件](https://raw.githubusercontent.com/XX-net/XX-Net/master/SwitchyOmega/OmegaOptions.bak)，一键完成设置）
 
 
