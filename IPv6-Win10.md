@@ -57,8 +57,7 @@
 
    ___![Teredo 状态](https://user-images.githubusercontent.com/31188782/33046845-ca9bab1c-ce8d-11e7-8a4b-b485befea07e.png)
 
-#####重要提示：如按照教程设置无效出现其他莫名其妙的问题，建议如下：1，管理员模式运行disable_ipv6.bat（如是用的组策略模式，请把所有更改过的组策略改成未配置）删除regedit：计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ 下面的Tcpip6和TCPIP6TUNNEL两个选项。 在https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows 下载第二排第一，第三，第四，第五个，依次运行之。重启电脑。
-然后按照教程再从头做一遍，记得禁用ipv6协议，应该可以解决问题。
+#####重要提示：如按照教程设置无效出现其他莫名其妙的问题，建议如下：1，管理员模式运行disable_ipv6.bat（如是用的组策略模式，请把所有更改过的组策略改成未配置）删除regedit：计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ 下面的Tcpip6和TCPIP6TUNNEL两个选项。 2.在https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows 下载第二排第二，第三，第四，依次运行之。重启电脑。 然后按照组策略教程再从头做一遍（切记，组策略方法开启ipv6必须指定服务器名称），3.（重要）：记得禁用本地连接ipv6协议。
 
 ## 其他参考
    - https://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat
