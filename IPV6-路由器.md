@@ -4,6 +4,6 @@
 
     http://koolshare.cn/thread-97277-1-1.html
 
-华硕老毛子  padavan  (注册HE可以参考梅林帖子的前部分)
+padavan  (注册HE可以参考梅林帖子的前部分)
 
     http://www.right.com.cn/forum/thread-254784-1-1.html
