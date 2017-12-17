@@ -69,13 +69,13 @@
 
 **提示**：如按照教程设置无效出现其他莫名其妙的问题，建议：
 
-1. 管理员模式运行disable_ipv6.bat（如是用的组策略模式，请把所有更改过的组策略改成未配置）
+- 管理员模式运行disable_ipv6.bat。（如是用的组策略模式，请把所有更改过的组策略改成未配置）
 
    删除regedit：计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ 下面的Tcpip6和TCPIP6TUNNEL两个选项。（**改动注册表之前请备份**）
 
-2. 在https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows下载"在非隧道接口和 IPv6 隧道接口上重新启用 IPv6"，运行后重启电脑。 然后按照组策略教程再从头做一遍（切记，组策略方法开启IPv6必须指定服务器名称）
+- 在[自动禁用或重新启用 IPv6 或其组件](https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows)下载 "在非隧道接口和 IPv6 隧道接口上重新启用 IPv6" ，运行后重启电脑，然后按照组策略教程再重做一遍。（切记：组策略方法开启IPv6必须指定服务器名称）
 
-3. 文章开头提示的：禁用IPv6协议。
+- 文章开头提示的：禁用IPv6协议。
 
 ## 其他参考
 
