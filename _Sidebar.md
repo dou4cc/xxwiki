@@ -10,4 +10,3 @@
   * [[证书错误解决方法|证书错误]]
 * [[English|English Home Page]]
 * [[Persian|Persian-home-page]]
-是
