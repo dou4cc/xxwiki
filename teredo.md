@@ -13,7 +13,7 @@ netsh int ipv6 show teredo state
 
 例： `netsh interface ipv6 set teredo servername=win10.ipv6.microsoft.com`
 
-也可尝试[@chendaihang的小工具](https://github.com/XX-net/XX-Net/issues/8915#issuecomment-353727490)
+也可尝试[@chendaihang的小工具](https://github.com/XX-net/XX-Net/files/1584162/teredo.zip)
 
 注：
 1. 在win10专业版、win7旗舰版、xp家庭版测试通过
