@@ -10,11 +10,12 @@ netsh int ipv6 show teredo state
 ```
 
 其中servername可以自行择优选择(https://en.wikipedia.org/wiki/Teredo_tunneling#Servers)
-1. `netsh interface ipv6 set teredo servername=teredo.trex.fi`
-1. `netsh interface ipv6 set teredo servername=win10.ipv6.microsoft.com`
 
+例： `netsh interface ipv6 set teredo servername=win10.ipv6.microsoft.com`
+
+也可尝试[@chendaihang的小工具](https://github.com/XX-net/XX-Net/issues/8915#issuecomment-353727490)
 
 注：
-1. 在 win10专业版、win7旗舰版、xp家庭版测试通过
-2. 本方法只能为 xx-net/ipv6-hosts 提供基本支持，若要直接域名访问IPV6网站还需其他设置
-3. 耐心等待teredo建立链接，多次执行ping命令
+1. 在win10专业版、win7旗舰版、xp家庭版测试通过
+2. teredo方法只能为IP访问提供基本支持，若要直接域名访问IPv6网站还需其他设置
+3. 耐心等待teredo建立链接，可多次执行ping命令
