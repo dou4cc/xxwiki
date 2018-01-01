@@ -31,3 +31,4 @@
 2. [Win10不定时IPv6通道Fail，XX-NET中断连接](https://github.com/XX-net/XX-Net/issues/8709)
 3. [如何在Windows中禁用IPv6](https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows)
 4. [IPv6自动关闭如何处理](https://github.com/XX-net/XX-Net/issues/8357)
+5. [Teredo相关错误的解决办法](https://github.com/XX-net/XX-Net/issues/8742)
