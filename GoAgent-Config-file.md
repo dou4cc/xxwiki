@@ -58,7 +58,8 @@ waitsize = 524288      ;<- 首次读写量，一般无需修改
 bufsize = 8192         ;<- 后续读写量，一般无需修改  
 
 [pac]
-; 自动代理
+; pac自动代理,该配置项已在V3.9之后的版本中失效
+; 新增smart_router功能 https://github.com/XX-net/XX-Net/blob/master/code/default/smart_router/local/__init__.py
 enable = 1
 ip = 127.0.0.1
 port = 8086
