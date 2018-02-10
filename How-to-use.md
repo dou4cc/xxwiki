@@ -68,9 +68,11 @@
   - 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss`  
 
 ## 关于 Fedora
-  - 添加 [FZUG 源](https://github.com/FZUG/repo/wiki/%E6%B7%BB%E5%8A%A0-FZUG-%E6%BA%90)，安装 xx-net
-  - 执行 `xx-net` 或 `systemctl --user start xx-net` (后台)启动
+  - 在bin目录下运行./ srart   (第一次运行时可能需要你同意安装一些依赖)
+  - 执行sudo dnf install miredo     (安装IP6隧道)
+  - 打开浏览器输入127.0.0.1:8085，下载和安装证书
   - 配置浏览器代理插件
+  - 在设置那里打开 开机自启动
 
 # 其他平台
 ## 路由器
