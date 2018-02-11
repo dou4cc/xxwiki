@@ -69,11 +69,11 @@
 
 ## 关于 Fedora
   - 在bin目录下运行./ srart   (第一次运行时可能需要你同意安装一些依赖)
-  - 执行sudo dnf install miredo     (安装IP6隧道)
+  - 执行`sudo dnf install miredo`     (安装IP6隧道)
   - 打开浏览器输入127.0.0.1:8085，下载和安装证书
   - 配置浏览器代理插件
-  - 在设置那里打开 开机自启动xx-net
-  - 如果不会设置开机自启miredo的话，需要每次开机都执行sudo miredo来开启IPv6
+  - 在网页的系统配置选项那里打开 开机自启动
+  - 如果不会设置开机自启miredo的话，需要每次开机都执行`sudo miredo`来开启IPv6
 
 # 其他平台
 ## 路由器
