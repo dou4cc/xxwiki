@@ -65,22 +65,21 @@
      `sudo /home/username/xxnet/xx_net.sh start`
 
 ## 关于 ArchLinux
-  0. 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss`
-  1. 安装xx-net: 在aur仓库中收录, 需要`yaourt`命令:
-     `yaourt -S xx-net`
-     可选用`supervisor`工具进行管理, `xx-net`包中已包含了`supervisor`配置文件:
-     `sudo pacman -S supervisor`
-     `sudo systemctl enable supervisor`
-  2. 安装miredo:
-   - 在x86_64下安装: 
-     `yaourt -S miredo`
-     `sudo systemctl enable miredo`
-   - 在armv7h下安装(如: 树莓派): 
-     `yaourt -S miredo-debian`
-     `# 此处需要supervisor 托管一个脚本，来解决systemd&sysctl 关于eth0 disable_ipv6的 bug`
-   - 运行miredo
-     `sudo systemctl enable miredo`
-
+  0. 可能需要的包: `python-pyopenssl python2-pyopenssl libffi pygtk python2-notify nss` 
+  1. 安装xx-net: 在aur仓库中收录, 需要`yaourt`命令: 
+     `yaourt -S xx-net` 
+   - 可选用`supervisor`工具进行管理, `xx-net`包中已包含了`supervisor`配置文件: 
+     `sudo pacman -S supervisor` 
+     `sudo systemctl enable supervisor` 
+  2. 安装miredo: 
+   - 在x86_64下安装:  
+     `yaourt -S miredo` 
+     `sudo systemctl enable miredo` 
+   - 在armv7h下安装(如: 树莓派):  
+     `yaourt -S miredo-debian` 
+     `# 此处需要supervisor 托管一个脚本，来解决systemd&sysctl 关于eth0 disable_ipv6的 bug` 
+   - 运行miredo 
+     `sudo systemctl enable miredo` 
 
 ## 关于 Fedora
   - 在bin目录下运行./ srart   (第一次运行时可能需要你同意安装一些依赖)
