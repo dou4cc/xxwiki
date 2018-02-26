@@ -96,7 +96,7 @@
   2. 梅林固件
      - [[在有USB接口的梅林固件路由器上安装XX-Net-（懒人脚本）]]<br>
   3. 树莓派
-     - 使用ArchLinuxArm, armv7h架构的, 见上`关于ArchLinux`
+     - 使用ArchLinuxArm, armv7h架构的, 见上[关于-ArchLinux](https://github.com/XX-net/XX-Net/wiki/How-to-use#关于-archlinux)
 
 ## Android
   - [[Android技术设计]]
