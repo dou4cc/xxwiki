@@ -46,6 +46,15 @@ https://www.google.com/ncr
 [](https://cloud.githubusercontent.com/assets/5118705/19358167/87d799a4-91a7-11e6-8e1c-ee29c53ae18e.png)
 ![6-status.jpg](https://user-images.githubusercontent.com/31188782/30781783-f4d55a6c-a157-11e7-911a-617353c002fd.jpg)
 
+## 如何判断appid部署成功：  
+假设你的appid是 myid  
+
+用浏览器通过GAE_Proxy代理访问 myid.appspot.com, 如果出现  
+```
+GoAgent 服务端已经在 xxxxxxx 升级到 3.3.1 版本, 请更新您的客户端。
+```
+这样的字眼，就说明部署成功，否则需要重新部署。  
+
 # 说明 #
 1. 每个AppID每天1G流量，一般每个Google帐户最多12个AppID
 1. AppID一次部署，多端通用，你还可以将appid分享给不能注册gmail的朋友使用
