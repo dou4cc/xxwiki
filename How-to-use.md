@@ -92,7 +92,7 @@
 # 其他平台
 ## 路由器
   1. OpenWrt
-     - [[在OpenWrt里运行XX-Net]]<br>
+     - [[https://github.com/XX-net/XX-Net/wiki/%E5%9C%A8OpenWrt%E9%87%8C%E8%BF%90%E8%A1%8CXX-Net%EF%BC%882018.3.12-%E9%80%82%E7%94%A8%E4%BA%8Eipv4%E6%97%B6%E4%BB%A3%EF%BC%8C%E7%8E%B0%E5%A6%82%E4%BB%8A%E5%B7%B2%E7%BB%8F%E5%A4%B1%E6%95%88%EF%BC%8C%E5%A6%82%E6%9C%89%E5%85%B6%E4%BB%96%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0%EF%BC%8C%E6%95%AC%E8%AF%B7%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%B8%96%EF%BC%89]]<br>
   2. 梅林固件
      - [[在有USB接口的梅林固件路由器上安装XX-Net-（懒人脚本）]]<br>
   3. 树莓派
