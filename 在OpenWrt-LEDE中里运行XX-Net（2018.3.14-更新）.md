@@ -39,15 +39,10 @@ opkg install luci-i18n-upnp-zh-cn
 
 4.通过lede界面在网络-防火墙-自定义规则下面添加如下命令
 ```
-ip6tables -t nat -A POSTROUTING -o 【lan】 -j MASQUERADE
 iptables -I INPUT -p tcp --dport 8087 -j ACCEPT
 iptables -I INPUT -p tcp --dport 8086 -j ACCEPT
 iptables -I INPUT -p tcp --dport 8085 -j ACCEPT
 ```
-
-其中【lan】替换为你自己的lan口地址，一般是eth0或者eth1或者eth0.2这样的
-
-可以在接口-lan-物理设置里面看到
 
 
 5.在系统-启动项 exit 0前面添加如下命令
