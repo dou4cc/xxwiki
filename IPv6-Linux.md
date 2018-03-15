@@ -27,3 +27,6 @@ net.ipv6.conf.eth0.disable_ipv6 = 1
 ```
 sudo sysctl -p /etc/sysctl.conf
 ```
+
+## deepin 系统问题解决：  
+ https://github.com/XX-net/XX-Net/issues/10008
