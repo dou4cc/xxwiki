@@ -41,6 +41,16 @@
 }
 ```
 
+4. www.google.com 避免人机验证
+```
+{
+  “hosts_direct”:[
+    "scholar.google.com",
+    "www.google.com"
+  ] 
+
+}
+```
 
 
 
