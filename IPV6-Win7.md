@@ -1,7 +1,7 @@
 ## Teredo隧道 
  
 ### 命令行方法 
-### **运行code\version\gae_proxy\local\ipv6_tunnel文件夹下的enable_ipv6.bat**
+### **运行code\default(或最新版本号)\gae_proxy\local\ipv6_tunnel文件夹下的enable_ipv6.bat**
 
 >下面的"**有效的Teredo接口名称**”需要自己查找替换，具体名称规则，不是**Teredo**开头的“Teredo Tunneling Pseudo-Interface”，就是**本地连接**挂*的，状态应该是**已连接**(connected)
 
