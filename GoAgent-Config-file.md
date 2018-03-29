@@ -14,8 +14,8 @@
 
 
 - json格式，可以自行搜索。  
-  注意最后一项后面没有逗号，注意不能用中文标点符合。
-
+  注意最后一项后面没有逗号，注意不能用中文标点符号。  
+  可以使用检查json的网站或工具，检查有效性，比如  https://jsonlint.com/  
 
 ### 简单举例：
 1. 自定义appid的密码
@@ -44,7 +44,7 @@
 4. www.google.com 避免人机验证
 ```
 {
-  “hosts_direct”:[
+  "hosts_direct":[
     "scholar.google.com",
     "www.google.com"
   ] 
