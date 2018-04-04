@@ -3,8 +3,8 @@
 
 
 ## teredo
-安装miredo https://github.com/darconeous/miredo-osx    
-下载安装： https://sourceforge.net/projects/tuntaposx/  
+下载安装miredo https://github.com/darconeous/miredo-osx    
+下载安装tuntaposx： https://sourceforge.net/projects/tuntaposx/  
 
 注： 很多反馈Mac10.13 安装不了，是系统保护，关闭就好了：   
 `command+R`  
