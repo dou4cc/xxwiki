@@ -13,7 +13,5 @@
   "GAE_PASSWORD": PASSWORD,
   "listen_ip" : "127.0.0.1"
     “hosts_direct”:[
-    "scholar.google.com",
-    "www.google.com"
   ], 
 }
