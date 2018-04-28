@@ -26,10 +26,13 @@
 - [[IPv6-Mac]]
 - [[IPv6-路由器]]
 
+## 工具
+
+1. [Teredo 状态检测和服务器筛选（Python）](https://github.com/XX-net/XX-Net/issues/10328)
+1. [Teredo 快速设置（Windows）](https://github.com/XX-net/XX-Net/issues/10282)
+
 ## FAQ
 
-1. [Teredo 状态检测和服务器筛选工具](https://github.com/XX-net/XX-Net/issues/10328)
-1. [Windows teredo 快速设置脚本](https://github.com/XX-net/XX-Net/issues/10282)
 1. [Teredo 开启失败的解决方案（xbox support）](http://support.xbox.com/zh-CN/xbox-on-windows/social/troubleshoot-party-chat)
 1. [Win10 不定时 IPv6 通道 Fail，XX-NET中断连接](https://github.com/XX-net/XX-Net/issues/8709)
 1. [如何在 Windows 中禁用 IPv6](https://support.microsoft.com/zh-cn/help/929852/how-to-disable-ipv6-or-its-components-in-windows)
