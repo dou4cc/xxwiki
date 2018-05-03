@@ -1,6 +1,7 @@
 
 ### GoAgent 限制：  
-+ GAE 出口 IP 是固定的，被定义为“开放代理” ，部分网站屏蔽GAE的IP访问，或将其视为不信任。  
++ GAE 出口 IP 是固定的，被定义为“开放代理”   
+  部分网站屏蔽GAE的IP访问，或将其视为不信任。  
   无法使用GAE的IP对[维基百科](https://zh.wikipedia.org/wiki/Help:%E5%A6%82%E4%BD%95%E8%AE%BF%E9%97%AE%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91#Hosts.E6.96.87.E4.BB.B6)进行匿名编辑。  
 
 + ~Facebook 上传文件：图片/视频等  
