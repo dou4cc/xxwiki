@@ -62,3 +62,4 @@ GoAgent 服务端已经在 xxxxxxx 升级到 3.3.1 版本, 请更新您的客户
 1. AppID的名称中切勿带有个人信息，因为使用GAE代理时目标网站可以看到你的AppID
 1. 若部署过程中始终无法弹出窗口 , 建议[使用ss部署服务端](https://github.com/jzp820927/Deploy_XXNET_Server)
 1. 若部署一直失败，可以本地安装[Google Cloud SDK](https://cloud.google.com/sdk/)手动部署，参考[gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy)，需要全局代理工具(如SS,OVPN)
+1. AppID 可以被删除，确认删除后需停止访问并使用该 AppID，一段时间后（通常是一周）此 AppID 就会真正被删除并空出其占用的数量。
