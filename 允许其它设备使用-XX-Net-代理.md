@@ -1,0 +1,1 @@
+操作同[允许远程连接Web控制端](https://github.com/XX-net/XX-Net/wiki/AllowRemoteConnectToWebControl)
