@@ -28,7 +28,7 @@
 
 ## 工具
 
-1. [Teredo 状态检测和服务器筛选（Python）](https://github.com/XX-net/XX-Net/issues/10328)
+1. [[Teredo服务器速度测试]]
 1. [Teredo 快速设置（Windows）](https://github.com/XX-net/XX-Net/issues/10282)
 
 ## FAQ
