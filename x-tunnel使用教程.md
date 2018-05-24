@@ -47,18 +47,23 @@
     https://github.com/XX-net/XX-Net/wiki/DonateAppid
 
     捐赠后给xxnet.dev@gmail.com发邮件，告知appid和你的x_tunnel account
-2.  
+
+2. 购买套餐：   
+  
     |套餐| 价格|最高流量|
     |-----|-----|---|
     |季度 |$4.5  | 300G |
     |年度 |$15   | 1200G|
 
    条件允许的，请购买流量，以支持项目发展。  
-   最高流量只是一个上限，套餐以时间限制为主。  
+   最高流量只是一个上限，保证大家足够用，套餐以有限时间为主。  
    我们鼓励您将流量分给朋友使用，但注意不要在QQ/微信中交流XX-Net。  
 
    可以用国内银行卡注册paypal，自动转换美元。   
    安全原因，目前不支持支付宝、微信支付。  
 
 
-3. 参与项目的贡献，可在dev留x_tunnel account
+3. 参与项目的贡献，可在dev留x_tunnel account  
+
+4. 推广X-Tunnel  
+  https://github.com/XX-net/XX-Net/wiki/X-Tunnel-%E6%8E%A8%E5%B9%BF%E8%AE%A1%E5%88%92
