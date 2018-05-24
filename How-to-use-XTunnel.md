@@ -20,3 +20,5 @@
 * Donate APPID  
   https://github.com/XX-net/XX-Net/wiki/DonateAppid  
   Every APPID get 1GB/year bandwidth
+* Promote X-Tunnel  
+  https://github.com/XX-net/XX-Net/wiki/X-Tunnel-Promote-Plan  
