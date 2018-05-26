@@ -1,1 +1,1 @@
-authentic-arch-205114
+https://github.com/XX-net/XX-Net/wiki/GoAgent-Config-file
