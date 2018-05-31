@@ -2,7 +2,7 @@
  
 - 一般用户使用Web UI进行配置即可，不必手动修改配置文件。
 
-- 3.10.6 后的版本，配置文件采用json格式。   
+- 3.10.5 开始的版本，配置文件采用json格式。   
   文件在`data/gae_proxy/config.json`
 
 - 建议使用Notepad2或Notepad++等支持代码高亮的编辑器。
