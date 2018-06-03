@@ -1,0 +1,1 @@
+无法登陆谷歌，SwitchOmega显示两个资源未加载，分别为www.google.com和gstastic.com.
