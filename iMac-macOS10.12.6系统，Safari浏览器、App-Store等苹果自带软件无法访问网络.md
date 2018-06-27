@@ -1,0 +1,1 @@
+装了xx-net后，启动xx-net成功，xx-net可正常使用，safari浏览器，appstore也能正常使用，chrome浏览器也能正常使用。但是在不启用xx-net的情况下，Chrome可正常使用，但是Safari浏览器、App Store等苹果自带软件无法访问网络。
