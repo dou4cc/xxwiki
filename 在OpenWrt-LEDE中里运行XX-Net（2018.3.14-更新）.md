@@ -53,9 +53,9 @@ iptables -I INPUT -p tcp --dport 8085 -j ACCEPT
 
 5.在系统-启动项 exit 0前面添加如下命令
 ```
-nohup /usr/bin/python /XX-Net/code/default/launcher/start.py >/dev/null 2>&1 &
+nohup /XX-Net/start >/dev/null 2>&1 &
 ```
-以后xx-net就会跟随OpenWrt/lede一同启动（需 opkg install coreutils-nohup）
+以后xx-net就会跟随OpenWrt/lede一同启动（需 opkg install coreutils-nohup，并 chmod +x /XX-Net/start）
 
 
 6.通过ssh修改XX-Net/data/launcher/config.yaml 
@@ -76,7 +76,7 @@ http://OpenWrt_ip:8085
 
 9.如果xx-net未运行，可以通过ssh运行 ，输入命令
 ```
-python /XX-Net/code/default/launcher/start.py
+/XX-Net/start
 ```
 
 
