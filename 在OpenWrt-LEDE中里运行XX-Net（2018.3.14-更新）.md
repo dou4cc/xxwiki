@@ -55,7 +55,7 @@ iptables -I INPUT -p tcp --dport 8085 -j ACCEPT
 ```
 nohup /XX-Net/start >/dev/null 2>&1 &
 ```
-以后xx-net就会跟随OpenWrt/lede一同启动（需 opkg install coreutils-nohup，并 chmod +x /XX-Net/start）
+以后xx-net就会跟随OpenWrt/lede一同启动（需 opkg install coreutils-nohup）
 
 
 6.通过ssh修改XX-Net/data/launcher/config.yaml 
