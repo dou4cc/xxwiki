@@ -3,7 +3,7 @@
 2018.3.14
 
 ### 需要的条件：
-1. 首先你需要公网 IP。如果没有公网ip，那么无法保证顺利运行。
+1. 首先你需要公网 IP。如果没有公网 IP，那么无法保证顺利运行。建议使用 IPv6。
 
 2. 安装必要的插件
 通过 SSH 运行：
@@ -11,7 +11,6 @@
 ```
 opkg update
 opkg install python-pyopenssl
-opkg install luci-i18n-upnp-zh-cn
 ```
 
 ### 具体步骤：
@@ -41,7 +40,7 @@ launcher:{ allow_remote_connect:1 }
 7. 在浏览器中打开：
 
 ```
-http://[OpenWrt_IP]:8085
+http://[路由器 IP]:8085
 ```
 
 8. 如果 XX-Net 未运行，可以通过 SSH 运行，输入命令：
@@ -51,4 +50,10 @@ http://[OpenWrt_IP]:8085
 ```
 
 ### 远程下载、导入证书
-请见[这里](https://github.com/XX-net/XX-Net/wiki/GoAgent-Import-CA)。
+证书可以通过如下地址下载：
+
+```
+http://[路由器 IP]:8085/module/gae_proxy/control/download_cert
+```
+
+安装请见[这里](https://github.com/XX-net/XX-Net/wiki/GoAgent-Import-CA)。
