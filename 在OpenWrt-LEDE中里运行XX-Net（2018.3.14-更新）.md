@@ -9,6 +9,7 @@
 
 2.安装必要的插件
 通过 SSH 运行：
+
 ```
 opkg update
 opkg list-upgradable | awk -F ' - ' '{print $1}' | xargs opkg upgrade
@@ -49,13 +50,11 @@ launcher:{ allow_remote_connect:1 }
 http://[OpenWrt_IP]:8085
 ```
 
-8.如果 XX-Net 未运行，可以通过 SSH 运行，输入命令：
+8. 如果 XX-Net 未运行，可以通过 SSH 运行，输入命令：
 
 ```
 /XX-Net/start
 ```
 
 ### 远程下载、导入证书
-在状态页中，有证书下载链接（如何安装待补充）
-
-
+请见[这里](https://github.com/XX-net/XX-Net/wiki/GoAgent-Import-CA)。
