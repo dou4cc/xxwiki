@@ -5,12 +5,11 @@
 ### 需要的条件：
 1. 首先你需要公网 IP。如果没有公网ip，那么无法保证顺利运行。
 
-2.安装必要的插件
+2. 安装必要的插件
 通过 SSH 运行：
 
 ```
 opkg update
-opkg list-upgradable | awk -F ' - ' '{print $1}' | xargs opkg upgrade
 opkg install python-pyopenssl
 opkg install luci-i18n-upnp-zh-cn
 ```
