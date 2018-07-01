@@ -22,7 +22,6 @@ opkg install luci-i18n-upnp-zh-cn
 
 2. 将 XX-Net 放到某个位置（下记 /XX-Net）
 
-
 3. 修改 XX-Net 文件夹属性为 777。
 
 4. 在 /etc/init.d 执行：
@@ -31,8 +30,9 @@ opkg install luci-i18n-upnp-zh-cn
 ln -s /XX-Net/xx_net.sh xx_net
 ```
 
-并且启用服务，以后 XX-net 就会跟随 OpenWrt/LEDE 一同启动。
+编辑 xx_net.sh，设置适当的优先级（如 START=99）
 
+启用服务，以后 XX-net 就会跟随 OpenWrt/LEDE 一同启动。
 
 5. 修改 /XX-Net/data/launcher/config.yaml：
 
