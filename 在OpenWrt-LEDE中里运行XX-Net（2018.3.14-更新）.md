@@ -51,11 +51,11 @@ iptables -I INPUT -p tcp --dport 8085 -j ACCEPT
 一般是eth0或者eth1或者eth0.2之类的
 
 
-5.在系统-启动项 exit 0前面添加如下命令
+5. 在 /etc/init.d 执行：
 ```
-nohup /XX-Net/start >/dev/null 2>&1 &
+ln -s /XX-Net/xx_net.sh xx_net
 ```
-以后xx-net就会跟随OpenWrt/lede一同启动（需 opkg install coreutils-nohup）
+并且启用服务，以后 XX-net 就会跟随 OpenWrt/LEDE 一同启动。
 
 
 6.通过ssh修改XX-Net/data/launcher/config.yaml 
