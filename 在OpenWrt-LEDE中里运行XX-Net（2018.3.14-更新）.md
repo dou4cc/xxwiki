@@ -2,8 +2,6 @@
 
 2018.3.14
 
-———————————————————————————————————
-
 ### 需要的条件：
 1. 首先你需要公网 IP。如果没有公网ip，那么无法保证顺利运行。
 
@@ -24,15 +22,12 @@ opkg install luci-i18n-upnp-zh-cn
 
 3. 修改 XX-Net 文件夹属性为 777。
 
-4. 在 /etc/init.d 执行：
+4. 在「系统-启动项-本地启动脚本」的「exit 0」前面添加如下命令：
 
 ```
-ln -s /XX-Net/xx_net.sh xx_net
+nohup /XX-Net/start >/dev/null 2>&1 &
 ```
-
-编辑 xx_net.sh，设置适当的优先级（如 START=99）
-
-启用服务，以后 XX-net 就会跟随 OpenWrt/LEDE 一同启动。
+然后 opkg install coreutils-nohup，以后 XX-net 就会跟随 OpenWrt/LEDE 一同启动。
 
 5. 修改 /XX-Net/data/launcher/config.yaml：
 
