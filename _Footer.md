@@ -1,2 +1,0 @@
-### lalalala demaxiya## # 
-### lalalala haliluya## 
