@@ -11,6 +11,7 @@ https://www.google.com/ncr
 ![](https://user-images.githubusercontent.com/31188782/31053682-abce8a2c-a6d5-11e7-919c-c6f57fa9d06e.JPG)
 
 ## 设置AppID的App引擎 
+**注意**：如果图形界面始终无法正确显示，可以尝试使用云端 Shell 来完成设置，参考[旧版 Wiki](https://github.com/XX-net/XX-Net/wiki/how-to-create-my-appids/b7e7d1ea13f5d8c578fbe7b1a16240bc4494eb45)。
 1. 访问APP引擎信息中心， https://console.cloud.google.com/appengine/start?project=你的项目id
 
     ![](https://user-images.githubusercontent.com/31188782/31053684-abff5224-a6d5-11e7-9fa2-8ec6f785e6eb.JPG)
