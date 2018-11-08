@@ -34,7 +34,7 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 # ubuntu手动导入证书
 1. 如果自动导入存在问题，针对Chrome浏览器可以采用手动导入的方式。
 2. 点击浏览器的“settings”选项
-3. 选择“HTTP/SSL”选项下的“Managene Certificating”
+3. 选择“HTTP/SSL”选项下的“Manage Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
 # Linux 手动处理用户级别证书
