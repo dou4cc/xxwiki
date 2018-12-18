@@ -1,1 +1,1 @@
-myy
+https://github.com/XX-net/XX-Net/wiki/Anonymity-and-Security
