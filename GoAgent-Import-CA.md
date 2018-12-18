@@ -37,6 +37,12 @@ PHP_proxy的证书是独立的，在data\php_proxy下，如果使用PHP，并提
 3. 选择“HTTP/SSL”选项下的“Manage Certificating”
 4. 选择“Authorities”，点击“Import”，到XX-Net解压文件夹下，找到 GoAgent\Data\GoAgent 目录下的 "CA.crt" 证书，导入即可。
 
+# Linux 导入 root 证书
+
+```sh
+sudo trust anchor --store /opt/XX-Net/data/gae_proxy/CA.crt
+```
+
 # Linux 手动处理用户级别证书
 
 创建文件夹
