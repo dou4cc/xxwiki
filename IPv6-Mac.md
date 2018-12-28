@@ -4,7 +4,7 @@
 
 ## teredo
 下载安装miredo https://github.com/darconeous/miredo-osx    
-最新版 miredo 1.2.6 下载地址 https://github.com/bit/miredo-osx/releases
+最新版 miredo 1.2.6 下载地址 https://github.com/bit/miredo-osx/releases，可以避免 Mac10.14 安装失败问题
 
 下载安装tuntaposx： https://sourceforge.net/projects/tuntaposx/  
 
