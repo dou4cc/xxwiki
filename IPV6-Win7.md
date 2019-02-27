@@ -43,3 +43,5 @@ SET PYTHONPATH=
 6. 有几个电信用户，路由表首位总是被莫名其妙的占据，[解决方法](http://ximalas.info/2014/02/04/disabling-ipv6-autoconfiguration-in-windows-servers/)如下：
 `netsh interface ipv6 set interface "本地连接" routerdiscovery=disabled` 注意把“本地连接”换成你的连接路由器的连接名
 7. 之前Teredo连不上的时候我都推荐连芬兰的那个服务器`teredo.trex.fi`，今天试了试，很痛快的连上了，但就是测试页的关键项通不过，反复检查了其它设置都无误，最后试着换成微软默认的Teredo服务器：`win10.ipv6.microsoft.com`，一次通过。
+
+来了
