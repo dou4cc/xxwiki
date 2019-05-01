@@ -88,6 +88,12 @@
   - 配置浏览器代理插件
   - 在网页的系统配置选项那里打开 开机自启动
   - 如果不会设置开机自启miredo的话，需要每次开机都执行`sudo miredo`来开启IPv6
+## OpenSUSE
+  - 安装依赖库：
+      `sudo zypper install python-gtk-devel pyOpenSSL miredo-client`
+
+  - 安装证书：
+       `sudo cp -r CA.crt /etc/ipsec.d/cacerts/`
 
 # 其他平台
 ## 路由器
