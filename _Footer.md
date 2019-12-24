@@ -1,5 +1,5 @@
 {
-  "GAE_APPIDS" : ["xx-net-1", "xx-net-2"],
+  "GAE_APPIDS" : ["xx-net-363001", "xx-net-363002", "xx-net-363003"],
   "GAE_PASSWORD": "123456"
 }
 {
