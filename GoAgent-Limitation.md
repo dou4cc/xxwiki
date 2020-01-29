@@ -52,4 +52,4 @@
 
 + 在使用GAE访问Gmail时会出现重定向次数过多而无法访问的情况，推荐使用X-Tunnel来解决。
 
-+ 在GAE下无法访问Google Scholar,原因是GAE触发了谷歌的反异常流量（公共代理）机制。
++ 在GAE下无法访问Google Scholar，原因是GAE触发了谷歌的反异常流量（公共代理）机制。
